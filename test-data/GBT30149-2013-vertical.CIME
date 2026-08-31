@@ -1,0 +1,10 @@
+//纵表式结构（GB/T 30149—2013 5.6）
+<! System=XX Version=XX Code=UTF-8 Type=XX Time='yyyyMMdd_hh:mm:ss' !>
+<E>
+<类名::实体名>
+@# Num 属性名 对象1 对象2  对象m
+# 1 属性1 值11 值12  值1m
+# 2 属性2 值21 值22  值2m
+# 3 属性3 值31 值32  值3m
+</类名>
+</E>

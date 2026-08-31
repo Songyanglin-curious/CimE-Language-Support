@@ -1,0 +1,10 @@
+.git/**
+.gitignore
+.github/**
+.vscode/**
+.vscode-test/**
+docs/**
+test-data/**
+AGENTS.md
+*.vsix
+node_modules/**

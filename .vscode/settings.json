@@ -1,0 +1,7 @@
+{
+  "[cime]": {
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "editor.stickyScroll.maxLineCount": 4
+  }
+}

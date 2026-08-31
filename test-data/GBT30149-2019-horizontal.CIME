@@ -1,0 +1,10 @@
+<!-- GB/T 30149—2019 6.7.2 横表式数据块 -->
+<E Version='CIM/E' Type='FullModel' Time='2019-06-04 00:00:00' T_Head='@' Object='#'>
+<ClassnameA entity='XXX'>
+<@> Num URI name pathName </@>
+<!-- 序号 标识 名称 标准路径名 -->
+<#> 1 A_obj1 A_nm1 A_path1 </#>
+<#> 2 A_obj2 A_nm2 A_path2 </#>
+<#> 3 A_obj3 A_nm3 A_path3 </#>
+</ClassnameA>
+</E>

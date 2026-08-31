@@ -1,0 +1,19 @@
+//对象指针
+<! Code=UTF-8 Time='yyyMMdd_hh:mm:ss' System=xx Type=全模型 !>
+<E>
+<ClassnameA::XX>
+@ Num mRID name pathName
+// 序号 标识 名称 路径名
+# 1 A_obj1 A_nm1 A_path1
+# 2 A_obj2 A_nm2 A_path2
+# 3 A_obj3 A_nm3 A_path3
+</ClassnameA>
+<ClassnameB::XX>
+@ Num mRID name pathName *ClassnameA
+// 序号 标识 名称 路径名 关联类A
+# 1 B_obj1 B_nm1 B_path1 A_obj1
+# 2 B_obj2 B_nm2 B_path2 A_obj2 , A_obj3
+# 3 B_obj3 B_nm3 B_path3 A_obj4
+</ClassnameB>
+
+</E>

@@ -1,0 +1,179 @@
+{
+  "name": "CIM/E",
+  "scopeName": "source.cime",
+  "fileTypes": ["cime", "CIME"],
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#system-declaration" },
+    { "include": "#strings" },
+    { "include": "#tags" },
+    { "include": "#section-markers" },
+    { "include": "#data-markers" },
+    { "include": "#literals" },
+    { "include": "#bare-tokens" },
+    { "include": "#operators" }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.double-slash.cime",
+          "match": "//.*$"
+        },
+        {
+          "name": "comment.block.cime",
+          "begin": "<!--",
+          "beginCaptures": { "0": { "name": "punctuation.definition.comment.begin.cime" } },
+          "end": "-->",
+          "endCaptures": { "0": { "name": "punctuation.definition.comment.end.cime" } }
+        }
+      ]
+    },
+    "system-declaration": {
+      "name": "meta.system-declaration.cime",
+      "begin": "(<!)\\s*",
+      "beginCaptures": {
+        "1": { "name": "punctuation.definition.system.begin.cime" }
+      },
+      "end": "(!>)",
+      "endCaptures": {
+        "1": { "name": "punctuation.definition.system.end.cime" }
+      },
+      "patterns": [
+        { "include": "#attributes" },
+        { "include": "#strings" },
+        { "include": "#literals" },
+        { "include": "#operators" }
+      ]
+    },
+    "tags": {
+      "patterns": [
+        {
+          "name": "meta.tag.cime",
+          "begin": "(<)(/?)((?:[\\p{L}_]|[A-Za-z_])[\\p{L}\\p{N}_:.-]*)(?=[\\s/>])",
+          "beginCaptures": {
+            "1": { "name": "punctuation.definition.tag.begin.cime" },
+            "2": { "name": "punctuation.definition.tag.close.cime" },
+            "3": { "name": "entity.name.tag.cime" }
+          },
+          "end": "(\\/?>)",
+          "endCaptures": {
+            "1": { "name": "punctuation.definition.tag.end.cime" }
+          },
+          "patterns": [
+            { "include": "#attributes" },
+            { "include": "#strings" },
+            { "include": "#literals" },
+            { "include": "#operators" }
+          ]
+        },
+        {
+          "name": "meta.inline-section-tag.cime",
+          "match": "(<)(/?)((?:@#?|#))(>)",
+          "captures": {
+            "1": { "name": "punctuation.definition.tag.begin.cime" },
+            "2": { "name": "punctuation.definition.tag.close.cime" },
+            "3": { "name": "entity.name.section.cime" },
+            "4": { "name": "punctuation.definition.tag.end.cime" }
+          }
+        }
+      ]
+    },
+    "attributes": {
+      "patterns": [
+        {
+          "name": "meta.attribute.cime",
+          "match": "([\\p{L}_][\\p{L}\\p{N}_:.-]*)(\\s*)(=)",
+          "captures": {
+            "1": { "name": "entity.other.attribute-name.cime" },
+            "3": { "name": "keyword.operator.assignment.cime" }
+          }
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.single.cime",
+          "match": "'(?:[^']|'')*'"
+        },
+        {
+          "name": "string.quoted.double.cime",
+          "match": "\"(?:[^\"]|\"\")*\""
+        }
+      ]
+    },
+    "section-markers": {
+      "patterns": [
+        {
+          "name": "entity.name.section.cime",
+          "match": "^\\s*(@#?)(?=\\s|$)"
+        },
+        {
+          "name": "entity.name.section.cime",
+          "match": "^\\s*(#)(?=\\s|$)"
+        },
+        {
+          "name": "punctuation.definition.section.cime",
+          "match": "(?<![\\w])(@#?|#)(?=\\s|>)"
+        }
+      ]
+    },
+    "data-markers": {
+      "patterns": [
+        {
+          "name": "punctuation.definition.section.begin.cime",
+          "match": "</?@#?>"
+        },
+        {
+          "name": "punctuation.definition.section.begin.cime",
+          "match": "</?#>"
+        }
+      ]
+    },
+    "literals": {
+      "patterns": [
+        {
+          "name": "constant.other.date-time.cime",
+          "match": "\\b\\d{4}[-_]\\d{2}[-_]\\d{2}(?:[ T_]\\d{2}:\\d{2}(?::\\d{2}(?:\\.\\d+)?)?)?\\b"
+        },
+        {
+          "name": "constant.language.null.cime",
+          "match": "\\bNULL\\b"
+        },
+        {
+          "name": "constant.numeric.cime",
+          "match": "(?<![\\w.])-?(?:\\d+(?:\\.\\d+)?|\\.\\d+)"
+        },
+        {
+          "name": "constant.language.empty.cime",
+          "match": "(?<![\\w])-(?=\\s|$)"
+        }
+      ]
+    },
+    "bare-tokens": {
+      "patterns": [
+        {
+          "name": "variable.other.token.cime",
+          "match": "(?<![A-Za-z0-9_])(?:[A-Za-z_][A-Za-z0-9_:-]*|[\\u3400-\\u9fff]+)(?![A-Za-z0-9_])"
+        }
+      ]
+    },
+    "operators": {
+      "patterns": [
+        {
+          "name": "keyword.operator.pointer.cime",
+          "match": "\\*"
+        },
+        {
+          "name": "keyword.operator.path.cime",
+          "match": "::|\\.|/"
+        },
+        {
+          "name": "punctuation.separator.cime",
+          "match": ","
+        }
+      ]
+    }
+  }
+}
