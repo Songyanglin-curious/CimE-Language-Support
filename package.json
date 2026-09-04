@@ -1,56 +1,57 @@
 {
-  "name": "cime-language-support",
-  "displayName": "CimE Language Support",
-  "description": "为 CIM/E 文件提供语法着色、结构折叠和 Sticky Scroll 表头支持。",
-  "version": "0.1.0",
-  "publisher": "cime-language-support",
-  "license": "MIT",
-  "icon": "images/icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Songyanglin-curious/CimE-Language-Support.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Songyanglin-curious/CimE-Language-Support/issues"
-  },
-  "homepage": "https://github.com/Songyanglin-curious/CimE-Language-Support#readme",
-  "keywords": [
-    "CIM/E",
-    "CIME",
-    "电力系统",
-    "GB/T 30149"
-  ],
-  "main": "./src/extension.js",
-  "activationEvents": [
-    "onLanguage:cime"
-  ],
-  "engines": {
-    "vscode": "^1.85.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [
-      {
-        "id": "cime",
-        "aliases": [
-          "CIM/E",
-          "cime"
-        ],
-        "extensions": [
-          ".cime",
-          ".CIME"
-        ],
-        "configuration": "./language-configuration.json"
-      }
+    "name": "cime-file-tools",
+    "displayName": "CIME 文件工具",
+    "description": "为 CIM/E 文件提供语法着色、结构折叠和 Sticky Scroll 表头支持。",
+    "version": "0.1.0",
+    "publisher": "syldev",
+    "license": "MIT",
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Songyanglin-curious/CimE-Language-Support.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Songyanglin-curious/CimE-Language-Support/issues"
+    },
+    "homepage": "https://github.com/Songyanglin-curious/CimE-Language-Support#readme",
+    "keywords": [
+        "CIM/E",
+        "CIME",
+        "CIM",
+        "电力系统",
+        "GB/T 30149",
+        "syntax highlighting",
+        "folding",
+        "sticky scroll"
     ],
-    "grammars": [
-      {
-        "language": "cime",
-        "scopeName": "source.cime",
-        "path": "./syntaxes/cime.tmLanguage.json"
-      }
-    ]
-  }
+    "main": "./src/extension.js",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "cime",
+                "aliases": [
+                    "CIM/E",
+                    "cime"
+                ],
+                "extensions": [
+                    ".cime",
+                    ".CIME"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "cime",
+                "scopeName": "source.cime",
+                "path": "./syntaxes/cime.tmLanguage.json"
+            }
+        ]
+    }
 }
