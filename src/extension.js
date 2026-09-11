@@ -189,6 +189,30 @@ function isLineVisible(editor, line) {
     return editor.visibleRanges.some((range) => range.start.line <= line && line <= range.end.line);
 }
 
+/** 上一次吸顶标记的指纹，用于判断是否需要触发吸顶条刷新 */
+let lastStickyMarksKey = '';
+
+/**
+ * 强制 Sticky Scroll 吸顶条重渲染。
+ * 吸顶条只在滚动/布局/内容变化时重建，装饰（setDecorations）变化不触发重建，
+ * 导致吸顶条里的字段高亮定格在创建那一刻。
+ * 唯一的官方 API 触发点：编辑器 lineNumbers 选项变化会令控制器全量重建吸顶条
+ * （stickyScrollController._readConfigurationChange）。这里做一次"往返切换"：
+ * 改成另一种行号样式再改回原值，两条变更各触发一次重建，中间态不会被绘制。
+ * 仅作用于当前编辑器实例，不写 settings.json，不修改文档。
+ */
+function refreshStickyScroll(editor) {
+    const original = editor.options.lineNumbers;
+    if (original === undefined) {
+        return;
+    }
+    const other = original === vscode.TextEditorLineNumbersStyle.Relative
+        ? vscode.TextEditorLineNumbersStyle.On
+        : vscode.TextEditorLineNumbersStyle.Relative;
+    editor.options.lineNumbers = other;
+    editor.options.lineNumbers = original;
+}
+
 /**
  * 切分注释行字段，偏移量换算回原始行坐标。
  * 剥掉行首 // 或 <!-- 前缀后切分；行尾 --> 即使残留为末尾字段也不影响按下标取列。
@@ -334,6 +358,15 @@ function updateCrosshair() {
 
     if (editor) {
         setCrosshair(editor, rows, fields, columns, labels, stickyMarks);
+        // 吸顶标记有变化时（含从有到无），触发吸顶条重建以刷新其中的行内装饰
+        const key = stickyMarks.map((range) => `${range.start.line}:${range.start.character}`).join(',');
+        if (key !== lastStickyMarksKey) {
+            const hadMarks = lastStickyMarksKey !== '';
+            lastStickyMarksKey = key;
+            if (stickyMarks.length > 0 || hadMarks) {
+                refreshStickyScroll(editor);
+            }
+        }
     }
     if (crosshairStatus) {
         if (statusText) {
