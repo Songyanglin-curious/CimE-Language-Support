@@ -260,6 +260,18 @@ function updateCrosshair() {
 
     if (editor && editor.document.languageId === 'cime') {
         const document = editor.document;
+
+        // detectIndentation 无法按语言关闭（VS Code 在语言配置生效前就完成了缩进猜测，
+        // 会把 CIME 文件的 Tab 猜成 1）。这里按编辑器实例强制 Tab 宽度，绕过猜测结果。
+        // 仅影响当前编辑器实例的显示，不改 settings.json，不改文件。
+        const tabSize = vscode.workspace.getConfiguration('editor', {
+            uri: document.uri,
+            languageId: 'cime',
+        }).get('tabSize', 4);
+        if (editor.options.tabSize !== tabSize) {
+            editor.options = { tabSize };
+        }
+
         const cursor = editor.selection.active;
         const blocks = getDataBlocks(document);
         // 光标所在数据块：表头行（含）到闭合标签行（不含）
