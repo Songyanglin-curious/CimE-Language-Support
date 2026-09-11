@@ -6,1353 +6,1353 @@
  #	4	遥测数据异常分析报告生成	STATION	遥测数据异常分析报告生成	-
  #	5	参数定值一致性报告生成	STATION	参数定值一致性报告生成	-
  #	6	设备台账一致性报告生成	STATION	设备台账一致性报告生成	-
- #	101	110kV赵康线2119测控装置装置异常	D65	D65LD0/DevAlmGGIO1.Alm1[ST]	-
- #	102	110kV赵康线2119测控装置对时信号状态	D65	D65LD0/LTSM1.HostTPortAlm[ST]	-
- #	103	110kV赵康线2119测控装置对时服务状态	D65	D65LD0/LTSM1.HostTSrvAlm[ST]	-
- #	104	110kV赵康线2119测控装置时间跳变侦测状态	D65	D65LD0/LTSM1.HostContAlm[ST]	-
- #	105	'110kV赵康线2119测控装置PT 断线'	D65	D65LD0/AlmGGIO1.Alm1[ST]	-
- #	106	'110kV赵康线2119测控装置CT 断线1'	D65	D65LD0/AlmGGIO1.Alm2[ST]	-
- #	107	'110kV赵康线2119测控装置CT 断线2'	D65	D65LD0/AlmGGIO1.Alm3[ST]	-
- #	108	110kV赵康线2119测控装置3U0越限	D65	D65LD0/AlmGGIO1.Alm4[ST]	-
- #	109	110kV赵康线2119测控装置3I0越限1	D65	D65LD0/AlmGGIO1.Alm5[ST]	-
- #	110	110kV赵康线2119测控装置3I0越限2	D65	D65LD0/AlmGGIO1.Alm6[ST]	-
- #	111	110kV赵康线2119测控装置同期无压条件不满足	D65	D65LD0/AlmGGIO1.Alm7[ST]	-
- #	112	110kV赵康线2119测控装置同期有压条件不满足	D65	D65LD0/AlmGGIO1.Alm8[ST]	-
- #	113	110kV赵康线2119测控装置同期压差不满足	D65	D65LD0/AlmGGIO1.Alm9[ST]	-
- #	114	110kV赵康线2119测控装置同期频差不满足	D65	D65LD0/AlmGGIO1.Alm10[ST]	-
- #	115	110kV赵康线2119测控装置同期角差不满足	D65	D65LD0/AlmGGIO1.Alm11[ST]	-
- #	116	110kV赵康线2119测控装置同期频率滑差不满足	D65	D65LD0/AlmGGIO1.Alm12[ST]	-
- #	117	110kV赵康线2119测控装置同期PT断线闭锁	D65	D65LD0/AlmGGIO1.Alm13[ST]	-
- #	118	110kV赵康线2119测控装置同期数据异常	D65	D65LD0/AlmGGIO1.Alm14[ST]	-
- #	119	'110kV赵康线2119测控装置站控层 GOOSE 总告警'	D65	D65LD0/GOAlmGGIO1.Alm1[ST]	-
- #	120	'110kV赵康线2119测控装置站控层 GO01-A 网中断'	D65	D65LD0/GOAlmGGIO1.Alm2[ST]	-
- #	121	'110kV赵康线2119测控装置站控层 GO02-A 网中断'	D65	D65LD0/GOAlmGGIO1.Alm4[ST]	-
- #	122	'110kV赵康线2119测控装置站控层 GO03-A 网中断'	D65	D65LD0/GOAlmGGIO1.Alm6[ST]	-
- #	123	'110kV赵康线2119测控装置站控层 GO04-A 网中断'	D65	D65LD0/GOAlmGGIO1.Alm8[ST]	-
- #	124	'110kV赵康线2119测控装置站控层 GO05-A 网中断'	D65	D65LD0/GOAlmGGIO1.Alm10[ST]	-
- #	125	'110kV赵康线2119测控装置站控层 GO06-A 网中断'	D65	D65LD0/GOAlmGGIO1.Alm12[ST]	-
- #	126	'110kV赵康线2119测控装置站控层 GO07-A 网中断'	D65	D65LD0/GOAlmGGIO1.Alm14[ST]	-
- #	127	'110kV赵康线2119测控装置站控层 GO08-A 网中断'	D65	D65LD0/GOAlmGGIO1.Alm16[ST]	-
- #	128	'110kV赵康线2119测控装置站控层 GO09-A 网中断'	D65	D65LD0/GOAlmGGIO1.Alm18[ST]	-
- #	129	'110kV赵康线2119测控装置站控层 GO01-B 网中断'	D65	D65LD0/GOAlmGGIO1.Alm3[ST]	-
- #	130	'110kV赵康线2119测控装置站控层 GO02-B 网中断'	D65	D65LD0/GOAlmGGIO1.Alm5[ST]	-
- #	131	'110kV赵康线2119测控装置站控层 GO03-B 网中断'	D65	D65LD0/GOAlmGGIO1.Alm7[ST]	-
- #	132	'110kV赵康线2119测控装置站控层 GO04-B 网中断'	D65	D65LD0/GOAlmGGIO1.Alm9[ST]	-
- #	133	'110kV赵康线2119测控装置站控层 GO05-B 网中断'	D65	D65LD0/GOAlmGGIO1.Alm11[ST]	-
- #	134	'110kV赵康线2119测控装置站控层 GO06-B 网中断'	D65	D65LD0/GOAlmGGIO1.Alm13[ST]	-
- #	135	'110kV赵康线2119测控装置站控层 GO07-B 网中断'	D65	D65LD0/GOAlmGGIO1.Alm15[ST]	-
- #	136	'110kV赵康线2119测控装置站控层 GO08-B 网中断'	D65	D65LD0/GOAlmGGIO1.Alm17[ST]	-
- #	137	'110kV赵康线2119测控装置站控层 GO09-B 网中断'	D65	D65LD0/GOAlmGGIO1.Alm19[ST]	-
- #	138	110kV赵康线2119测控装置装置检修	D65	D65CTRL/BinInGGIO1.Ind1[ST]	-
- #	139	110kV赵康线2119测控装置就地状态	D65	D65CTRL/BinInGGIO1.Ind2[ST]	-
- #	140	110kV赵康线2119测控装置解除闭锁	D65	D65CTRL/BinInGGIO1.Ind3[ST]	-
- #	141	'110kV赵康线2119测控装置内部工作电压 1'	D65	D65LD0/SPVT1.Vol1[MX]	-
- #	142	'110kV赵康线2119测控装置内部工作电压 2'	D65	D65LD0/SPVT1.Vol2[MX]	-
- #	143	'110kV赵康线2119测控装置内部工作电压 3'	D65	D65LD0/SPVT1.Vol3[MX]	-
- #	144	'110kV赵康线2119测控装置内部工作电压 4'	D65	D65LD0/SPVT1.Vol4[MX]	-
- #	145	'110kV赵康线2119测控装置内部工作电压 5'	D65	D65LD0/SPVT1.Vol5[MX]	-
- #	146	110kV赵康线2119测控装置装置温度	D65	D65LD0/STMP1.Tmp[MX]	-
- #	147	110kV赵康线2119测控装置C相电压	D65	D65PROT/PMMXU1.PPV.phsBC.cVal[MX]	V
- #	148	220kV华赵Ⅰ线2126测控装置装置异常	D52	D52LD0/DevAlmGGIO1.Alm1[ST]	-
- #	149	220kV华赵Ⅰ线2126测控装置对时信号状态	D52	D52LD0/LTSM1.HostTPortAlm[ST]	-
- #	150	220kV华赵Ⅰ线2126测控装置对时服务状态	D52	D52LD0/LTSM1.HostTSrvAlm[ST]	-
- #	151	220kV华赵Ⅰ线2126测控装置时间跳变侦测状态	D52	D52LD0/LTSM1.HostContAlm[ST]	-
- #	152	'220kV华赵Ⅰ线2126测控装置PT 断线'	D52	D52LD0/AlmGGIO1.Alm1[ST]	-
- #	153	'220kV华赵Ⅰ线2126测控装置CT 断线1'	D52	D52LD0/AlmGGIO1.Alm2[ST]	-
- #	154	'220kV华赵Ⅰ线2126测控装置CT 断线2'	D52	D52LD0/AlmGGIO1.Alm3[ST]	-
- #	155	220kV华赵Ⅰ线2126测控装置3U0越限	D52	D52LD0/AlmGGIO1.Alm4[ST]	-
- #	156	220kV华赵Ⅰ线2126测控装置3I0越限1	D52	D52LD0/AlmGGIO1.Alm5[ST]	-
- #	157	220kV华赵Ⅰ线2126测控装置3I0越限2	D52	D52LD0/AlmGGIO1.Alm6[ST]	-
- #	158	220kV华赵Ⅰ线2126测控装置同期无压条件不满足	D52	D52LD0/AlmGGIO1.Alm7[ST]	-
- #	159	220kV华赵Ⅰ线2126测控装置同期有压条件不满足	D52	D52LD0/AlmGGIO1.Alm8[ST]	-
- #	160	220kV华赵Ⅰ线2126测控装置同期压差不满足	D52	D52LD0/AlmGGIO1.Alm9[ST]	-
- #	161	220kV华赵Ⅰ线2126测控装置同期频差不满足	D52	D52LD0/AlmGGIO1.Alm10[ST]	-
- #	162	220kV华赵Ⅰ线2126测控装置同期角差不满足	D52	D52LD0/AlmGGIO1.Alm11[ST]	-
- #	163	220kV华赵Ⅰ线2126测控装置同期频率滑差不满足	D52	D52LD0/AlmGGIO1.Alm12[ST]	-
- #	164	220kV华赵Ⅰ线2126测控装置同期PT断线闭锁	D52	D52LD0/AlmGGIO1.Alm13[ST]	-
- #	165	220kV华赵Ⅰ线2126测控装置同期数据异常	D52	D52LD0/AlmGGIO1.Alm14[ST]	-
- #	166	'220kV华赵Ⅰ线2126测控装置站控层 GOOSE 总告警'	D52	D52LD0/GOAlmGGIO1.Alm1[ST]	-
- #	167	'220kV华赵Ⅰ线2126测控装置站控层 GO01-A 网中断'	D52	D52LD0/GOAlmGGIO1.Alm2[ST]	-
- #	168	'220kV华赵Ⅰ线2126测控装置站控层 GO02-A 网中断'	D52	D52LD0/GOAlmGGIO1.Alm4[ST]	-
- #	169	'220kV华赵Ⅰ线2126测控装置站控层 GO03-A 网中断'	D52	D52LD0/GOAlmGGIO1.Alm6[ST]	-
- #	170	'220kV华赵Ⅰ线2126测控装置站控层 GO04-A 网中断'	D52	D52LD0/GOAlmGGIO1.Alm8[ST]	-
- #	171	'220kV华赵Ⅰ线2126测控装置站控层 GO05-A 网中断'	D52	D52LD0/GOAlmGGIO1.Alm10[ST]	-
- #	172	'220kV华赵Ⅰ线2126测控装置站控层 GO06-A 网中断'	D52	D52LD0/GOAlmGGIO1.Alm12[ST]	-
- #	173	'220kV华赵Ⅰ线2126测控装置站控层 GO07-A 网中断'	D52	D52LD0/GOAlmGGIO1.Alm14[ST]	-
- #	174	'220kV华赵Ⅰ线2126测控装置站控层 GO08-A 网中断'	D52	D52LD0/GOAlmGGIO1.Alm16[ST]	-
- #	175	'220kV华赵Ⅰ线2126测控装置站控层 GO09-A 网中断'	D52	D52LD0/GOAlmGGIO1.Alm18[ST]	-
- #	176	'220kV华赵Ⅰ线2126测控装置站控层 GO01-B 网中断'	D52	D52LD0/GOAlmGGIO1.Alm3[ST]	-
- #	177	'220kV华赵Ⅰ线2126测控装置站控层 GO02-B 网中断'	D52	D52LD0/GOAlmGGIO1.Alm5[ST]	-
- #	178	'220kV华赵Ⅰ线2126测控装置站控层 GO03-B 网中断'	D52	D52LD0/GOAlmGGIO1.Alm7[ST]	-
- #	179	'220kV华赵Ⅰ线2126测控装置站控层 GO04-B 网中断'	D52	D52LD0/GOAlmGGIO1.Alm9[ST]	-
- #	180	'220kV华赵Ⅰ线2126测控装置站控层 GO05-B 网中断'	D52	D52LD0/GOAlmGGIO1.Alm11[ST]	-
- #	181	'220kV华赵Ⅰ线2126测控装置站控层 GO06-B 网中断'	D52	D52LD0/GOAlmGGIO1.Alm13[ST]	-
- #	182	'220kV华赵Ⅰ线2126测控装置站控层 GO07-B 网中断'	D52	D52LD0/GOAlmGGIO1.Alm15[ST]	-
- #	183	'220kV华赵Ⅰ线2126测控装置站控层 GO08-B 网中断'	D52	D52LD0/GOAlmGGIO1.Alm17[ST]	-
- #	184	'220kV华赵Ⅰ线2126测控装置站控层 GO09-B 网中断'	D52	D52LD0/GOAlmGGIO1.Alm19[ST]	-
- #	185	220kV华赵Ⅰ线2126测控装置装置检修	D52	D52CTRL/BinInGGIO1.Ind1[ST]	-
- #	186	220kV华赵Ⅰ线2126测控装置就地状态	D52	D52CTRL/BinInGGIO1.Ind2[ST]	-
- #	187	220kV华赵Ⅰ线2126测控装置解除闭锁	D52	D52CTRL/BinInGGIO1.Ind3[ST]	-
- #	188	'220kV华赵Ⅰ线2126测控装置内部工作电压 1'	D52	D52LD0/SPVT1.Vol1[MX]	-
- #	189	'220kV华赵Ⅰ线2126测控装置内部工作电压 2'	D52	D52LD0/SPVT1.Vol2[MX]	-
- #	190	'220kV华赵Ⅰ线2126测控装置内部工作电压 3'	D52	D52LD0/SPVT1.Vol3[MX]	-
- #	191	'220kV华赵Ⅰ线2126测控装置内部工作电压 4'	D52	D52LD0/SPVT1.Vol4[MX]	-
- #	192	'220kV华赵Ⅰ线2126测控装置内部工作电压 5'	D52	D52LD0/SPVT1.Vol5[MX]	-
- #	193	220kV华赵Ⅰ线2126测控装置装置温度	D52	D52LD0/STMP1.Tmp[MX]	-
- #	194	220kV华赵Ⅰ线2126测控装置C相电压	D52	D52PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	195	220kV华赵Ⅱ线2127测控装置装置异常	D53	D53LD0/DevAlmGGIO1.Alm1[ST]	-
- #	196	220kV华赵Ⅱ线2127测控装置对时信号状态	D53	D53LD0/LTSM1.HostTPortAlm[ST]	-
- #	197	220kV华赵Ⅱ线2127测控装置对时服务状态	D53	D53LD0/LTSM1.HostTSrvAlm[ST]	-
- #	198	220kV华赵Ⅱ线2127测控装置时间跳变侦测状态	D53	D53LD0/LTSM1.HostContAlm[ST]	-
- #	199	'220kV华赵Ⅱ线2127测控装置PT 断线'	D53	D53LD0/AlmGGIO1.Alm1[ST]	-
- #	200	'220kV华赵Ⅱ线2127测控装置CT 断线1'	D53	D53LD0/AlmGGIO1.Alm2[ST]	-
- #	201	'220kV华赵Ⅱ线2127测控装置CT 断线2'	D53	D53LD0/AlmGGIO1.Alm3[ST]	-
- #	202	220kV华赵Ⅱ线2127测控装置3U0越限	D53	D53LD0/AlmGGIO1.Alm4[ST]	-
- #	203	220kV华赵Ⅱ线2127测控装置3I0越限1	D53	D53LD0/AlmGGIO1.Alm5[ST]	-
- #	204	220kV华赵Ⅱ线2127测控装置3I0越限2	D53	D53LD0/AlmGGIO1.Alm6[ST]	-
- #	205	220kV华赵Ⅱ线2127测控装置同期无压条件不满足	D53	D53LD0/AlmGGIO1.Alm7[ST]	-
- #	206	220kV华赵Ⅱ线2127测控装置同期有压条件不满足	D53	D53LD0/AlmGGIO1.Alm8[ST]	-
- #	207	220kV华赵Ⅱ线2127测控装置同期压差不满足	D53	D53LD0/AlmGGIO1.Alm9[ST]	-
- #	208	220kV华赵Ⅱ线2127测控装置同期频差不满足	D53	D53LD0/AlmGGIO1.Alm10[ST]	-
- #	209	220kV华赵Ⅱ线2127测控装置同期角差不满足	D53	D53LD0/AlmGGIO1.Alm11[ST]	-
- #	210	220kV华赵Ⅱ线2127测控装置同期频率滑差不满足	D53	D53LD0/AlmGGIO1.Alm12[ST]	-
- #	211	220kV华赵Ⅱ线2127测控装置同期PT断线闭锁	D53	D53LD0/AlmGGIO1.Alm13[ST]	-
- #	212	220kV华赵Ⅱ线2127测控装置同期数据异常	D53	D53LD0/AlmGGIO1.Alm14[ST]	-
- #	213	'220kV华赵Ⅱ线2127测控装置站控层 GOOSE 总告警'	D53	D53LD0/GOAlmGGIO1.Alm1[ST]	-
- #	214	'220kV华赵Ⅱ线2127测控装置站控层 GO01-A 网中断'	D53	D53LD0/GOAlmGGIO1.Alm2[ST]	-
- #	215	'220kV华赵Ⅱ线2127测控装置站控层 GO02-A 网中断'	D53	D53LD0/GOAlmGGIO1.Alm4[ST]	-
- #	216	'220kV华赵Ⅱ线2127测控装置站控层 GO03-A 网中断'	D53	D53LD0/GOAlmGGIO1.Alm6[ST]	-
- #	217	'220kV华赵Ⅱ线2127测控装置站控层 GO04-A 网中断'	D53	D53LD0/GOAlmGGIO1.Alm8[ST]	-
- #	218	'220kV华赵Ⅱ线2127测控装置站控层 GO05-A 网中断'	D53	D53LD0/GOAlmGGIO1.Alm10[ST]	-
- #	219	'220kV华赵Ⅱ线2127测控装置站控层 GO06-A 网中断'	D53	D53LD0/GOAlmGGIO1.Alm12[ST]	-
- #	220	'220kV华赵Ⅱ线2127测控装置站控层 GO07-A 网中断'	D53	D53LD0/GOAlmGGIO1.Alm14[ST]	-
- #	221	'220kV华赵Ⅱ线2127测控装置站控层 GO08-A 网中断'	D53	D53LD0/GOAlmGGIO1.Alm16[ST]	-
- #	222	'220kV华赵Ⅱ线2127测控装置站控层 GO09-A 网中断'	D53	D53LD0/GOAlmGGIO1.Alm18[ST]	-
- #	223	'220kV华赵Ⅱ线2127测控装置站控层 GO01-B 网中断'	D53	D53LD0/GOAlmGGIO1.Alm3[ST]	-
- #	224	'220kV华赵Ⅱ线2127测控装置站控层 GO02-B 网中断'	D53	D53LD0/GOAlmGGIO1.Alm5[ST]	-
- #	225	'220kV华赵Ⅱ线2127测控装置站控层 GO03-B 网中断'	D53	D53LD0/GOAlmGGIO1.Alm7[ST]	-
- #	226	'220kV华赵Ⅱ线2127测控装置站控层 GO04-B 网中断'	D53	D53LD0/GOAlmGGIO1.Alm9[ST]	-
- #	227	'220kV华赵Ⅱ线2127测控装置站控层 GO05-B 网中断'	D53	D53LD0/GOAlmGGIO1.Alm11[ST]	-
- #	228	'220kV华赵Ⅱ线2127测控装置站控层 GO06-B 网中断'	D53	D53LD0/GOAlmGGIO1.Alm13[ST]	-
- #	229	'220kV华赵Ⅱ线2127测控装置站控层 GO07-B 网中断'	D53	D53LD0/GOAlmGGIO1.Alm15[ST]	-
- #	230	'220kV华赵Ⅱ线2127测控装置站控层 GO08-B 网中断'	D53	D53LD0/GOAlmGGIO1.Alm17[ST]	-
- #	231	'220kV华赵Ⅱ线2127测控装置站控层 GO09-B 网中断'	D53	D53LD0/GOAlmGGIO1.Alm19[ST]	-
- #	232	220kV华赵Ⅱ线2127测控装置装置检修	D53	D53CTRL/BinInGGIO1.Ind1[ST]	-
- #	233	220kV华赵Ⅱ线2127测控装置就地状态	D53	D53CTRL/BinInGGIO1.Ind2[ST]	-
- #	234	220kV华赵Ⅱ线2127测控装置解除闭锁	D53	D53CTRL/BinInGGIO1.Ind3[ST]	-
- #	235	'220kV华赵Ⅱ线2127测控装置内部工作电压 1'	D53	D53LD0/SPVT1.Vol1[MX]	-
- #	236	'220kV华赵Ⅱ线2127测控装置内部工作电压 2'	D53	D53LD0/SPVT1.Vol2[MX]	-
- #	237	'220kV华赵Ⅱ线2127测控装置内部工作电压 3'	D53	D53LD0/SPVT1.Vol3[MX]	-
- #	238	'220kV华赵Ⅱ线2127测控装置内部工作电压 4'	D53	D53LD0/SPVT1.Vol4[MX]	-
- #	239	'220kV华赵Ⅱ线2127测控装置内部工作电压 5'	D53	D53LD0/SPVT1.Vol5[MX]	-
- #	240	220kV华赵Ⅱ线2127测控装置装置温度	D53	D53LD0/STMP1.Tmp[MX]	-
- #	241	220kV华赵Ⅱ线2127测控装置C相电压	D53	D53PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	242	220kV赵苗线2123测控装置装置异常	D54	D54LD0/DevAlmGGIO1.Alm1[ST]	-
- #	243	220kV赵苗线2123测控装置对时信号状态	D54	D54LD0/LTSM1.HostTPortAlm[ST]	-
- #	244	220kV赵苗线2123测控装置对时服务状态	D54	D54LD0/LTSM1.HostTSrvAlm[ST]	-
- #	245	220kV赵苗线2123测控装置时间跳变侦测状态	D54	D54LD0/LTSM1.HostContAlm[ST]	-
- #	246	'220kV赵苗线2123测控装置PT 断线'	D54	D54LD0/AlmGGIO1.Alm1[ST]	-
- #	247	'220kV赵苗线2123测控装置CT 断线1'	D54	D54LD0/AlmGGIO1.Alm2[ST]	-
- #	248	'220kV赵苗线2123测控装置CT 断线2'	D54	D54LD0/AlmGGIO1.Alm3[ST]	-
- #	249	220kV赵苗线2123测控装置3U0越限	D54	D54LD0/AlmGGIO1.Alm4[ST]	-
- #	250	220kV赵苗线2123测控装置3I0越限1	D54	D54LD0/AlmGGIO1.Alm5[ST]	-
- #	251	220kV赵苗线2123测控装置3I0越限2	D54	D54LD0/AlmGGIO1.Alm6[ST]	-
- #	252	220kV赵苗线2123测控装置同期无压条件不满足	D54	D54LD0/AlmGGIO1.Alm7[ST]	-
- #	253	220kV赵苗线2123测控装置同期有压条件不满足	D54	D54LD0/AlmGGIO1.Alm8[ST]	-
- #	254	220kV赵苗线2123测控装置同期压差不满足	D54	D54LD0/AlmGGIO1.Alm9[ST]	-
- #	255	220kV赵苗线2123测控装置同期频差不满足	D54	D54LD0/AlmGGIO1.Alm10[ST]	-
- #	256	220kV赵苗线2123测控装置同期角差不满足	D54	D54LD0/AlmGGIO1.Alm11[ST]	-
- #	257	220kV赵苗线2123测控装置同期频率滑差不满足	D54	D54LD0/AlmGGIO1.Alm12[ST]	-
- #	258	220kV赵苗线2123测控装置同期PT断线闭锁	D54	D54LD0/AlmGGIO1.Alm13[ST]	-
- #	259	220kV赵苗线2123测控装置同期数据异常	D54	D54LD0/AlmGGIO1.Alm14[ST]	-
- #	260	'220kV赵苗线2123测控装置站控层 GOOSE 总告警'	D54	D54LD0/GOAlmGGIO1.Alm1[ST]	-
- #	261	'220kV赵苗线2123测控装置站控层 GO01-A 网中断'	D54	D54LD0/GOAlmGGIO1.Alm2[ST]	-
- #	262	'220kV赵苗线2123测控装置站控层 GO02-A 网中断'	D54	D54LD0/GOAlmGGIO1.Alm4[ST]	-
- #	263	'220kV赵苗线2123测控装置站控层 GO03-A 网中断'	D54	D54LD0/GOAlmGGIO1.Alm6[ST]	-
- #	264	'220kV赵苗线2123测控装置站控层 GO04-A 网中断'	D54	D54LD0/GOAlmGGIO1.Alm8[ST]	-
- #	265	'220kV赵苗线2123测控装置站控层 GO05-A 网中断'	D54	D54LD0/GOAlmGGIO1.Alm10[ST]	-
- #	266	'220kV赵苗线2123测控装置站控层 GO06-A 网中断'	D54	D54LD0/GOAlmGGIO1.Alm12[ST]	-
- #	267	'220kV赵苗线2123测控装置站控层 GO07-A 网中断'	D54	D54LD0/GOAlmGGIO1.Alm14[ST]	-
- #	268	'220kV赵苗线2123测控装置站控层 GO08-A 网中断'	D54	D54LD0/GOAlmGGIO1.Alm16[ST]	-
- #	269	'220kV赵苗线2123测控装置站控层 GO09-A 网中断'	D54	D54LD0/GOAlmGGIO1.Alm18[ST]	-
- #	270	'220kV赵苗线2123测控装置站控层 GO01-B 网中断'	D54	D54LD0/GOAlmGGIO1.Alm3[ST]	-
- #	271	'220kV赵苗线2123测控装置站控层 GO02-B 网中断'	D54	D54LD0/GOAlmGGIO1.Alm5[ST]	-
- #	272	'220kV赵苗线2123测控装置站控层 GO03-B 网中断'	D54	D54LD0/GOAlmGGIO1.Alm7[ST]	-
- #	273	'220kV赵苗线2123测控装置站控层 GO04-B 网中断'	D54	D54LD0/GOAlmGGIO1.Alm9[ST]	-
- #	274	'220kV赵苗线2123测控装置站控层 GO05-B 网中断'	D54	D54LD0/GOAlmGGIO1.Alm11[ST]	-
- #	275	'220kV赵苗线2123测控装置站控层 GO06-B 网中断'	D54	D54LD0/GOAlmGGIO1.Alm13[ST]	-
- #	276	'220kV赵苗线2123测控装置站控层 GO07-B 网中断'	D54	D54LD0/GOAlmGGIO1.Alm15[ST]	-
- #	277	'220kV赵苗线2123测控装置站控层 GO08-B 网中断'	D54	D54LD0/GOAlmGGIO1.Alm17[ST]	-
- #	278	'220kV赵苗线2123测控装置站控层 GO09-B 网中断'	D54	D54LD0/GOAlmGGIO1.Alm19[ST]	-
- #	279	220kV赵苗线2123测控装置装置检修	D54	D54CTRL/BinInGGIO1.Ind1[ST]	-
- #	280	220kV赵苗线2123测控装置就地状态	D54	D54CTRL/BinInGGIO1.Ind2[ST]	-
- #	281	220kV赵苗线2123测控装置解除闭锁	D54	D54CTRL/BinInGGIO1.Ind3[ST]	-
- #	282	'220kV赵苗线2123测控装置内部工作电压 1'	D54	D54LD0/SPVT1.Vol1[MX]	-
- #	283	'220kV赵苗线2123测控装置内部工作电压 2'	D54	D54LD0/SPVT1.Vol2[MX]	-
- #	284	'220kV赵苗线2123测控装置内部工作电压 3'	D54	D54LD0/SPVT1.Vol3[MX]	-
- #	285	'220kV赵苗线2123测控装置内部工作电压 4'	D54	D54LD0/SPVT1.Vol4[MX]	-
- #	286	'220kV赵苗线2123测控装置内部工作电压 5'	D54	D54LD0/SPVT1.Vol5[MX]	-
- #	287	220kV赵苗线2123测控装置装置温度	D54	D54LD0/STMP1.Tmp[MX]	-
- #	288	220kV赵苗线2123测控装置C相电压	D54	D54PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	289	220kV母联2120测控装置装置异常	D55	D55LD0/DevAlmGGIO1.Alm1[ST]	-
- #	290	220kV母联2120测控装置对时信号状态	D55	D55LD0/LTSM1.HostTPortAlm[ST]	-
- #	291	220kV母联2120测控装置对时服务状态	D55	D55LD0/LTSM1.HostTSrvAlm[ST]	-
- #	292	220kV母联2120测控装置时间跳变侦测状态	D55	D55LD0/LTSM1.HostContAlm[ST]	-
- #	293	'220kV母联2120测控装置PT 断线'	D55	D55LD0/AlmGGIO1.Alm1[ST]	-
- #	294	'220kV母联2120测控装置CT 断线1'	D55	D55LD0/AlmGGIO1.Alm2[ST]	-
- #	295	'220kV母联2120测控装置CT 断线2'	D55	D55LD0/AlmGGIO1.Alm3[ST]	-
- #	296	220kV母联2120测控装置3U0越限	D55	D55LD0/AlmGGIO1.Alm4[ST]	-
- #	297	220kV母联2120测控装置3I0越限1	D55	D55LD0/AlmGGIO1.Alm5[ST]	-
- #	298	220kV母联2120测控装置3I0越限2	D55	D55LD0/AlmGGIO1.Alm6[ST]	-
- #	299	220kV母联2120测控装置同期无压条件不满足	D55	D55LD0/AlmGGIO1.Alm7[ST]	-
- #	300	220kV母联2120测控装置同期有压条件不满足	D55	D55LD0/AlmGGIO1.Alm8[ST]	-
- #	301	220kV母联2120测控装置同期压差不满足	D55	D55LD0/AlmGGIO1.Alm9[ST]	-
- #	302	220kV母联2120测控装置同期频差不满足	D55	D55LD0/AlmGGIO1.Alm10[ST]	-
- #	303	220kV母联2120测控装置同期角差不满足	D55	D55LD0/AlmGGIO1.Alm11[ST]	-
- #	304	220kV母联2120测控装置同期频率滑差不满足	D55	D55LD0/AlmGGIO1.Alm12[ST]	-
- #	305	220kV母联2120测控装置同期PT断线闭锁	D55	D55LD0/AlmGGIO1.Alm13[ST]	-
- #	306	220kV母联2120测控装置同期数据异常	D55	D55LD0/AlmGGIO1.Alm14[ST]	-
- #	307	'220kV母联2120测控装置站控层 GOOSE 总告警'	D55	D55LD0/GOAlmGGIO1.Alm1[ST]	-
- #	308	'220kV母联2120测控装置站控层 GO01-A 网中断'	D55	D55LD0/GOAlmGGIO1.Alm2[ST]	-
- #	309	'220kV母联2120测控装置站控层 GO02-A 网中断'	D55	D55LD0/GOAlmGGIO1.Alm4[ST]	-
- #	310	'220kV母联2120测控装置站控层 GO03-A 网中断'	D55	D55LD0/GOAlmGGIO1.Alm6[ST]	-
- #	311	'220kV母联2120测控装置站控层 GO04-A 网中断'	D55	D55LD0/GOAlmGGIO1.Alm8[ST]	-
- #	312	'220kV母联2120测控装置站控层 GO05-A 网中断'	D55	D55LD0/GOAlmGGIO1.Alm10[ST]	-
- #	313	'220kV母联2120测控装置站控层 GO06-A 网中断'	D55	D55LD0/GOAlmGGIO1.Alm12[ST]	-
- #	314	'220kV母联2120测控装置站控层 GO07-A 网中断'	D55	D55LD0/GOAlmGGIO1.Alm14[ST]	-
- #	315	'220kV母联2120测控装置站控层 GO08-A 网中断'	D55	D55LD0/GOAlmGGIO1.Alm16[ST]	-
- #	316	'220kV母联2120测控装置站控层 GO09-A 网中断'	D55	D55LD0/GOAlmGGIO1.Alm18[ST]	-
- #	317	'220kV母联2120测控装置站控层 GO01-B 网中断'	D55	D55LD0/GOAlmGGIO1.Alm3[ST]	-
- #	318	'220kV母联2120测控装置站控层 GO02-B 网中断'	D55	D55LD0/GOAlmGGIO1.Alm5[ST]	-
- #	319	'220kV母联2120测控装置站控层 GO03-B 网中断'	D55	D55LD0/GOAlmGGIO1.Alm7[ST]	-
- #	320	'220kV母联2120测控装置站控层 GO04-B 网中断'	D55	D55LD0/GOAlmGGIO1.Alm9[ST]	-
- #	321	'220kV母联2120测控装置站控层 GO05-B 网中断'	D55	D55LD0/GOAlmGGIO1.Alm11[ST]	-
- #	322	'220kV母联2120测控装置站控层 GO06-B 网中断'	D55	D55LD0/GOAlmGGIO1.Alm13[ST]	-
- #	323	'220kV母联2120测控装置站控层 GO07-B 网中断'	D55	D55LD0/GOAlmGGIO1.Alm15[ST]	-
- #	324	'220kV母联2120测控装置站控层 GO08-B 网中断'	D55	D55LD0/GOAlmGGIO1.Alm17[ST]	-
- #	325	'220kV母联2120测控装置站控层 GO09-B 网中断'	D55	D55LD0/GOAlmGGIO1.Alm19[ST]	-
- #	326	220kV母联2120测控装置装置检修	D55	D55CTRL/BinInGGIO1.Ind1[ST]	-
- #	327	220kV母联2120测控装置就地状态	D55	D55CTRL/BinInGGIO1.Ind2[ST]	-
- #	328	220kV母联2120测控装置解除闭锁	D55	D55CTRL/BinInGGIO1.Ind3[ST]	-
- #	329	'220kV母联2120测控装置内部工作电压 1'	D55	D55LD0/SPVT1.Vol1[MX]	-
- #	330	'220kV母联2120测控装置内部工作电压 2'	D55	D55LD0/SPVT1.Vol2[MX]	-
- #	331	'220kV母联2120测控装置内部工作电压 3'	D55	D55LD0/SPVT1.Vol3[MX]	-
- #	332	'220kV母联2120测控装置内部工作电压 4'	D55	D55LD0/SPVT1.Vol4[MX]	-
- #	333	'220kV母联2120测控装置内部工作电压 5'	D55	D55LD0/SPVT1.Vol5[MX]	-
- #	334	220kV母联2120测控装置装置温度	D55	D55LD0/STMP1.Tmp[MX]	-
- #	335	220kV母联2120测控装置C相电压	D55	D55PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	336	220kV旁路线2124测控装置装置异常	D56	D56LD0/DevAlmGGIO1.Alm1[ST]	-
- #	337	220kV旁路线2124测控装置对时信号状态	D56	D56LD0/LTSM1.HostTPortAlm[ST]	-
- #	338	220kV旁路线2124测控装置对时服务状态	D56	D56LD0/LTSM1.HostTSrvAlm[ST]	-
- #	339	220kV旁路线2124测控装置时间跳变侦测状态	D56	D56LD0/LTSM1.HostContAlm[ST]	-
- #	340	'220kV旁路线2124测控装置PT 断线'	D56	D56LD0/AlmGGIO1.Alm1[ST]	-
- #	341	'220kV旁路线2124测控装置CT 断线1'	D56	D56LD0/AlmGGIO1.Alm2[ST]	-
- #	342	'220kV旁路线2124测控装置CT 断线2'	D56	D56LD0/AlmGGIO1.Alm3[ST]	-
- #	343	220kV旁路线2124测控装置3U0越限	D56	D56LD0/AlmGGIO1.Alm4[ST]	-
- #	344	220kV旁路线2124测控装置3I0越限1	D56	D56LD0/AlmGGIO1.Alm5[ST]	-
- #	345	220kV旁路线2124测控装置3I0越限2	D56	D56LD0/AlmGGIO1.Alm6[ST]	-
- #	346	220kV旁路线2124测控装置同期无压条件不满足	D56	D56LD0/AlmGGIO1.Alm7[ST]	-
- #	347	220kV旁路线2124测控装置同期有压条件不满足	D56	D56LD0/AlmGGIO1.Alm8[ST]	-
- #	348	220kV旁路线2124测控装置同期压差不满足	D56	D56LD0/AlmGGIO1.Alm9[ST]	-
- #	349	220kV旁路线2124测控装置同期频差不满足	D56	D56LD0/AlmGGIO1.Alm10[ST]	-
- #	350	220kV旁路线2124测控装置同期角差不满足	D56	D56LD0/AlmGGIO1.Alm11[ST]	-
- #	351	220kV旁路线2124测控装置同期频率滑差不满足	D56	D56LD0/AlmGGIO1.Alm12[ST]	-
- #	352	220kV旁路线2124测控装置同期PT断线闭锁	D56	D56LD0/AlmGGIO1.Alm13[ST]	-
- #	353	220kV旁路线2124测控装置同期数据异常	D56	D56LD0/AlmGGIO1.Alm14[ST]	-
- #	354	'220kV旁路线2124测控装置站控层 GOOSE 总告警'	D56	D56LD0/GOAlmGGIO1.Alm1[ST]	-
- #	355	'220kV旁路线2124测控装置站控层 GO01-A 网中断'	D56	D56LD0/GOAlmGGIO1.Alm2[ST]	-
- #	356	'220kV旁路线2124测控装置站控层 GO02-A 网中断'	D56	D56LD0/GOAlmGGIO1.Alm4[ST]	-
- #	357	'220kV旁路线2124测控装置站控层 GO03-A 网中断'	D56	D56LD0/GOAlmGGIO1.Alm6[ST]	-
- #	358	'220kV旁路线2124测控装置站控层 GO04-A 网中断'	D56	D56LD0/GOAlmGGIO1.Alm8[ST]	-
- #	359	'220kV旁路线2124测控装置站控层 GO05-A 网中断'	D56	D56LD0/GOAlmGGIO1.Alm10[ST]	-
- #	360	'220kV旁路线2124测控装置站控层 GO06-A 网中断'	D56	D56LD0/GOAlmGGIO1.Alm12[ST]	-
- #	361	'220kV旁路线2124测控装置站控层 GO07-A 网中断'	D56	D56LD0/GOAlmGGIO1.Alm14[ST]	-
- #	362	'220kV旁路线2124测控装置站控层 GO08-A 网中断'	D56	D56LD0/GOAlmGGIO1.Alm16[ST]	-
- #	363	'220kV旁路线2124测控装置站控层 GO09-A 网中断'	D56	D56LD0/GOAlmGGIO1.Alm18[ST]	-
- #	364	'220kV旁路线2124测控装置站控层 GO01-B 网中断'	D56	D56LD0/GOAlmGGIO1.Alm3[ST]	-
- #	365	'220kV旁路线2124测控装置站控层 GO02-B 网中断'	D56	D56LD0/GOAlmGGIO1.Alm5[ST]	-
- #	366	'220kV旁路线2124测控装置站控层 GO03-B 网中断'	D56	D56LD0/GOAlmGGIO1.Alm7[ST]	-
- #	367	'220kV旁路线2124测控装置站控层 GO04-B 网中断'	D56	D56LD0/GOAlmGGIO1.Alm9[ST]	-
- #	368	'220kV旁路线2124测控装置站控层 GO05-B 网中断'	D56	D56LD0/GOAlmGGIO1.Alm11[ST]	-
- #	369	'220kV旁路线2124测控装置站控层 GO06-B 网中断'	D56	D56LD0/GOAlmGGIO1.Alm13[ST]	-
- #	370	'220kV旁路线2124测控装置站控层 GO07-B 网中断'	D56	D56LD0/GOAlmGGIO1.Alm15[ST]	-
- #	371	'220kV旁路线2124测控装置站控层 GO08-B 网中断'	D56	D56LD0/GOAlmGGIO1.Alm17[ST]	-
- #	372	'220kV旁路线2124测控装置站控层 GO09-B 网中断'	D56	D56LD0/GOAlmGGIO1.Alm19[ST]	-
- #	373	220kV旁路线2124测控装置装置检修	D56	D56CTRL/BinInGGIO1.Ind1[ST]	-
- #	374	220kV旁路线2124测控装置就地状态	D56	D56CTRL/BinInGGIO1.Ind2[ST]	-
- #	375	220kV旁路线2124测控装置解除闭锁	D56	D56CTRL/BinInGGIO1.Ind3[ST]	-
- #	376	'220kV旁路线2124测控装置内部工作电压 1'	D56	D56LD0/SPVT1.Vol1[MX]	-
- #	377	'220kV旁路线2124测控装置内部工作电压 2'	D56	D56LD0/SPVT1.Vol2[MX]	-
- #	378	'220kV旁路线2124测控装置内部工作电压 3'	D56	D56LD0/SPVT1.Vol3[MX]	-
- #	379	'220kV旁路线2124测控装置内部工作电压 4'	D56	D56LD0/SPVT1.Vol4[MX]	-
- #	380	'220kV旁路线2124测控装置内部工作电压 5'	D56	D56LD0/SPVT1.Vol5[MX]	-
- #	381	220kV旁路线2124测控装置装置温度	D56	D56LD0/STMP1.Tmp[MX]	-
- #	382	220kV旁路线2124测控装置C相电压	D56	D56PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	383	110kV广赵线2114测控装置装置异常	D63	D63LD0/DevAlmGGIO1.Alm1[ST]	-
- #	384	110kV广赵线2114测控装置对时信号状态	D63	D63LD0/LTSM1.HostTPortAlm[ST]	-
- #	385	110kV广赵线2114测控装置对时服务状态	D63	D63LD0/LTSM1.HostTSrvAlm[ST]	-
- #	386	110kV广赵线2114测控装置时间跳变侦测状态	D63	D63LD0/LTSM1.HostContAlm[ST]	-
- #	387	'110kV广赵线2114测控装置PT 断线'	D63	D63LD0/AlmGGIO1.Alm1[ST]	-
- #	388	'110kV广赵线2114测控装置CT 断线1'	D63	D63LD0/AlmGGIO1.Alm2[ST]	-
- #	389	'110kV广赵线2114测控装置CT 断线2'	D63	D63LD0/AlmGGIO1.Alm3[ST]	-
- #	390	110kV广赵线2114测控装置3U0越限	D63	D63LD0/AlmGGIO1.Alm4[ST]	-
- #	391	110kV广赵线2114测控装置3I0越限1	D63	D63LD0/AlmGGIO1.Alm5[ST]	-
- #	392	110kV广赵线2114测控装置3I0越限2	D63	D63LD0/AlmGGIO1.Alm6[ST]	-
- #	393	110kV广赵线2114测控装置同期无压条件不满足	D63	D63LD0/AlmGGIO1.Alm7[ST]	-
- #	394	110kV广赵线2114测控装置同期有压条件不满足	D63	D63LD0/AlmGGIO1.Alm8[ST]	-
- #	395	110kV广赵线2114测控装置同期压差不满足	D63	D63LD0/AlmGGIO1.Alm9[ST]	-
- #	396	110kV广赵线2114测控装置同期频差不满足	D63	D63LD0/AlmGGIO1.Alm10[ST]	-
- #	397	110kV广赵线2114测控装置同期角差不满足	D63	D63LD0/AlmGGIO1.Alm11[ST]	-
- #	398	110kV广赵线2114测控装置同期频率滑差不满足	D63	D63LD0/AlmGGIO1.Alm12[ST]	-
- #	399	110kV广赵线2114测控装置同期PT断线闭锁	D63	D63LD0/AlmGGIO1.Alm13[ST]	-
- #	400	110kV广赵线2114测控装置同期数据异常	D63	D63LD0/AlmGGIO1.Alm14[ST]	-
- #	401	'110kV广赵线2114测控装置站控层 GOOSE 总告警'	D63	D63LD0/GOAlmGGIO1.Alm1[ST]	-
- #	402	'110kV广赵线2114测控装置站控层 GO01-A 网中断'	D63	D63LD0/GOAlmGGIO1.Alm2[ST]	-
- #	403	'110kV广赵线2114测控装置站控层 GO02-A 网中断'	D63	D63LD0/GOAlmGGIO1.Alm4[ST]	-
- #	404	'110kV广赵线2114测控装置站控层 GO03-A 网中断'	D63	D63LD0/GOAlmGGIO1.Alm6[ST]	-
- #	405	'110kV广赵线2114测控装置站控层 GO04-A 网中断'	D63	D63LD0/GOAlmGGIO1.Alm8[ST]	-
- #	406	'110kV广赵线2114测控装置站控层 GO05-A 网中断'	D63	D63LD0/GOAlmGGIO1.Alm10[ST]	-
- #	407	'110kV广赵线2114测控装置站控层 GO06-A 网中断'	D63	D63LD0/GOAlmGGIO1.Alm12[ST]	-
- #	408	'110kV广赵线2114测控装置站控层 GO07-A 网中断'	D63	D63LD0/GOAlmGGIO1.Alm14[ST]	-
- #	409	'110kV广赵线2114测控装置站控层 GO08-A 网中断'	D63	D63LD0/GOAlmGGIO1.Alm16[ST]	-
- #	410	'110kV广赵线2114测控装置站控层 GO09-A 网中断'	D63	D63LD0/GOAlmGGIO1.Alm18[ST]	-
- #	411	'110kV广赵线2114测控装置站控层 GO01-B 网中断'	D63	D63LD0/GOAlmGGIO1.Alm3[ST]	-
- #	412	'110kV广赵线2114测控装置站控层 GO02-B 网中断'	D63	D63LD0/GOAlmGGIO1.Alm5[ST]	-
- #	413	'110kV广赵线2114测控装置站控层 GO03-B 网中断'	D63	D63LD0/GOAlmGGIO1.Alm7[ST]	-
- #	414	'110kV广赵线2114测控装置站控层 GO04-B 网中断'	D63	D63LD0/GOAlmGGIO1.Alm9[ST]	-
- #	415	'110kV广赵线2114测控装置站控层 GO05-B 网中断'	D63	D63LD0/GOAlmGGIO1.Alm11[ST]	-
- #	416	'110kV广赵线2114测控装置站控层 GO06-B 网中断'	D63	D63LD0/GOAlmGGIO1.Alm13[ST]	-
- #	417	'110kV广赵线2114测控装置站控层 GO07-B 网中断'	D63	D63LD0/GOAlmGGIO1.Alm15[ST]	-
- #	418	'110kV广赵线2114测控装置站控层 GO08-B 网中断'	D63	D63LD0/GOAlmGGIO1.Alm17[ST]	-
- #	419	'110kV广赵线2114测控装置站控层 GO09-B 网中断'	D63	D63LD0/GOAlmGGIO1.Alm19[ST]	-
- #	420	110kV广赵线2114测控装置装置检修	D63	D63CTRL/BinInGGIO1.Ind1[ST]	-
- #	421	110kV广赵线2114测控装置就地状态	D63	D63CTRL/BinInGGIO1.Ind2[ST]	-
- #	422	110kV广赵线2114测控装置解除闭锁	D63	D63CTRL/BinInGGIO1.Ind3[ST]	-
- #	423	'110kV广赵线2114测控装置内部工作电压 1'	D63	D63LD0/SPVT1.Vol1[MX]	-
- #	424	'110kV广赵线2114测控装置内部工作电压 2'	D63	D63LD0/SPVT1.Vol2[MX]	-
- #	425	'110kV广赵线2114测控装置内部工作电压 3'	D63	D63LD0/SPVT1.Vol3[MX]	-
- #	426	'110kV广赵线2114测控装置内部工作电压 4'	D63	D63LD0/SPVT1.Vol4[MX]	-
- #	427	'110kV广赵线2114测控装置内部工作电压 5'	D63	D63LD0/SPVT1.Vol5[MX]	-
- #	428	110kV广赵线2114测控装置装置温度	D63	D63LD0/STMP1.Tmp[MX]	-
- #	429	110kV广赵线2114测控装置C相电压	D63	D63PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	430	110kV旁路线2115测控装置装置异常	D64	D64LD0/DevAlmGGIO1.Alm1[ST]	-
- #	431	110kV旁路线2115测控装置对时信号状态	D64	D64LD0/LTSM1.HostTPortAlm[ST]	-
- #	432	110kV旁路线2115测控装置对时服务状态	D64	D64LD0/LTSM1.HostTSrvAlm[ST]	-
- #	433	110kV旁路线2115测控装置时间跳变侦测状态	D64	D64LD0/LTSM1.HostContAlm[ST]	-
- #	434	'110kV旁路线2115测控装置PT 断线'	D64	D64LD0/AlmGGIO1.Alm1[ST]	-
- #	435	'110kV旁路线2115测控装置CT 断线1'	D64	D64LD0/AlmGGIO1.Alm2[ST]	-
- #	436	'110kV旁路线2115测控装置CT 断线2'	D64	D64LD0/AlmGGIO1.Alm3[ST]	-
- #	437	110kV旁路线2115测控装置3U0越限	D64	D64LD0/AlmGGIO1.Alm4[ST]	-
- #	438	110kV旁路线2115测控装置3I0越限1	D64	D64LD0/AlmGGIO1.Alm5[ST]	-
- #	439	110kV旁路线2115测控装置3I0越限2	D64	D64LD0/AlmGGIO1.Alm6[ST]	-
- #	440	110kV旁路线2115测控装置同期无压条件不满足	D64	D64LD0/AlmGGIO1.Alm7[ST]	-
- #	441	110kV旁路线2115测控装置同期有压条件不满足	D64	D64LD0/AlmGGIO1.Alm8[ST]	-
- #	442	110kV旁路线2115测控装置同期压差不满足	D64	D64LD0/AlmGGIO1.Alm9[ST]	-
- #	443	110kV旁路线2115测控装置同期频差不满足	D64	D64LD0/AlmGGIO1.Alm10[ST]	-
- #	444	110kV旁路线2115测控装置同期角差不满足	D64	D64LD0/AlmGGIO1.Alm11[ST]	-
- #	445	110kV旁路线2115测控装置同期频率滑差不满足	D64	D64LD0/AlmGGIO1.Alm12[ST]	-
- #	446	110kV旁路线2115测控装置同期PT断线闭锁	D64	D64LD0/AlmGGIO1.Alm13[ST]	-
- #	447	110kV旁路线2115测控装置同期数据异常	D64	D64LD0/AlmGGIO1.Alm14[ST]	-
- #	448	'110kV旁路线2115测控装置站控层 GOOSE 总告警'	D64	D64LD0/GOAlmGGIO1.Alm1[ST]	-
- #	449	'110kV旁路线2115测控装置站控层 GO01-A 网中断'	D64	D64LD0/GOAlmGGIO1.Alm2[ST]	-
- #	450	'110kV旁路线2115测控装置站控层 GO02-A 网中断'	D64	D64LD0/GOAlmGGIO1.Alm4[ST]	-
- #	451	'110kV旁路线2115测控装置站控层 GO03-A 网中断'	D64	D64LD0/GOAlmGGIO1.Alm6[ST]	-
- #	452	'110kV旁路线2115测控装置站控层 GO04-A 网中断'	D64	D64LD0/GOAlmGGIO1.Alm8[ST]	-
- #	453	'110kV旁路线2115测控装置站控层 GO05-A 网中断'	D64	D64LD0/GOAlmGGIO1.Alm10[ST]	-
- #	454	'110kV旁路线2115测控装置站控层 GO06-A 网中断'	D64	D64LD0/GOAlmGGIO1.Alm12[ST]	-
- #	455	'110kV旁路线2115测控装置站控层 GO07-A 网中断'	D64	D64LD0/GOAlmGGIO1.Alm14[ST]	-
- #	456	'110kV旁路线2115测控装置站控层 GO08-A 网中断'	D64	D64LD0/GOAlmGGIO1.Alm16[ST]	-
- #	457	'110kV旁路线2115测控装置站控层 GO09-A 网中断'	D64	D64LD0/GOAlmGGIO1.Alm18[ST]	-
- #	458	'110kV旁路线2115测控装置站控层 GO01-B 网中断'	D64	D64LD0/GOAlmGGIO1.Alm3[ST]	-
- #	459	'110kV旁路线2115测控装置站控层 GO02-B 网中断'	D64	D64LD0/GOAlmGGIO1.Alm5[ST]	-
- #	460	'110kV旁路线2115测控装置站控层 GO03-B 网中断'	D64	D64LD0/GOAlmGGIO1.Alm7[ST]	-
- #	461	'110kV旁路线2115测控装置站控层 GO04-B 网中断'	D64	D64LD0/GOAlmGGIO1.Alm9[ST]	-
- #	462	'110kV旁路线2115测控装置站控层 GO05-B 网中断'	D64	D64LD0/GOAlmGGIO1.Alm11[ST]	-
- #	463	'110kV旁路线2115测控装置站控层 GO06-B 网中断'	D64	D64LD0/GOAlmGGIO1.Alm13[ST]	-
- #	464	'110kV旁路线2115测控装置站控层 GO07-B 网中断'	D64	D64LD0/GOAlmGGIO1.Alm15[ST]	-
- #	465	'110kV旁路线2115测控装置站控层 GO08-B 网中断'	D64	D64LD0/GOAlmGGIO1.Alm17[ST]	-
- #	466	'110kV旁路线2115测控装置站控层 GO09-B 网中断'	D64	D64LD0/GOAlmGGIO1.Alm19[ST]	-
- #	467	110kV旁路线2115测控装置装置检修	D64	D64CTRL/BinInGGIO1.Ind1[ST]	-
- #	468	110kV旁路线2115测控装置就地状态	D64	D64CTRL/BinInGGIO1.Ind2[ST]	-
- #	469	110kV旁路线2115测控装置解除闭锁	D64	D64CTRL/BinInGGIO1.Ind3[ST]	-
- #	470	'110kV旁路线2115测控装置内部工作电压 1'	D64	D64LD0/SPVT1.Vol1[MX]	-
- #	471	'110kV旁路线2115测控装置内部工作电压 2'	D64	D64LD0/SPVT1.Vol2[MX]	-
- #	472	'110kV旁路线2115测控装置内部工作电压 3'	D64	D64LD0/SPVT1.Vol3[MX]	-
- #	473	'110kV旁路线2115测控装置内部工作电压 4'	D64	D64LD0/SPVT1.Vol4[MX]	-
- #	474	'110kV旁路线2115测控装置内部工作电压 5'	D64	D64LD0/SPVT1.Vol5[MX]	-
- #	475	110kV旁路线2115测控装置装置温度	D64	D64LD0/STMP1.Tmp[MX]	-
- #	476	110kV旁路线2115测控装置C相电压	D64	D64PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	477	110kV赵东线2118测控装置装置异常	D66	D66LD0/DevAlmGGIO1.Alm1[ST]	-
- #	478	110kV赵东线2118测控装置对时信号状态	D66	D66LD0/LTSM1.HostTPortAlm[ST]	-
- #	479	110kV赵东线2118测控装置对时服务状态	D66	D66LD0/LTSM1.HostTSrvAlm[ST]	-
- #	480	110kV赵东线2118测控装置时间跳变侦测状态	D66	D66LD0/LTSM1.HostContAlm[ST]	-
- #	481	'110kV赵东线2118测控装置PT 断线'	D66	D66LD0/AlmGGIO1.Alm1[ST]	-
- #	482	'110kV赵东线2118测控装置CT 断线1'	D66	D66LD0/AlmGGIO1.Alm2[ST]	-
- #	483	'110kV赵东线2118测控装置CT 断线2'	D66	D66LD0/AlmGGIO1.Alm3[ST]	-
- #	484	110kV赵东线2118测控装置3U0越限	D66	D66LD0/AlmGGIO1.Alm4[ST]	-
- #	485	110kV赵东线2118测控装置3I0越限1	D66	D66LD0/AlmGGIO1.Alm5[ST]	-
- #	486	110kV赵东线2118测控装置3I0越限2	D66	D66LD0/AlmGGIO1.Alm6[ST]	-
- #	487	110kV赵东线2118测控装置同期无压条件不满足	D66	D66LD0/AlmGGIO1.Alm7[ST]	-
- #	488	110kV赵东线2118测控装置同期有压条件不满足	D66	D66LD0/AlmGGIO1.Alm8[ST]	-
- #	489	110kV赵东线2118测控装置同期压差不满足	D66	D66LD0/AlmGGIO1.Alm9[ST]	-
- #	490	110kV赵东线2118测控装置同期频差不满足	D66	D66LD0/AlmGGIO1.Alm10[ST]	-
- #	491	110kV赵东线2118测控装置同期角差不满足	D66	D66LD0/AlmGGIO1.Alm11[ST]	-
- #	492	110kV赵东线2118测控装置同期频率滑差不满足	D66	D66LD0/AlmGGIO1.Alm12[ST]	-
- #	493	110kV赵东线2118测控装置同期PT断线闭锁	D66	D66LD0/AlmGGIO1.Alm13[ST]	-
- #	494	110kV赵东线2118测控装置同期数据异常	D66	D66LD0/AlmGGIO1.Alm14[ST]	-
- #	495	'110kV赵东线2118测控装置站控层 GOOSE 总告警'	D66	D66LD0/GOAlmGGIO1.Alm1[ST]	-
- #	496	'110kV赵东线2118测控装置站控层 GO01-A 网中断'	D66	D66LD0/GOAlmGGIO1.Alm2[ST]	-
- #	497	'110kV赵东线2118测控装置站控层 GO02-A 网中断'	D66	D66LD0/GOAlmGGIO1.Alm4[ST]	-
- #	498	'110kV赵东线2118测控装置站控层 GO03-A 网中断'	D66	D66LD0/GOAlmGGIO1.Alm6[ST]	-
- #	499	'110kV赵东线2118测控装置站控层 GO04-A 网中断'	D66	D66LD0/GOAlmGGIO1.Alm8[ST]	-
- #	500	'110kV赵东线2118测控装置站控层 GO05-A 网中断'	D66	D66LD0/GOAlmGGIO1.Alm10[ST]	-
- #	501	'110kV赵东线2118测控装置站控层 GO06-A 网中断'	D66	D66LD0/GOAlmGGIO1.Alm12[ST]	-
- #	502	'110kV赵东线2118测控装置站控层 GO07-A 网中断'	D66	D66LD0/GOAlmGGIO1.Alm14[ST]	-
- #	503	'110kV赵东线2118测控装置站控层 GO08-A 网中断'	D66	D66LD0/GOAlmGGIO1.Alm16[ST]	-
- #	504	'110kV赵东线2118测控装置站控层 GO09-A 网中断'	D66	D66LD0/GOAlmGGIO1.Alm18[ST]	-
- #	505	'110kV赵东线2118测控装置站控层 GO01-B 网中断'	D66	D66LD0/GOAlmGGIO1.Alm3[ST]	-
- #	506	'110kV赵东线2118测控装置站控层 GO02-B 网中断'	D66	D66LD0/GOAlmGGIO1.Alm5[ST]	-
- #	507	'110kV赵东线2118测控装置站控层 GO03-B 网中断'	D66	D66LD0/GOAlmGGIO1.Alm7[ST]	-
- #	508	'110kV赵东线2118测控装置站控层 GO04-B 网中断'	D66	D66LD0/GOAlmGGIO1.Alm9[ST]	-
- #	509	'110kV赵东线2118测控装置站控层 GO05-B 网中断'	D66	D66LD0/GOAlmGGIO1.Alm11[ST]	-
- #	510	'110kV赵东线2118测控装置站控层 GO06-B 网中断'	D66	D66LD0/GOAlmGGIO1.Alm13[ST]	-
- #	511	'110kV赵东线2118测控装置站控层 GO07-B 网中断'	D66	D66LD0/GOAlmGGIO1.Alm15[ST]	-
- #	512	'110kV赵东线2118测控装置站控层 GO08-B 网中断'	D66	D66LD0/GOAlmGGIO1.Alm17[ST]	-
- #	513	'110kV赵东线2118测控装置站控层 GO09-B 网中断'	D66	D66LD0/GOAlmGGIO1.Alm19[ST]	-
- #	514	110kV赵东线2118测控装置装置检修	D66	D66CTRL/BinInGGIO1.Ind1[ST]	-
- #	515	110kV赵东线2118测控装置就地状态	D66	D66CTRL/BinInGGIO1.Ind2[ST]	-
- #	516	110kV赵东线2118测控装置解除闭锁	D66	D66CTRL/BinInGGIO1.Ind3[ST]	-
- #	517	'110kV赵东线2118测控装置内部工作电压 1'	D66	D66LD0/SPVT1.Vol1[MX]	-
- #	518	'110kV赵东线2118测控装置内部工作电压 2'	D66	D66LD0/SPVT1.Vol2[MX]	-
- #	519	'110kV赵东线2118测控装置内部工作电压 3'	D66	D66LD0/SPVT1.Vol3[MX]	-
- #	520	'110kV赵东线2118测控装置内部工作电压 4'	D66	D66LD0/SPVT1.Vol4[MX]	-
- #	521	'110kV赵东线2118测控装置内部工作电压 5'	D66	D66LD0/SPVT1.Vol5[MX]	-
- #	522	110kV赵东线2118测控装置装置温度	D66	D66LD0/STMP1.Tmp[MX]	-
- #	523	110kV赵东线2118测控装置C相电压	D66	D66PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	524	110kV母联2110测控装置装置异常	D59	D59LD0/DevAlmGGIO1.Alm1[ST]	-
- #	525	110kV母联2110测控装置对时信号状态	D59	D59LD0/LTSM1.HostTPortAlm[ST]	-
- #	526	110kV母联2110测控装置对时服务状态	D59	D59LD0/LTSM1.HostTSrvAlm[ST]	-
- #	527	110kV母联2110测控装置时间跳变侦测状态	D59	D59LD0/LTSM1.HostContAlm[ST]	-
- #	528	'110kV母联2110测控装置PT 断线'	D59	D59LD0/AlmGGIO1.Alm1[ST]	-
- #	529	'110kV母联2110测控装置CT 断线1'	D59	D59LD0/AlmGGIO1.Alm2[ST]	-
- #	530	'110kV母联2110测控装置CT 断线2'	D59	D59LD0/AlmGGIO1.Alm3[ST]	-
- #	531	110kV母联2110测控装置3U0越限	D59	D59LD0/AlmGGIO1.Alm4[ST]	-
- #	532	110kV母联2110测控装置3I0越限1	D59	D59LD0/AlmGGIO1.Alm5[ST]	-
- #	533	110kV母联2110测控装置3I0越限2	D59	D59LD0/AlmGGIO1.Alm6[ST]	-
- #	534	110kV母联2110测控装置同期无压条件不满足	D59	D59LD0/AlmGGIO1.Alm7[ST]	-
- #	535	110kV母联2110测控装置同期有压条件不满足	D59	D59LD0/AlmGGIO1.Alm8[ST]	-
- #	536	110kV母联2110测控装置同期压差不满足	D59	D59LD0/AlmGGIO1.Alm9[ST]	-
- #	537	110kV母联2110测控装置同期频差不满足	D59	D59LD0/AlmGGIO1.Alm10[ST]	-
- #	538	110kV母联2110测控装置同期角差不满足	D59	D59LD0/AlmGGIO1.Alm11[ST]	-
- #	539	110kV母联2110测控装置同期频率滑差不满足	D59	D59LD0/AlmGGIO1.Alm12[ST]	-
- #	540	110kV母联2110测控装置同期PT断线闭锁	D59	D59LD0/AlmGGIO1.Alm13[ST]	-
- #	541	110kV母联2110测控装置同期数据异常	D59	D59LD0/AlmGGIO1.Alm14[ST]	-
- #	542	'110kV母联2110测控装置站控层 GOOSE 总告警'	D59	D59LD0/GOAlmGGIO1.Alm1[ST]	-
- #	543	'110kV母联2110测控装置站控层 GO01-A 网中断'	D59	D59LD0/GOAlmGGIO1.Alm2[ST]	-
- #	544	'110kV母联2110测控装置站控层 GO02-A 网中断'	D59	D59LD0/GOAlmGGIO1.Alm4[ST]	-
- #	545	'110kV母联2110测控装置站控层 GO03-A 网中断'	D59	D59LD0/GOAlmGGIO1.Alm6[ST]	-
- #	546	'110kV母联2110测控装置站控层 GO04-A 网中断'	D59	D59LD0/GOAlmGGIO1.Alm8[ST]	-
- #	547	'110kV母联2110测控装置站控层 GO05-A 网中断'	D59	D59LD0/GOAlmGGIO1.Alm10[ST]	-
- #	548	'110kV母联2110测控装置站控层 GO06-A 网中断'	D59	D59LD0/GOAlmGGIO1.Alm12[ST]	-
- #	549	'110kV母联2110测控装置站控层 GO07-A 网中断'	D59	D59LD0/GOAlmGGIO1.Alm14[ST]	-
- #	550	'110kV母联2110测控装置站控层 GO08-A 网中断'	D59	D59LD0/GOAlmGGIO1.Alm16[ST]	-
- #	551	'110kV母联2110测控装置站控层 GO09-A 网中断'	D59	D59LD0/GOAlmGGIO1.Alm18[ST]	-
- #	552	'110kV母联2110测控装置站控层 GO01-B 网中断'	D59	D59LD0/GOAlmGGIO1.Alm3[ST]	-
- #	553	'110kV母联2110测控装置站控层 GO02-B 网中断'	D59	D59LD0/GOAlmGGIO1.Alm5[ST]	-
- #	554	'110kV母联2110测控装置站控层 GO03-B 网中断'	D59	D59LD0/GOAlmGGIO1.Alm7[ST]	-
- #	555	'110kV母联2110测控装置站控层 GO04-B 网中断'	D59	D59LD0/GOAlmGGIO1.Alm9[ST]	-
- #	556	'110kV母联2110测控装置站控层 GO05-B 网中断'	D59	D59LD0/GOAlmGGIO1.Alm11[ST]	-
- #	557	'110kV母联2110测控装置站控层 GO06-B 网中断'	D59	D59LD0/GOAlmGGIO1.Alm13[ST]	-
- #	558	'110kV母联2110测控装置站控层 GO07-B 网中断'	D59	D59LD0/GOAlmGGIO1.Alm15[ST]	-
- #	559	'110kV母联2110测控装置站控层 GO08-B 网中断'	D59	D59LD0/GOAlmGGIO1.Alm17[ST]	-
- #	560	'110kV母联2110测控装置站控层 GO09-B 网中断'	D59	D59LD0/GOAlmGGIO1.Alm19[ST]	-
- #	561	110kV母联2110测控装置装置检修	D59	D59CTRL/BinInGGIO1.Ind1[ST]	-
- #	562	110kV母联2110测控装置就地状态	D59	D59CTRL/BinInGGIO1.Ind2[ST]	-
- #	563	110kV母联2110测控装置解除闭锁	D59	D59CTRL/BinInGGIO1.Ind3[ST]	-
- #	564	'110kV母联2110测控装置内部工作电压 1'	D59	D59LD0/SPVT1.Vol1[MX]	-
- #	565	'110kV母联2110测控装置内部工作电压 2'	D59	D59LD0/SPVT1.Vol2[MX]	-
- #	566	'110kV母联2110测控装置内部工作电压 3'	D59	D59LD0/SPVT1.Vol3[MX]	-
- #	567	'110kV母联2110测控装置内部工作电压 4'	D59	D59LD0/SPVT1.Vol4[MX]	-
- #	568	'110kV母联2110测控装置内部工作电压 5'	D59	D59LD0/SPVT1.Vol5[MX]	-
- #	569	110kV母联2110测控装置装置温度	D59	D59LD0/STMP1.Tmp[MX]	-
- #	570	110kV母联2110测控装置C相电压	D59	D59PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	571	110kV#1赵西线2113测控装置装置异常	D60	D60LD0/DevAlmGGIO1.Alm1[ST]	-
- #	572	110kV#1赵西线2113测控装置对时信号状态	D60	D60LD0/LTSM1.HostTPortAlm[ST]	-
- #	573	110kV#1赵西线2113测控装置对时服务状态	D60	D60LD0/LTSM1.HostTSrvAlm[ST]	-
- #	574	110kV#1赵西线2113测控装置时间跳变侦测状态	D60	D60LD0/LTSM1.HostContAlm[ST]	-
- #	575	'110kV#1赵西线2113测控装置PT 断线'	D60	D60LD0/AlmGGIO1.Alm1[ST]	-
- #	576	'110kV#1赵西线2113测控装置CT 断线1'	D60	D60LD0/AlmGGIO1.Alm2[ST]	-
- #	577	'110kV#1赵西线2113测控装置CT 断线2'	D60	D60LD0/AlmGGIO1.Alm3[ST]	-
- #	578	110kV#1赵西线2113测控装置3U0越限	D60	D60LD0/AlmGGIO1.Alm4[ST]	-
- #	579	110kV#1赵西线2113测控装置3I0越限1	D60	D60LD0/AlmGGIO1.Alm5[ST]	-
- #	580	110kV#1赵西线2113测控装置3I0越限2	D60	D60LD0/AlmGGIO1.Alm6[ST]	-
- #	581	110kV#1赵西线2113测控装置同期无压条件不满足	D60	D60LD0/AlmGGIO1.Alm7[ST]	-
- #	582	110kV#1赵西线2113测控装置同期有压条件不满足	D60	D60LD0/AlmGGIO1.Alm8[ST]	-
- #	583	110kV#1赵西线2113测控装置同期压差不满足	D60	D60LD0/AlmGGIO1.Alm9[ST]	-
- #	584	110kV#1赵西线2113测控装置同期频差不满足	D60	D60LD0/AlmGGIO1.Alm10[ST]	-
- #	585	110kV#1赵西线2113测控装置同期角差不满足	D60	D60LD0/AlmGGIO1.Alm11[ST]	-
- #	586	110kV#1赵西线2113测控装置同期频率滑差不满足	D60	D60LD0/AlmGGIO1.Alm12[ST]	-
- #	587	110kV#1赵西线2113测控装置同期PT断线闭锁	D60	D60LD0/AlmGGIO1.Alm13[ST]	-
- #	588	110kV#1赵西线2113测控装置同期数据异常	D60	D60LD0/AlmGGIO1.Alm14[ST]	-
- #	589	'110kV#1赵西线2113测控装置站控层 GOOSE 总告警'	D60	D60LD0/GOAlmGGIO1.Alm1[ST]	-
- #	590	'110kV#1赵西线2113测控装置站控层 GO01-A 网中断'	D60	D60LD0/GOAlmGGIO1.Alm2[ST]	-
- #	591	'110kV#1赵西线2113测控装置站控层 GO02-A 网中断'	D60	D60LD0/GOAlmGGIO1.Alm4[ST]	-
- #	592	'110kV#1赵西线2113测控装置站控层 GO03-A 网中断'	D60	D60LD0/GOAlmGGIO1.Alm6[ST]	-
- #	593	'110kV#1赵西线2113测控装置站控层 GO04-A 网中断'	D60	D60LD0/GOAlmGGIO1.Alm8[ST]	-
- #	594	'110kV#1赵西线2113测控装置站控层 GO05-A 网中断'	D60	D60LD0/GOAlmGGIO1.Alm10[ST]	-
- #	595	'110kV#1赵西线2113测控装置站控层 GO06-A 网中断'	D60	D60LD0/GOAlmGGIO1.Alm12[ST]	-
- #	596	'110kV#1赵西线2113测控装置站控层 GO07-A 网中断'	D60	D60LD0/GOAlmGGIO1.Alm14[ST]	-
- #	597	'110kV#1赵西线2113测控装置站控层 GO08-A 网中断'	D60	D60LD0/GOAlmGGIO1.Alm16[ST]	-
- #	598	'110kV#1赵西线2113测控装置站控层 GO09-A 网中断'	D60	D60LD0/GOAlmGGIO1.Alm18[ST]	-
- #	599	'110kV#1赵西线2113测控装置站控层 GO01-B 网中断'	D60	D60LD0/GOAlmGGIO1.Alm3[ST]	-
- #	600	'110kV#1赵西线2113测控装置站控层 GO02-B 网中断'	D60	D60LD0/GOAlmGGIO1.Alm5[ST]	-
- #	601	'110kV#1赵西线2113测控装置站控层 GO03-B 网中断'	D60	D60LD0/GOAlmGGIO1.Alm7[ST]	-
- #	602	'110kV#1赵西线2113测控装置站控层 GO04-B 网中断'	D60	D60LD0/GOAlmGGIO1.Alm9[ST]	-
- #	603	'110kV#1赵西线2113测控装置站控层 GO05-B 网中断'	D60	D60LD0/GOAlmGGIO1.Alm11[ST]	-
- #	604	'110kV#1赵西线2113测控装置站控层 GO06-B 网中断'	D60	D60LD0/GOAlmGGIO1.Alm13[ST]	-
- #	605	'110kV#1赵西线2113测控装置站控层 GO07-B 网中断'	D60	D60LD0/GOAlmGGIO1.Alm15[ST]	-
- #	606	'110kV#1赵西线2113测控装置站控层 GO08-B 网中断'	D60	D60LD0/GOAlmGGIO1.Alm17[ST]	-
- #	607	'110kV#1赵西线2113测控装置站控层 GO09-B 网中断'	D60	D60LD0/GOAlmGGIO1.Alm19[ST]	-
- #	608	110kV#1赵西线2113测控装置装置检修	D60	D60CTRL/BinInGGIO1.Ind1[ST]	-
- #	609	110kV#1赵西线2113测控装置就地状态	D60	D60CTRL/BinInGGIO1.Ind2[ST]	-
- #	610	110kV#1赵西线2113测控装置解除闭锁	D60	D60CTRL/BinInGGIO1.Ind3[ST]	-
- #	611	'110kV#1赵西线2113测控装置内部工作电压 1'	D60	D60LD0/SPVT1.Vol1[MX]	-
- #	612	'110kV#1赵西线2113测控装置内部工作电压 2'	D60	D60LD0/SPVT1.Vol2[MX]	-
- #	613	'110kV#1赵西线2113测控装置内部工作电压 3'	D60	D60LD0/SPVT1.Vol3[MX]	-
- #	614	'110kV#1赵西线2113测控装置内部工作电压 4'	D60	D60LD0/SPVT1.Vol4[MX]	-
- #	615	'110kV#1赵西线2113测控装置内部工作电压 5'	D60	D60LD0/SPVT1.Vol5[MX]	-
- #	616	110kV#1赵西线2113测控装置装置温度	D60	D60LD0/STMP1.Tmp[MX]	-
- #	617	110kV#1赵西线2113测控装置C相电压	D60	D60PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	618	110kV#2池口线2117测控装置装置异常	D61	D61LD0/DevAlmGGIO1.Alm1[ST]	-
- #	619	110kV#2池口线2117测控装置对时信号状态	D61	D61LD0/LTSM1.HostTPortAlm[ST]	-
- #	620	110kV#2池口线2117测控装置对时服务状态	D61	D61LD0/LTSM1.HostTSrvAlm[ST]	-
- #	621	110kV#2池口线2117测控装置时间跳变侦测状态	D61	D61LD0/LTSM1.HostContAlm[ST]	-
- #	622	'110kV#2池口线2117测控装置PT 断线'	D61	D61LD0/AlmGGIO1.Alm1[ST]	-
- #	623	'110kV#2池口线2117测控装置CT 断线1'	D61	D61LD0/AlmGGIO1.Alm2[ST]	-
- #	624	'110kV#2池口线2117测控装置CT 断线2'	D61	D61LD0/AlmGGIO1.Alm3[ST]	-
- #	625	110kV#2池口线2117测控装置3U0越限	D61	D61LD0/AlmGGIO1.Alm4[ST]	-
- #	626	110kV#2池口线2117测控装置3I0越限1	D61	D61LD0/AlmGGIO1.Alm5[ST]	-
- #	627	110kV#2池口线2117测控装置3I0越限2	D61	D61LD0/AlmGGIO1.Alm6[ST]	-
- #	628	110kV#2池口线2117测控装置同期无压条件不满足	D61	D61LD0/AlmGGIO1.Alm7[ST]	-
- #	629	110kV#2池口线2117测控装置同期有压条件不满足	D61	D61LD0/AlmGGIO1.Alm8[ST]	-
- #	630	110kV#2池口线2117测控装置同期压差不满足	D61	D61LD0/AlmGGIO1.Alm9[ST]	-
- #	631	110kV#2池口线2117测控装置同期频差不满足	D61	D61LD0/AlmGGIO1.Alm10[ST]	-
- #	632	110kV#2池口线2117测控装置同期角差不满足	D61	D61LD0/AlmGGIO1.Alm11[ST]	-
- #	633	110kV#2池口线2117测控装置同期频率滑差不满足	D61	D61LD0/AlmGGIO1.Alm12[ST]	-
- #	634	110kV#2池口线2117测控装置同期PT断线闭锁	D61	D61LD0/AlmGGIO1.Alm13[ST]	-
- #	635	110kV#2池口线2117测控装置同期数据异常	D61	D61LD0/AlmGGIO1.Alm14[ST]	-
- #	636	'110kV#2池口线2117测控装置站控层 GOOSE 总告警'	D61	D61LD0/GOAlmGGIO1.Alm1[ST]	-
- #	637	'110kV#2池口线2117测控装置站控层 GO01-A 网中断'	D61	D61LD0/GOAlmGGIO1.Alm2[ST]	-
- #	638	'110kV#2池口线2117测控装置站控层 GO02-A 网中断'	D61	D61LD0/GOAlmGGIO1.Alm4[ST]	-
- #	639	'110kV#2池口线2117测控装置站控层 GO03-A 网中断'	D61	D61LD0/GOAlmGGIO1.Alm6[ST]	-
- #	640	'110kV#2池口线2117测控装置站控层 GO04-A 网中断'	D61	D61LD0/GOAlmGGIO1.Alm8[ST]	-
- #	641	'110kV#2池口线2117测控装置站控层 GO05-A 网中断'	D61	D61LD0/GOAlmGGIO1.Alm10[ST]	-
- #	642	'110kV#2池口线2117测控装置站控层 GO06-A 网中断'	D61	D61LD0/GOAlmGGIO1.Alm12[ST]	-
- #	643	'110kV#2池口线2117测控装置站控层 GO07-A 网中断'	D61	D61LD0/GOAlmGGIO1.Alm14[ST]	-
- #	644	'110kV#2池口线2117测控装置站控层 GO08-A 网中断'	D61	D61LD0/GOAlmGGIO1.Alm16[ST]	-
- #	645	'110kV#2池口线2117测控装置站控层 GO09-A 网中断'	D61	D61LD0/GOAlmGGIO1.Alm18[ST]	-
- #	646	'110kV#2池口线2117测控装置站控层 GO01-B 网中断'	D61	D61LD0/GOAlmGGIO1.Alm3[ST]	-
- #	647	'110kV#2池口线2117测控装置站控层 GO02-B 网中断'	D61	D61LD0/GOAlmGGIO1.Alm5[ST]	-
- #	648	'110kV#2池口线2117测控装置站控层 GO03-B 网中断'	D61	D61LD0/GOAlmGGIO1.Alm7[ST]	-
- #	649	'110kV#2池口线2117测控装置站控层 GO04-B 网中断'	D61	D61LD0/GOAlmGGIO1.Alm9[ST]	-
- #	650	'110kV#2池口线2117测控装置站控层 GO05-B 网中断'	D61	D61LD0/GOAlmGGIO1.Alm11[ST]	-
- #	651	'110kV#2池口线2117测控装置站控层 GO06-B 网中断'	D61	D61LD0/GOAlmGGIO1.Alm13[ST]	-
- #	652	'110kV#2池口线2117测控装置站控层 GO07-B 网中断'	D61	D61LD0/GOAlmGGIO1.Alm15[ST]	-
- #	653	'110kV#2池口线2117测控装置站控层 GO08-B 网中断'	D61	D61LD0/GOAlmGGIO1.Alm17[ST]	-
- #	654	'110kV#2池口线2117测控装置站控层 GO09-B 网中断'	D61	D61LD0/GOAlmGGIO1.Alm19[ST]	-
- #	655	110kV#2池口线2117测控装置装置检修	D61	D61CTRL/BinInGGIO1.Ind1[ST]	-
- #	656	110kV#2池口线2117测控装置就地状态	D61	D61CTRL/BinInGGIO1.Ind2[ST]	-
- #	657	110kV#2池口线2117测控装置解除闭锁	D61	D61CTRL/BinInGGIO1.Ind3[ST]	-
- #	658	'110kV#2池口线2117测控装置内部工作电压 1'	D61	D61LD0/SPVT1.Vol1[MX]	-
- #	659	'110kV#2池口线2117测控装置内部工作电压 2'	D61	D61LD0/SPVT1.Vol2[MX]	-
- #	660	'110kV#2池口线2117测控装置内部工作电压 3'	D61	D61LD0/SPVT1.Vol3[MX]	-
- #	661	'110kV#2池口线2117测控装置内部工作电压 4'	D61	D61LD0/SPVT1.Vol4[MX]	-
- #	662	'110kV#2池口线2117测控装置内部工作电压 5'	D61	D61LD0/SPVT1.Vol5[MX]	-
- #	663	110kV#2池口线2117测控装置装置温度	D61	D61LD0/STMP1.Tmp[MX]	-
- #	664	110kV#2池口线2117测控装置C相电压	D61	D61PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	665	110kV赵湖线2161测控装置装置异常	D62	D62LD0/DevAlmGGIO1.Alm1[ST]	-
- #	666	110kV赵湖线2161测控装置对时信号状态	D62	D62LD0/LTSM1.HostTPortAlm[ST]	-
- #	667	110kV赵湖线2161测控装置对时服务状态	D62	D62LD0/LTSM1.HostTSrvAlm[ST]	-
- #	668	110kV赵湖线2161测控装置时间跳变侦测状态	D62	D62LD0/LTSM1.HostContAlm[ST]	-
- #	669	'110kV赵湖线2161测控装置PT 断线'	D62	D62LD0/AlmGGIO1.Alm1[ST]	-
- #	670	'110kV赵湖线2161测控装置CT 断线1'	D62	D62LD0/AlmGGIO1.Alm2[ST]	-
- #	671	'110kV赵湖线2161测控装置CT 断线2'	D62	D62LD0/AlmGGIO1.Alm3[ST]	-
- #	672	110kV赵湖线2161测控装置3U0越限	D62	D62LD0/AlmGGIO1.Alm4[ST]	-
- #	673	110kV赵湖线2161测控装置3I0越限1	D62	D62LD0/AlmGGIO1.Alm5[ST]	-
- #	674	110kV赵湖线2161测控装置3I0越限2	D62	D62LD0/AlmGGIO1.Alm6[ST]	-
- #	675	110kV赵湖线2161测控装置同期无压条件不满足	D62	D62LD0/AlmGGIO1.Alm7[ST]	-
- #	676	110kV赵湖线2161测控装置同期有压条件不满足	D62	D62LD0/AlmGGIO1.Alm8[ST]	-
- #	677	110kV赵湖线2161测控装置同期压差不满足	D62	D62LD0/AlmGGIO1.Alm9[ST]	-
- #	678	110kV赵湖线2161测控装置同期频差不满足	D62	D62LD0/AlmGGIO1.Alm10[ST]	-
- #	679	110kV赵湖线2161测控装置同期角差不满足	D62	D62LD0/AlmGGIO1.Alm11[ST]	-
- #	680	110kV赵湖线2161测控装置同期频率滑差不满足	D62	D62LD0/AlmGGIO1.Alm12[ST]	-
- #	681	110kV赵湖线2161测控装置同期PT断线闭锁	D62	D62LD0/AlmGGIO1.Alm13[ST]	-
- #	682	110kV赵湖线2161测控装置同期数据异常	D62	D62LD0/AlmGGIO1.Alm14[ST]	-
- #	683	'110kV赵湖线2161测控装置站控层 GOOSE 总告警'	D62	D62LD0/GOAlmGGIO1.Alm1[ST]	-
- #	684	'110kV赵湖线2161测控装置站控层 GO01-A 网中断'	D62	D62LD0/GOAlmGGIO1.Alm2[ST]	-
- #	685	'110kV赵湖线2161测控装置站控层 GO02-A 网中断'	D62	D62LD0/GOAlmGGIO1.Alm4[ST]	-
- #	686	'110kV赵湖线2161测控装置站控层 GO03-A 网中断'	D62	D62LD0/GOAlmGGIO1.Alm6[ST]	-
- #	687	'110kV赵湖线2161测控装置站控层 GO04-A 网中断'	D62	D62LD0/GOAlmGGIO1.Alm8[ST]	-
- #	688	'110kV赵湖线2161测控装置站控层 GO05-A 网中断'	D62	D62LD0/GOAlmGGIO1.Alm10[ST]	-
- #	689	'110kV赵湖线2161测控装置站控层 GO06-A 网中断'	D62	D62LD0/GOAlmGGIO1.Alm12[ST]	-
- #	690	'110kV赵湖线2161测控装置站控层 GO07-A 网中断'	D62	D62LD0/GOAlmGGIO1.Alm14[ST]	-
- #	691	'110kV赵湖线2161测控装置站控层 GO08-A 网中断'	D62	D62LD0/GOAlmGGIO1.Alm16[ST]	-
- #	692	'110kV赵湖线2161测控装置站控层 GO09-A 网中断'	D62	D62LD0/GOAlmGGIO1.Alm18[ST]	-
- #	693	'110kV赵湖线2161测控装置站控层 GO01-B 网中断'	D62	D62LD0/GOAlmGGIO1.Alm3[ST]	-
- #	694	'110kV赵湖线2161测控装置站控层 GO02-B 网中断'	D62	D62LD0/GOAlmGGIO1.Alm5[ST]	-
- #	695	'110kV赵湖线2161测控装置站控层 GO03-B 网中断'	D62	D62LD0/GOAlmGGIO1.Alm7[ST]	-
- #	696	'110kV赵湖线2161测控装置站控层 GO04-B 网中断'	D62	D62LD0/GOAlmGGIO1.Alm9[ST]	-
- #	697	'110kV赵湖线2161测控装置站控层 GO05-B 网中断'	D62	D62LD0/GOAlmGGIO1.Alm11[ST]	-
- #	698	'110kV赵湖线2161测控装置站控层 GO06-B 网中断'	D62	D62LD0/GOAlmGGIO1.Alm13[ST]	-
- #	699	'110kV赵湖线2161测控装置站控层 GO07-B 网中断'	D62	D62LD0/GOAlmGGIO1.Alm15[ST]	-
- #	700	'110kV赵湖线2161测控装置站控层 GO08-B 网中断'	D62	D62LD0/GOAlmGGIO1.Alm17[ST]	-
- #	701	'110kV赵湖线2161测控装置站控层 GO09-B 网中断'	D62	D62LD0/GOAlmGGIO1.Alm19[ST]	-
- #	702	110kV赵湖线2161测控装置装置检修	D62	D62CTRL/BinInGGIO1.Ind1[ST]	-
- #	703	110kV赵湖线2161测控装置就地状态	D62	D62CTRL/BinInGGIO1.Ind2[ST]	-
- #	704	110kV赵湖线2161测控装置解除闭锁	D62	D62CTRL/BinInGGIO1.Ind3[ST]	-
- #	705	'110kV赵湖线2161测控装置内部工作电压 1'	D62	D62LD0/SPVT1.Vol1[MX]	-
- #	706	'110kV赵湖线2161测控装置内部工作电压 2'	D62	D62LD0/SPVT1.Vol2[MX]	-
- #	707	'110kV赵湖线2161测控装置内部工作电压 3'	D62	D62LD0/SPVT1.Vol3[MX]	-
- #	708	'110kV赵湖线2161测控装置内部工作电压 4'	D62	D62LD0/SPVT1.Vol4[MX]	-
- #	709	'110kV赵湖线2161测控装置内部工作电压 5'	D62	D62LD0/SPVT1.Vol5[MX]	-
- #	710	110kV赵湖线2161测控装置装置温度	D62	D62LD0/STMP1.Tmp[MX]	-
- #	711	110kV赵湖线2161测控装置C相电压	D62	D62PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	712	110kV赵武线2160测控装置装置异常	D67	D67LD0/DevAlmGGIO1.Alm1[ST]	-
- #	713	110kV赵武线2160测控装置对时信号状态	D67	D67LD0/LTSM1.HostTPortAlm[ST]	-
- #	714	110kV赵武线2160测控装置对时服务状态	D67	D67LD0/LTSM1.HostTSrvAlm[ST]	-
- #	715	110kV赵武线2160测控装置时间跳变侦测状态	D67	D67LD0/LTSM1.HostContAlm[ST]	-
- #	716	'110kV赵武线2160测控装置PT 断线'	D67	D67LD0/AlmGGIO1.Alm1[ST]	-
- #	717	'110kV赵武线2160测控装置CT 断线1'	D67	D67LD0/AlmGGIO1.Alm2[ST]	-
- #	718	'110kV赵武线2160测控装置CT 断线2'	D67	D67LD0/AlmGGIO1.Alm3[ST]	-
- #	719	110kV赵武线2160测控装置3U0越限	D67	D67LD0/AlmGGIO1.Alm4[ST]	-
- #	720	110kV赵武线2160测控装置3I0越限1	D67	D67LD0/AlmGGIO1.Alm5[ST]	-
- #	721	110kV赵武线2160测控装置3I0越限2	D67	D67LD0/AlmGGIO1.Alm6[ST]	-
- #	722	110kV赵武线2160测控装置同期无压条件不满足	D67	D67LD0/AlmGGIO1.Alm7[ST]	-
- #	723	110kV赵武线2160测控装置同期有压条件不满足	D67	D67LD0/AlmGGIO1.Alm8[ST]	-
- #	724	110kV赵武线2160测控装置同期压差不满足	D67	D67LD0/AlmGGIO1.Alm9[ST]	-
- #	725	110kV赵武线2160测控装置同期频差不满足	D67	D67LD0/AlmGGIO1.Alm10[ST]	-
- #	726	110kV赵武线2160测控装置同期角差不满足	D67	D67LD0/AlmGGIO1.Alm11[ST]	-
- #	727	110kV赵武线2160测控装置同期频率滑差不满足	D67	D67LD0/AlmGGIO1.Alm12[ST]	-
- #	728	110kV赵武线2160测控装置同期PT断线闭锁	D67	D67LD0/AlmGGIO1.Alm13[ST]	-
- #	729	110kV赵武线2160测控装置同期数据异常	D67	D67LD0/AlmGGIO1.Alm14[ST]	-
- #	730	'110kV赵武线2160测控装置站控层 GOOSE 总告警'	D67	D67LD0/GOAlmGGIO1.Alm1[ST]	-
- #	731	'110kV赵武线2160测控装置站控层 GO01-A 网中断'	D67	D67LD0/GOAlmGGIO1.Alm2[ST]	-
- #	732	'110kV赵武线2160测控装置站控层 GO02-A 网中断'	D67	D67LD0/GOAlmGGIO1.Alm4[ST]	-
- #	733	'110kV赵武线2160测控装置站控层 GO03-A 网中断'	D67	D67LD0/GOAlmGGIO1.Alm6[ST]	-
- #	734	'110kV赵武线2160测控装置站控层 GO04-A 网中断'	D67	D67LD0/GOAlmGGIO1.Alm8[ST]	-
- #	735	'110kV赵武线2160测控装置站控层 GO05-A 网中断'	D67	D67LD0/GOAlmGGIO1.Alm10[ST]	-
- #	736	'110kV赵武线2160测控装置站控层 GO06-A 网中断'	D67	D67LD0/GOAlmGGIO1.Alm12[ST]	-
- #	737	'110kV赵武线2160测控装置站控层 GO07-A 网中断'	D67	D67LD0/GOAlmGGIO1.Alm14[ST]	-
- #	738	'110kV赵武线2160测控装置站控层 GO08-A 网中断'	D67	D67LD0/GOAlmGGIO1.Alm16[ST]	-
- #	739	'110kV赵武线2160测控装置站控层 GO09-A 网中断'	D67	D67LD0/GOAlmGGIO1.Alm18[ST]	-
- #	740	'110kV赵武线2160测控装置站控层 GO01-B 网中断'	D67	D67LD0/GOAlmGGIO1.Alm3[ST]	-
- #	741	'110kV赵武线2160测控装置站控层 GO02-B 网中断'	D67	D67LD0/GOAlmGGIO1.Alm5[ST]	-
- #	742	'110kV赵武线2160测控装置站控层 GO03-B 网中断'	D67	D67LD0/GOAlmGGIO1.Alm7[ST]	-
- #	743	'110kV赵武线2160测控装置站控层 GO04-B 网中断'	D67	D67LD0/GOAlmGGIO1.Alm9[ST]	-
- #	744	'110kV赵武线2160测控装置站控层 GO05-B 网中断'	D67	D67LD0/GOAlmGGIO1.Alm11[ST]	-
- #	745	'110kV赵武线2160测控装置站控层 GO06-B 网中断'	D67	D67LD0/GOAlmGGIO1.Alm13[ST]	-
- #	746	'110kV赵武线2160测控装置站控层 GO07-B 网中断'	D67	D67LD0/GOAlmGGIO1.Alm15[ST]	-
- #	747	'110kV赵武线2160测控装置站控层 GO08-B 网中断'	D67	D67LD0/GOAlmGGIO1.Alm17[ST]	-
- #	748	'110kV赵武线2160测控装置站控层 GO09-B 网中断'	D67	D67LD0/GOAlmGGIO1.Alm19[ST]	-
- #	749	110kV赵武线2160测控装置装置检修	D67	D67CTRL/BinInGGIO1.Ind1[ST]	-
- #	750	110kV赵武线2160测控装置就地状态	D67	D67CTRL/BinInGGIO1.Ind2[ST]	-
- #	751	110kV赵武线2160测控装置解除闭锁	D67	D67CTRL/BinInGGIO1.Ind3[ST]	-
- #	752	'110kV赵武线2160测控装置内部工作电压 1'	D67	D67LD0/SPVT1.Vol1[MX]	-
- #	753	'110kV赵武线2160测控装置内部工作电压 2'	D67	D67LD0/SPVT1.Vol2[MX]	-
- #	754	'110kV赵武线2160测控装置内部工作电压 3'	D67	D67LD0/SPVT1.Vol3[MX]	-
- #	755	'110kV赵武线2160测控装置内部工作电压 4'	D67	D67LD0/SPVT1.Vol4[MX]	-
- #	756	'110kV赵武线2160测控装置内部工作电压 5'	D67	D67LD0/SPVT1.Vol5[MX]	-
- #	757	110kV赵武线2160测控装置装置温度	D67	D67LD0/STMP1.Tmp[MX]	-
- #	758	110kV赵武线2160测控装置C相电压	D67	D67PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	759	110kV#1池口线2116测控装置装置异常	D68	D68LD0/DevAlmGGIO1.Alm1[ST]	-
- #	760	110kV#1池口线2116测控装置对时信号状态	D68	D68LD0/LTSM1.HostTPortAlm[ST]	-
- #	761	110kV#1池口线2116测控装置对时服务状态	D68	D68LD0/LTSM1.HostTSrvAlm[ST]	-
- #	762	110kV#1池口线2116测控装置时间跳变侦测状态	D68	D68LD0/LTSM1.HostContAlm[ST]	-
- #	763	'110kV#1池口线2116测控装置PT 断线'	D68	D68LD0/AlmGGIO1.Alm1[ST]	-
- #	764	'110kV#1池口线2116测控装置CT 断线1'	D68	D68LD0/AlmGGIO1.Alm2[ST]	-
- #	765	'110kV#1池口线2116测控装置CT 断线2'	D68	D68LD0/AlmGGIO1.Alm3[ST]	-
- #	766	110kV#1池口线2116测控装置3U0越限	D68	D68LD0/AlmGGIO1.Alm4[ST]	-
- #	767	110kV#1池口线2116测控装置3I0越限1	D68	D68LD0/AlmGGIO1.Alm5[ST]	-
- #	768	110kV#1池口线2116测控装置3I0越限2	D68	D68LD0/AlmGGIO1.Alm6[ST]	-
- #	769	110kV#1池口线2116测控装置同期无压条件不满足	D68	D68LD0/AlmGGIO1.Alm7[ST]	-
- #	770	110kV#1池口线2116测控装置同期有压条件不满足	D68	D68LD0/AlmGGIO1.Alm8[ST]	-
- #	771	110kV#1池口线2116测控装置同期压差不满足	D68	D68LD0/AlmGGIO1.Alm9[ST]	-
- #	772	110kV#1池口线2116测控装置同期频差不满足	D68	D68LD0/AlmGGIO1.Alm10[ST]	-
- #	773	110kV#1池口线2116测控装置同期角差不满足	D68	D68LD0/AlmGGIO1.Alm11[ST]	-
- #	774	110kV#1池口线2116测控装置同期频率滑差不满足	D68	D68LD0/AlmGGIO1.Alm12[ST]	-
- #	775	110kV#1池口线2116测控装置同期PT断线闭锁	D68	D68LD0/AlmGGIO1.Alm13[ST]	-
- #	776	110kV#1池口线2116测控装置同期数据异常	D68	D68LD0/AlmGGIO1.Alm14[ST]	-
- #	777	'110kV#1池口线2116测控装置站控层 GOOSE 总告警'	D68	D68LD0/GOAlmGGIO1.Alm1[ST]	-
- #	778	'110kV#1池口线2116测控装置站控层 GO01-A 网中断'	D68	D68LD0/GOAlmGGIO1.Alm2[ST]	-
- #	779	'110kV#1池口线2116测控装置站控层 GO02-A 网中断'	D68	D68LD0/GOAlmGGIO1.Alm4[ST]	-
- #	780	'110kV#1池口线2116测控装置站控层 GO03-A 网中断'	D68	D68LD0/GOAlmGGIO1.Alm6[ST]	-
- #	781	'110kV#1池口线2116测控装置站控层 GO04-A 网中断'	D68	D68LD0/GOAlmGGIO1.Alm8[ST]	-
- #	782	'110kV#1池口线2116测控装置站控层 GO05-A 网中断'	D68	D68LD0/GOAlmGGIO1.Alm10[ST]	-
- #	783	'110kV#1池口线2116测控装置站控层 GO06-A 网中断'	D68	D68LD0/GOAlmGGIO1.Alm12[ST]	-
- #	784	'110kV#1池口线2116测控装置站控层 GO07-A 网中断'	D68	D68LD0/GOAlmGGIO1.Alm14[ST]	-
- #	785	'110kV#1池口线2116测控装置站控层 GO08-A 网中断'	D68	D68LD0/GOAlmGGIO1.Alm16[ST]	-
- #	786	'110kV#1池口线2116测控装置站控层 GO09-A 网中断'	D68	D68LD0/GOAlmGGIO1.Alm18[ST]	-
- #	787	'110kV#1池口线2116测控装置站控层 GO01-B 网中断'	D68	D68LD0/GOAlmGGIO1.Alm3[ST]	-
- #	788	'110kV#1池口线2116测控装置站控层 GO02-B 网中断'	D68	D68LD0/GOAlmGGIO1.Alm5[ST]	-
- #	789	'110kV#1池口线2116测控装置站控层 GO03-B 网中断'	D68	D68LD0/GOAlmGGIO1.Alm7[ST]	-
- #	790	'110kV#1池口线2116测控装置站控层 GO04-B 网中断'	D68	D68LD0/GOAlmGGIO1.Alm9[ST]	-
- #	791	'110kV#1池口线2116测控装置站控层 GO05-B 网中断'	D68	D68LD0/GOAlmGGIO1.Alm11[ST]	-
- #	792	'110kV#1池口线2116测控装置站控层 GO06-B 网中断'	D68	D68LD0/GOAlmGGIO1.Alm13[ST]	-
- #	793	'110kV#1池口线2116测控装置站控层 GO07-B 网中断'	D68	D68LD0/GOAlmGGIO1.Alm15[ST]	-
- #	794	'110kV#1池口线2116测控装置站控层 GO08-B 网中断'	D68	D68LD0/GOAlmGGIO1.Alm17[ST]	-
- #	795	'110kV#1池口线2116测控装置站控层 GO09-B 网中断'	D68	D68LD0/GOAlmGGIO1.Alm19[ST]	-
- #	796	110kV#1池口线2116测控装置装置检修	D68	D68CTRL/BinInGGIO1.Ind1[ST]	-
- #	797	110kV#1池口线2116测控装置就地状态	D68	D68CTRL/BinInGGIO1.Ind2[ST]	-
- #	798	110kV#1池口线2116测控装置解除闭锁	D68	D68CTRL/BinInGGIO1.Ind3[ST]	-
- #	799	'110kV#1池口线2116测控装置内部工作电压 1'	D68	D68LD0/SPVT1.Vol1[MX]	-
- #	800	'110kV#1池口线2116测控装置内部工作电压 2'	D68	D68LD0/SPVT1.Vol2[MX]	-
- #	801	'110kV#1池口线2116测控装置内部工作电压 3'	D68	D68LD0/SPVT1.Vol3[MX]	-
- #	802	'110kV#1池口线2116测控装置内部工作电压 4'	D68	D68LD0/SPVT1.Vol4[MX]	-
- #	803	'110kV#1池口线2116测控装置内部工作电压 5'	D68	D68LD0/SPVT1.Vol5[MX]	-
- #	804	110kV#1池口线2116测控装置装置温度	D68	D68LD0/STMP1.Tmp[MX]	-
- #	805	110kV#1池口线2116测控装置C相电压	D68	D68PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	806	#1主变高压侧测控1n装置异常	CT2121	CT2121LD0/DevAlmGGIO1.Alm1[ST]	-
- #	807	#1主变高压侧测控1n对时信号状态	CT2121	CT2121LD0/LTSM1.HostTPortAlm[ST]	-
- #	808	#1主变高压侧测控1n对时服务状态	CT2121	CT2121LD0/LTSM1.HostTSrvAlm[ST]	-
- #	809	#1主变高压侧测控1n时间跳变侦测状态	CT2121	CT2121LD0/LTSM1.HostContAlm[ST]	-
- #	810	'#1主变高压侧测控1nPT 断线'	CT2121	CT2121LD0/AlmGGIO1.Alm1[ST]	-
- #	811	'#1主变高压侧测控1nCT 断线1'	CT2121	CT2121LD0/AlmGGIO1.Alm2[ST]	-
- #	812	'#1主变高压侧测控1nCT 断线2'	CT2121	CT2121LD0/AlmGGIO1.Alm3[ST]	-
- #	813	#1主变高压侧测控1n3U0越限	CT2121	CT2121LD0/AlmGGIO1.Alm4[ST]	-
- #	814	#1主变高压侧测控1n3I0越限1	CT2121	CT2121LD0/AlmGGIO1.Alm5[ST]	-
- #	815	#1主变高压侧测控1n3I0越限2	CT2121	CT2121LD0/AlmGGIO1.Alm6[ST]	-
- #	816	#1主变高压侧测控1n同期无压条件不满足	CT2121	CT2121LD0/AlmGGIO1.Alm7[ST]	-
- #	817	#1主变高压侧测控1n同期有压条件不满足	CT2121	CT2121LD0/AlmGGIO1.Alm8[ST]	-
- #	818	#1主变高压侧测控1n同期压差不满足	CT2121	CT2121LD0/AlmGGIO1.Alm9[ST]	-
- #	819	#1主变高压侧测控1n同期频差不满足	CT2121	CT2121LD0/AlmGGIO1.Alm10[ST]	-
- #	820	#1主变高压侧测控1n同期角差不满足	CT2121	CT2121LD0/AlmGGIO1.Alm11[ST]	-
- #	821	#1主变高压侧测控1n同期频率滑差不满足	CT2121	CT2121LD0/AlmGGIO1.Alm12[ST]	-
- #	822	#1主变高压侧测控1n同期PT断线闭锁	CT2121	CT2121LD0/AlmGGIO1.Alm13[ST]	-
- #	823	#1主变高压侧测控1n同期数据异常	CT2121	CT2121LD0/AlmGGIO1.Alm14[ST]	-
- #	824	'#1主变高压侧测控1n站控层 GOOSE 总告警'	CT2121	CT2121LD0/GOAlmGGIO1.Alm1[ST]	-
- #	825	'#1主变高压侧测控1n站控层 GO01-A 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm2[ST]	-
- #	826	'#1主变高压侧测控1n站控层 GO02-A 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm4[ST]	-
- #	827	'#1主变高压侧测控1n站控层 GO03-A 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm6[ST]	-
- #	828	'#1主变高压侧测控1n站控层 GO04-A 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm8[ST]	-
- #	829	'#1主变高压侧测控1n站控层 GO05-A 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm10[ST]	-
- #	830	'#1主变高压侧测控1n站控层 GO06-A 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm12[ST]	-
- #	831	'#1主变高压侧测控1n站控层 GO07-A 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm14[ST]	-
- #	832	'#1主变高压侧测控1n站控层 GO08-A 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm16[ST]	-
- #	833	'#1主变高压侧测控1n站控层 GO09-A 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm18[ST]	-
- #	834	'#1主变高压侧测控1n站控层 GO01-B 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm3[ST]	-
- #	835	'#1主变高压侧测控1n站控层 GO02-B 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm5[ST]	-
- #	836	'#1主变高压侧测控1n站控层 GO03-B 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm7[ST]	-
- #	837	'#1主变高压侧测控1n站控层 GO04-B 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm9[ST]	-
- #	838	'#1主变高压侧测控1n站控层 GO05-B 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm11[ST]	-
- #	839	'#1主变高压侧测控1n站控层 GO06-B 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm13[ST]	-
- #	840	'#1主变高压侧测控1n站控层 GO07-B 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm15[ST]	-
- #	841	'#1主变高压侧测控1n站控层 GO08-B 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm17[ST]	-
- #	842	'#1主变高压侧测控1n站控层 GO09-B 网中断'	CT2121	CT2121LD0/GOAlmGGIO1.Alm19[ST]	-
- #	843	#1主变高压侧测控1n装置检修	CT2121	CT2121CTRL/BinInGGIO1.Ind1[ST]	-
- #	844	#1主变高压侧测控1n就地状态	CT2121	CT2121CTRL/BinInGGIO1.Ind2[ST]	-
- #	845	#1主变高压侧测控1n解除闭锁	CT2121	CT2121CTRL/BinInGGIO1.Ind3[ST]	-
- #	846	'#1主变高压侧测控1n内部工作电压 1'	CT2121	CT2121LD0/SPVT1.Vol1[MX]	-
- #	847	'#1主变高压侧测控1n内部工作电压 2'	CT2121	CT2121LD0/SPVT1.Vol2[MX]	-
- #	848	'#1主变高压侧测控1n内部工作电压 3'	CT2121	CT2121LD0/SPVT1.Vol3[MX]	-
- #	849	'#1主变高压侧测控1n内部工作电压 4'	CT2121	CT2121LD0/SPVT1.Vol4[MX]	-
- #	850	'#1主变高压侧测控1n内部工作电压 5'	CT2121	CT2121LD0/SPVT1.Vol5[MX]	-
- #	851	#1主变高压侧测控1n装置温度	CT2121	CT2121LD0/STMP1.Tmp[MX]	-
- #	852	#1主变高压侧测控1nC相电压	CT2121	CT2121PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	853	#1主变中压侧测控2n装置异常	CT2111	CT2111LD0/DevAlmGGIO1.Alm1[ST]	-
- #	854	#1主变中压侧测控2n对时信号状态	CT2111	CT2111LD0/LTSM1.HostTPortAlm[ST]	-
- #	855	#1主变中压侧测控2n对时服务状态	CT2111	CT2111LD0/LTSM1.HostTSrvAlm[ST]	-
- #	856	#1主变中压侧测控2n时间跳变侦测状态	CT2111	CT2111LD0/LTSM1.HostContAlm[ST]	-
- #	857	'#1主变中压侧测控2nPT 断线'	CT2111	CT2111LD0/AlmGGIO1.Alm1[ST]	-
- #	858	'#1主变中压侧测控2nCT 断线1'	CT2111	CT2111LD0/AlmGGIO1.Alm2[ST]	-
- #	859	'#1主变中压侧测控2nCT 断线2'	CT2111	CT2111LD0/AlmGGIO1.Alm3[ST]	-
- #	860	#1主变中压侧测控2n3U0越限	CT2111	CT2111LD0/AlmGGIO1.Alm4[ST]	-
- #	861	#1主变中压侧测控2n3I0越限1	CT2111	CT2111LD0/AlmGGIO1.Alm5[ST]	-
- #	862	#1主变中压侧测控2n3I0越限2	CT2111	CT2111LD0/AlmGGIO1.Alm6[ST]	-
- #	863	#1主变中压侧测控2n同期无压条件不满足	CT2111	CT2111LD0/AlmGGIO1.Alm7[ST]	-
- #	864	#1主变中压侧测控2n同期有压条件不满足	CT2111	CT2111LD0/AlmGGIO1.Alm8[ST]	-
- #	865	#1主变中压侧测控2n同期压差不满足	CT2111	CT2111LD0/AlmGGIO1.Alm9[ST]	-
- #	866	#1主变中压侧测控2n同期频差不满足	CT2111	CT2111LD0/AlmGGIO1.Alm10[ST]	-
- #	867	#1主变中压侧测控2n同期角差不满足	CT2111	CT2111LD0/AlmGGIO1.Alm11[ST]	-
- #	868	#1主变中压侧测控2n同期频率滑差不满足	CT2111	CT2111LD0/AlmGGIO1.Alm12[ST]	-
- #	869	#1主变中压侧测控2n同期PT断线闭锁	CT2111	CT2111LD0/AlmGGIO1.Alm13[ST]	-
- #	870	#1主变中压侧测控2n同期数据异常	CT2111	CT2111LD0/AlmGGIO1.Alm14[ST]	-
- #	871	'#1主变中压侧测控2n站控层 GOOSE 总告警'	CT2111	CT2111LD0/GOAlmGGIO1.Alm1[ST]	-
- #	872	'#1主变中压侧测控2n站控层 GO01-A 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm2[ST]	-
- #	873	'#1主变中压侧测控2n站控层 GO02-A 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm4[ST]	-
- #	874	'#1主变中压侧测控2n站控层 GO03-A 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm6[ST]	-
- #	875	'#1主变中压侧测控2n站控层 GO04-A 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm8[ST]	-
- #	876	'#1主变中压侧测控2n站控层 GO05-A 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm10[ST]	-
- #	877	'#1主变中压侧测控2n站控层 GO06-A 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm12[ST]	-
- #	878	'#1主变中压侧测控2n站控层 GO07-A 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm14[ST]	-
- #	879	'#1主变中压侧测控2n站控层 GO08-A 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm16[ST]	-
- #	880	'#1主变中压侧测控2n站控层 GO09-A 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm18[ST]	-
- #	881	'#1主变中压侧测控2n站控层 GO01-B 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm3[ST]	-
- #	882	'#1主变中压侧测控2n站控层 GO02-B 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm5[ST]	-
- #	883	'#1主变中压侧测控2n站控层 GO03-B 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm7[ST]	-
- #	884	'#1主变中压侧测控2n站控层 GO04-B 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm9[ST]	-
- #	885	'#1主变中压侧测控2n站控层 GO05-B 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm11[ST]	-
- #	886	'#1主变中压侧测控2n站控层 GO06-B 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm13[ST]	-
- #	887	'#1主变中压侧测控2n站控层 GO07-B 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm15[ST]	-
- #	888	'#1主变中压侧测控2n站控层 GO08-B 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm17[ST]	-
- #	889	'#1主变中压侧测控2n站控层 GO09-B 网中断'	CT2111	CT2111LD0/GOAlmGGIO1.Alm19[ST]	-
- #	890	#1主变中压侧测控2n装置检修	CT2111	CT2111CTRL/BinInGGIO1.Ind1[ST]	-
- #	891	#1主变中压侧测控2n就地状态	CT2111	CT2111CTRL/BinInGGIO1.Ind2[ST]	-
- #	892	#1主变中压侧测控2n解除闭锁	CT2111	CT2111CTRL/BinInGGIO1.Ind3[ST]	-
- #	893	'#1主变中压侧测控2n内部工作电压 1'	CT2111	CT2111LD0/SPVT1.Vol1[MX]	-
- #	894	'#1主变中压侧测控2n内部工作电压 2'	CT2111	CT2111LD0/SPVT1.Vol2[MX]	-
- #	895	'#1主变中压侧测控2n内部工作电压 3'	CT2111	CT2111LD0/SPVT1.Vol3[MX]	-
- #	896	'#1主变中压侧测控2n内部工作电压 4'	CT2111	CT2111LD0/SPVT1.Vol4[MX]	-
- #	897	'#1主变中压侧测控2n内部工作电压 5'	CT2111	CT2111LD0/SPVT1.Vol5[MX]	-
- #	898	#1主变中压侧测控2n装置温度	CT2111	CT2111LD0/STMP1.Tmp[MX]	-
- #	899	#1主变中压侧测控2nC相电压	CT2111	CT2111PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	900	#1主变低压侧测控3n装置异常	CT2131	CT2131LD0/DevAlmGGIO1.Alm1[ST]	-
- #	901	#1主变低压侧测控3n对时信号状态	CT2131	CT2131LD0/LTSM1.HostTPortAlm[ST]	-
- #	902	#1主变低压侧测控3n对时服务状态	CT2131	CT2131LD0/LTSM1.HostTSrvAlm[ST]	-
- #	903	#1主变低压侧测控3n时间跳变侦测状态	CT2131	CT2131LD0/LTSM1.HostContAlm[ST]	-
- #	904	'#1主变低压侧测控3nPT 断线'	CT2131	CT2131LD0/AlmGGIO1.Alm1[ST]	-
- #	905	'#1主变低压侧测控3nCT 断线1'	CT2131	CT2131LD0/AlmGGIO1.Alm2[ST]	-
- #	906	'#1主变低压侧测控3nCT 断线2'	CT2131	CT2131LD0/AlmGGIO1.Alm3[ST]	-
- #	907	#1主变低压侧测控3n3U0越限	CT2131	CT2131LD0/AlmGGIO1.Alm4[ST]	-
- #	908	#1主变低压侧测控3n3I0越限1	CT2131	CT2131LD0/AlmGGIO1.Alm5[ST]	-
- #	909	#1主变低压侧测控3n3I0越限2	CT2131	CT2131LD0/AlmGGIO1.Alm6[ST]	-
- #	910	#1主变低压侧测控3n同期无压条件不满足	CT2131	CT2131LD0/AlmGGIO1.Alm7[ST]	-
- #	911	#1主变低压侧测控3n同期有压条件不满足	CT2131	CT2131LD0/AlmGGIO1.Alm8[ST]	-
- #	912	#1主变低压侧测控3n同期压差不满足	CT2131	CT2131LD0/AlmGGIO1.Alm9[ST]	-
- #	913	#1主变低压侧测控3n同期频差不满足	CT2131	CT2131LD0/AlmGGIO1.Alm10[ST]	-
- #	914	#1主变低压侧测控3n同期角差不满足	CT2131	CT2131LD0/AlmGGIO1.Alm11[ST]	-
- #	915	#1主变低压侧测控3n同期频率滑差不满足	CT2131	CT2131LD0/AlmGGIO1.Alm12[ST]	-
- #	916	#1主变低压侧测控3n同期PT断线闭锁	CT2131	CT2131LD0/AlmGGIO1.Alm13[ST]	-
- #	917	#1主变低压侧测控3n同期数据异常	CT2131	CT2131LD0/AlmGGIO1.Alm14[ST]	-
- #	918	'#1主变低压侧测控3n站控层 GOOSE 总告警'	CT2131	CT2131LD0/GOAlmGGIO1.Alm1[ST]	-
- #	919	'#1主变低压侧测控3n站控层 GO01-A 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm2[ST]	-
- #	920	'#1主变低压侧测控3n站控层 GO02-A 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm4[ST]	-
- #	921	'#1主变低压侧测控3n站控层 GO03-A 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm6[ST]	-
- #	922	'#1主变低压侧测控3n站控层 GO04-A 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm8[ST]	-
- #	923	'#1主变低压侧测控3n站控层 GO05-A 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm10[ST]	-
- #	924	'#1主变低压侧测控3n站控层 GO06-A 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm12[ST]	-
- #	925	'#1主变低压侧测控3n站控层 GO07-A 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm14[ST]	-
- #	926	'#1主变低压侧测控3n站控层 GO08-A 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm16[ST]	-
- #	927	'#1主变低压侧测控3n站控层 GO09-A 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm18[ST]	-
- #	928	'#1主变低压侧测控3n站控层 GO01-B 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm3[ST]	-
- #	929	'#1主变低压侧测控3n站控层 GO02-B 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm5[ST]	-
- #	930	'#1主变低压侧测控3n站控层 GO03-B 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm7[ST]	-
- #	931	'#1主变低压侧测控3n站控层 GO04-B 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm9[ST]	-
- #	932	'#1主变低压侧测控3n站控层 GO05-B 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm11[ST]	-
- #	933	'#1主变低压侧测控3n站控层 GO06-B 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm13[ST]	-
- #	934	'#1主变低压侧测控3n站控层 GO07-B 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm15[ST]	-
- #	935	'#1主变低压侧测控3n站控层 GO08-B 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm17[ST]	-
- #	936	'#1主变低压侧测控3n站控层 GO09-B 网中断'	CT2131	CT2131LD0/GOAlmGGIO1.Alm19[ST]	-
- #	937	#1主变低压侧测控3n装置检修	CT2131	CT2131CTRL/BinInGGIO1.Ind1[ST]	-
- #	938	#1主变低压侧测控3n就地状态	CT2131	CT2131CTRL/BinInGGIO1.Ind2[ST]	-
- #	939	#1主变低压侧测控3n解除闭锁	CT2131	CT2131CTRL/BinInGGIO1.Ind3[ST]	-
- #	940	'#1主变低压侧测控3n内部工作电压 1'	CT2131	CT2131LD0/SPVT1.Vol1[MX]	-
- #	941	'#1主变低压侧测控3n内部工作电压 2'	CT2131	CT2131LD0/SPVT1.Vol2[MX]	-
- #	942	'#1主变低压侧测控3n内部工作电压 3'	CT2131	CT2131LD0/SPVT1.Vol3[MX]	-
- #	943	'#1主变低压侧测控3n内部工作电压 4'	CT2131	CT2131LD0/SPVT1.Vol4[MX]	-
- #	944	'#1主变低压侧测控3n内部工作电压 5'	CT2131	CT2131LD0/SPVT1.Vol5[MX]	-
- #	945	#1主变低压侧测控3n装置温度	CT2131	CT2131LD0/STMP1.Tmp[MX]	-
- #	946	#1主变低压侧测控3nC相电压	CT2131	CT2131PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	947	#1主变本体测控7n装置异常	CT2121D	CT2121DLD0/DevAlmGGIO1.Alm1[ST]	-
- #	948	#1主变本体测控7n对时信号状态	CT2121D	CT2121DLD0/LTSM1.HostTPortAlm[ST]	-
- #	949	#1主变本体测控7n对时服务状态	CT2121D	CT2121DLD0/LTSM1.HostTSrvAlm[ST]	-
- #	950	#1主变本体测控7n时间跳变侦测状态	CT2121D	CT2121DLD0/LTSM1.HostContAlm[ST]	-
- #	951	'#1主变本体测控7nPT 断线'	CT2121D	CT2121DLD0/AlmGGIO1.Alm1[ST]	-
- #	952	'#1主变本体测控7nCT 断线1'	CT2121D	CT2121DLD0/AlmGGIO1.Alm2[ST]	-
- #	953	'#1主变本体测控7nCT 断线2'	CT2121D	CT2121DLD0/AlmGGIO1.Alm3[ST]	-
- #	954	#1主变本体测控7n3U0越限	CT2121D	CT2121DLD0/AlmGGIO1.Alm4[ST]	-
- #	955	#1主变本体测控7n3I0越限1	CT2121D	CT2121DLD0/AlmGGIO1.Alm5[ST]	-
- #	956	#1主变本体测控7n3I0越限2	CT2121D	CT2121DLD0/AlmGGIO1.Alm6[ST]	-
- #	957	#1主变本体测控7n同期无压条件不满足	CT2121D	CT2121DLD0/AlmGGIO1.Alm7[ST]	-
- #	958	#1主变本体测控7n同期有压条件不满足	CT2121D	CT2121DLD0/AlmGGIO1.Alm8[ST]	-
- #	959	#1主变本体测控7n同期压差不满足	CT2121D	CT2121DLD0/AlmGGIO1.Alm9[ST]	-
- #	960	#1主变本体测控7n同期频差不满足	CT2121D	CT2121DLD0/AlmGGIO1.Alm10[ST]	-
- #	961	#1主变本体测控7n同期角差不满足	CT2121D	CT2121DLD0/AlmGGIO1.Alm11[ST]	-
- #	962	#1主变本体测控7n同期频率滑差不满足	CT2121D	CT2121DLD0/AlmGGIO1.Alm12[ST]	-
- #	963	#1主变本体测控7n同期PT断线闭锁	CT2121D	CT2121DLD0/AlmGGIO1.Alm13[ST]	-
- #	964	#1主变本体测控7n同期数据异常	CT2121D	CT2121DLD0/AlmGGIO1.Alm14[ST]	-
- #	965	'#1主变本体测控7n站控层 GOOSE 总告警'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm1[ST]	-
- #	966	'#1主变本体测控7n站控层 GO01-A 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm2[ST]	-
- #	967	'#1主变本体测控7n站控层 GO02-A 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm4[ST]	-
- #	968	'#1主变本体测控7n站控层 GO03-A 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm6[ST]	-
- #	969	'#1主变本体测控7n站控层 GO04-A 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm8[ST]	-
- #	970	'#1主变本体测控7n站控层 GO05-A 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm10[ST]	-
- #	971	'#1主变本体测控7n站控层 GO06-A 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm12[ST]	-
- #	972	'#1主变本体测控7n站控层 GO07-A 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm14[ST]	-
- #	973	'#1主变本体测控7n站控层 GO08-A 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm16[ST]	-
- #	974	'#1主变本体测控7n站控层 GO09-A 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm18[ST]	-
- #	975	'#1主变本体测控7n站控层 GO01-B 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm3[ST]	-
- #	976	'#1主变本体测控7n站控层 GO02-B 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm5[ST]	-
- #	977	'#1主变本体测控7n站控层 GO03-B 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm7[ST]	-
- #	978	'#1主变本体测控7n站控层 GO04-B 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm9[ST]	-
- #	979	'#1主变本体测控7n站控层 GO05-B 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm11[ST]	-
- #	980	'#1主变本体测控7n站控层 GO06-B 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm13[ST]	-
- #	981	'#1主变本体测控7n站控层 GO07-B 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm15[ST]	-
- #	982	'#1主变本体测控7n站控层 GO08-B 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm17[ST]	-
- #	983	'#1主变本体测控7n站控层 GO09-B 网中断'	CT2121D	CT2121DLD0/GOAlmGGIO1.Alm19[ST]	-
- #	984	#1主变本体测控7n装置检修	CT2121D	CT2121DCTRL/BinInGGIO1.Ind1[ST]	-
- #	985	#1主变本体测控7n就地状态	CT2121D	CT2121DCTRL/BinInGGIO1.Ind2[ST]	-
- #	986	#1主变本体测控7n解除闭锁	CT2121D	CT2121DCTRL/BinInGGIO1.Ind3[ST]	-
- #	987	'#1主变本体测控7n内部工作电压 1'	CT2121D	CT2121DLD0/SPVT1.Vol1[MX]	-
- #	988	'#1主变本体测控7n内部工作电压 2'	CT2121D	CT2121DLD0/SPVT1.Vol2[MX]	-
- #	989	'#1主变本体测控7n内部工作电压 3'	CT2121D	CT2121DLD0/SPVT1.Vol3[MX]	-
- #	990	'#1主变本体测控7n内部工作电压 4'	CT2121D	CT2121DLD0/SPVT1.Vol4[MX]	-
- #	991	'#1主变本体测控7n内部工作电压 5'	CT2121D	CT2121DLD0/SPVT1.Vol5[MX]	-
- #	992	#1主变本体测控7n装置温度	CT2121D	CT2121DLD0/STMP1.Tmp[MX]	-
- #	993	#1主变本体测控7nC相电压	CT2121D	CT2121DPROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	994	#2主变高压侧测控装置异常	CT2122	CT2122LD0/DevAlmGGIO1.Alm1[ST]	-
- #	995	#2主变高压侧测控对时信号状态	CT2122	CT2122LD0/LTSM1.HostTPortAlm[ST]	-
- #	996	#2主变高压侧测控对时服务状态	CT2122	CT2122LD0/LTSM1.HostTSrvAlm[ST]	-
- #	997	#2主变高压侧测控时间跳变侦测状态	CT2122	CT2122LD0/LTSM1.HostContAlm[ST]	-
- #	998	'#2主变高压侧测控PT 断线'	CT2122	CT2122LD0/AlmGGIO1.Alm1[ST]	-
- #	999	'#2主变高压侧测控CT 断线1'	CT2122	CT2122LD0/AlmGGIO1.Alm2[ST]	-
- #	1000	'#2主变高压侧测控CT 断线2'	CT2122	CT2122LD0/AlmGGIO1.Alm3[ST]	-
- #	1001	#2主变高压侧测控3U0越限	CT2122	CT2122LD0/AlmGGIO1.Alm4[ST]	-
- #	1002	#2主变高压侧测控3I0越限1	CT2122	CT2122LD0/AlmGGIO1.Alm5[ST]	-
- #	1003	#2主变高压侧测控3I0越限2	CT2122	CT2122LD0/AlmGGIO1.Alm6[ST]	-
- #	1004	#2主变高压侧测控同期无压条件不满足	CT2122	CT2122LD0/AlmGGIO1.Alm7[ST]	-
- #	1005	#2主变高压侧测控同期有压条件不满足	CT2122	CT2122LD0/AlmGGIO1.Alm8[ST]	-
- #	1006	#2主变高压侧测控同期压差不满足	CT2122	CT2122LD0/AlmGGIO1.Alm9[ST]	-
- #	1007	#2主变高压侧测控同期频差不满足	CT2122	CT2122LD0/AlmGGIO1.Alm10[ST]	-
- #	1008	#2主变高压侧测控同期角差不满足	CT2122	CT2122LD0/AlmGGIO1.Alm11[ST]	-
- #	1009	#2主变高压侧测控同期频率滑差不满足	CT2122	CT2122LD0/AlmGGIO1.Alm12[ST]	-
- #	1010	#2主变高压侧测控同期PT断线闭锁	CT2122	CT2122LD0/AlmGGIO1.Alm13[ST]	-
- #	1011	#2主变高压侧测控同期数据异常	CT2122	CT2122LD0/AlmGGIO1.Alm14[ST]	-
- #	1012	'#2主变高压侧测控站控层 GOOSE 总告警'	CT2122	CT2122LD0/GOAlmGGIO1.Alm1[ST]	-
- #	1013	'#2主变高压侧测控站控层 GO01-A 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm2[ST]	-
- #	1014	'#2主变高压侧测控站控层 GO02-A 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm4[ST]	-
- #	1015	'#2主变高压侧测控站控层 GO03-A 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm6[ST]	-
- #	1016	'#2主变高压侧测控站控层 GO04-A 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm8[ST]	-
- #	1017	'#2主变高压侧测控站控层 GO05-A 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm10[ST]	-
- #	1018	'#2主变高压侧测控站控层 GO06-A 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm12[ST]	-
- #	1019	'#2主变高压侧测控站控层 GO07-A 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm14[ST]	-
- #	1020	'#2主变高压侧测控站控层 GO08-A 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm16[ST]	-
- #	1021	'#2主变高压侧测控站控层 GO09-A 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm18[ST]	-
- #	1022	'#2主变高压侧测控站控层 GO01-B 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm3[ST]	-
- #	1023	'#2主变高压侧测控站控层 GO02-B 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm5[ST]	-
- #	1024	'#2主变高压侧测控站控层 GO03-B 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm7[ST]	-
- #	1025	'#2主变高压侧测控站控层 GO04-B 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm9[ST]	-
- #	1026	'#2主变高压侧测控站控层 GO05-B 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm11[ST]	-
- #	1027	'#2主变高压侧测控站控层 GO06-B 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm13[ST]	-
- #	1028	'#2主变高压侧测控站控层 GO07-B 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm15[ST]	-
- #	1029	'#2主变高压侧测控站控层 GO08-B 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm17[ST]	-
- #	1030	'#2主变高压侧测控站控层 GO09-B 网中断'	CT2122	CT2122LD0/GOAlmGGIO1.Alm19[ST]	-
- #	1031	#2主变高压侧测控装置检修	CT2122	CT2122CTRL/BinInGGIO1.Ind1[ST]	-
- #	1032	#2主变高压侧测控就地状态	CT2122	CT2122CTRL/BinInGGIO1.Ind2[ST]	-
- #	1033	#2主变高压侧测控解除闭锁	CT2122	CT2122CTRL/BinInGGIO1.Ind3[ST]	-
- #	1034	'#2主变高压侧测控内部工作电压 1'	CT2122	CT2122LD0/SPVT1.Vol1[MX]	-
- #	1035	'#2主变高压侧测控内部工作电压 2'	CT2122	CT2122LD0/SPVT1.Vol2[MX]	-
- #	1036	'#2主变高压侧测控内部工作电压 3'	CT2122	CT2122LD0/SPVT1.Vol3[MX]	-
- #	1037	'#2主变高压侧测控内部工作电压 4'	CT2122	CT2122LD0/SPVT1.Vol4[MX]	-
- #	1038	'#2主变高压侧测控内部工作电压 5'	CT2122	CT2122LD0/SPVT1.Vol5[MX]	-
- #	1039	#2主变高压侧测控装置温度	CT2122	CT2122LD0/STMP1.Tmp[MX]	-
- #	1040	#2主变高压侧测控C相电压	CT2122	CT2122PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	1041	#2主变中压侧测控2n装置异常	CT2112	CT2112LD0/DevAlmGGIO1.Alm1[ST]	-
- #	1042	#2主变中压侧测控2n对时信号状态	CT2112	CT2112LD0/LTSM1.HostTPortAlm[ST]	-
- #	1043	#2主变中压侧测控2n对时服务状态	CT2112	CT2112LD0/LTSM1.HostTSrvAlm[ST]	-
- #	1044	#2主变中压侧测控2n时间跳变侦测状态	CT2112	CT2112LD0/LTSM1.HostContAlm[ST]	-
- #	1045	'#2主变中压侧测控2nPT 断线'	CT2112	CT2112LD0/AlmGGIO1.Alm1[ST]	-
- #	1046	'#2主变中压侧测控2nCT 断线1'	CT2112	CT2112LD0/AlmGGIO1.Alm2[ST]	-
- #	1047	'#2主变中压侧测控2nCT 断线2'	CT2112	CT2112LD0/AlmGGIO1.Alm3[ST]	-
- #	1048	#2主变中压侧测控2n3U0越限	CT2112	CT2112LD0/AlmGGIO1.Alm4[ST]	-
- #	1049	#2主变中压侧测控2n3I0越限1	CT2112	CT2112LD0/AlmGGIO1.Alm5[ST]	-
- #	1050	#2主变中压侧测控2n3I0越限2	CT2112	CT2112LD0/AlmGGIO1.Alm6[ST]	-
- #	1051	#2主变中压侧测控2n同期无压条件不满足	CT2112	CT2112LD0/AlmGGIO1.Alm7[ST]	-
- #	1052	#2主变中压侧测控2n同期有压条件不满足	CT2112	CT2112LD0/AlmGGIO1.Alm8[ST]	-
- #	1053	#2主变中压侧测控2n同期压差不满足	CT2112	CT2112LD0/AlmGGIO1.Alm9[ST]	-
- #	1054	#2主变中压侧测控2n同期频差不满足	CT2112	CT2112LD0/AlmGGIO1.Alm10[ST]	-
- #	1055	#2主变中压侧测控2n同期角差不满足	CT2112	CT2112LD0/AlmGGIO1.Alm11[ST]	-
- #	1056	#2主变中压侧测控2n同期频率滑差不满足	CT2112	CT2112LD0/AlmGGIO1.Alm12[ST]	-
- #	1057	#2主变中压侧测控2n同期PT断线闭锁	CT2112	CT2112LD0/AlmGGIO1.Alm13[ST]	-
- #	1058	#2主变中压侧测控2n同期数据异常	CT2112	CT2112LD0/AlmGGIO1.Alm14[ST]	-
- #	1059	'#2主变中压侧测控2n站控层 GOOSE 总告警'	CT2112	CT2112LD0/GOAlmGGIO1.Alm1[ST]	-
- #	1060	'#2主变中压侧测控2n站控层 GO01-A 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm2[ST]	-
- #	1061	'#2主变中压侧测控2n站控层 GO02-A 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm4[ST]	-
- #	1062	'#2主变中压侧测控2n站控层 GO03-A 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm6[ST]	-
- #	1063	'#2主变中压侧测控2n站控层 GO04-A 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm8[ST]	-
- #	1064	'#2主变中压侧测控2n站控层 GO05-A 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm10[ST]	-
- #	1065	'#2主变中压侧测控2n站控层 GO06-A 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm12[ST]	-
- #	1066	'#2主变中压侧测控2n站控层 GO07-A 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm14[ST]	-
- #	1067	'#2主变中压侧测控2n站控层 GO08-A 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm16[ST]	-
- #	1068	'#2主变中压侧测控2n站控层 GO09-A 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm18[ST]	-
- #	1069	'#2主变中压侧测控2n站控层 GO01-B 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm3[ST]	-
- #	1070	'#2主变中压侧测控2n站控层 GO02-B 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm5[ST]	-
- #	1071	'#2主变中压侧测控2n站控层 GO03-B 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm7[ST]	-
- #	1072	'#2主变中压侧测控2n站控层 GO04-B 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm9[ST]	-
- #	1073	'#2主变中压侧测控2n站控层 GO05-B 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm11[ST]	-
- #	1074	'#2主变中压侧测控2n站控层 GO06-B 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm13[ST]	-
- #	1075	'#2主变中压侧测控2n站控层 GO07-B 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm15[ST]	-
- #	1076	'#2主变中压侧测控2n站控层 GO08-B 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm17[ST]	-
- #	1077	'#2主变中压侧测控2n站控层 GO09-B 网中断'	CT2112	CT2112LD0/GOAlmGGIO1.Alm19[ST]	-
- #	1078	#2主变中压侧测控2n装置检修	CT2112	CT2112CTRL/BinInGGIO1.Ind1[ST]	-
- #	1079	#2主变中压侧测控2n就地状态	CT2112	CT2112CTRL/BinInGGIO1.Ind2[ST]	-
- #	1080	#2主变中压侧测控2n解除闭锁	CT2112	CT2112CTRL/BinInGGIO1.Ind3[ST]	-
- #	1081	'#2主变中压侧测控2n内部工作电压 1'	CT2112	CT2112LD0/SPVT1.Vol1[MX]	-
- #	1082	'#2主变中压侧测控2n内部工作电压 2'	CT2112	CT2112LD0/SPVT1.Vol2[MX]	-
- #	1083	'#2主变中压侧测控2n内部工作电压 3'	CT2112	CT2112LD0/SPVT1.Vol3[MX]	-
- #	1084	'#2主变中压侧测控2n内部工作电压 4'	CT2112	CT2112LD0/SPVT1.Vol4[MX]	-
- #	1085	'#2主变中压侧测控2n内部工作电压 5'	CT2112	CT2112LD0/SPVT1.Vol5[MX]	-
- #	1086	#2主变中压侧测控2n装置温度	CT2112	CT2112LD0/STMP1.Tmp[MX]	-
- #	1087	#2主变中压侧测控2nC相电压	CT2112	CT2112PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	1088	#2主变低压侧测控3n装置异常	CT2132	CT2132LD0/DevAlmGGIO1.Alm1[ST]	-
- #	1089	#2主变低压侧测控3n对时信号状态	CT2132	CT2132LD0/LTSM1.HostTPortAlm[ST]	-
- #	1090	#2主变低压侧测控3n对时服务状态	CT2132	CT2132LD0/LTSM1.HostTSrvAlm[ST]	-
- #	1091	#2主变低压侧测控3n时间跳变侦测状态	CT2132	CT2132LD0/LTSM1.HostContAlm[ST]	-
- #	1092	'#2主变低压侧测控3nPT 断线'	CT2132	CT2132LD0/AlmGGIO1.Alm1[ST]	-
- #	1093	'#2主变低压侧测控3nCT 断线1'	CT2132	CT2132LD0/AlmGGIO1.Alm2[ST]	-
- #	1094	'#2主变低压侧测控3nCT 断线2'	CT2132	CT2132LD0/AlmGGIO1.Alm3[ST]	-
- #	1095	#2主变低压侧测控3n3U0越限	CT2132	CT2132LD0/AlmGGIO1.Alm4[ST]	-
- #	1096	#2主变低压侧测控3n3I0越限1	CT2132	CT2132LD0/AlmGGIO1.Alm5[ST]	-
- #	1097	#2主变低压侧测控3n3I0越限2	CT2132	CT2132LD0/AlmGGIO1.Alm6[ST]	-
- #	1098	#2主变低压侧测控3n同期无压条件不满足	CT2132	CT2132LD0/AlmGGIO1.Alm7[ST]	-
- #	1099	#2主变低压侧测控3n同期有压条件不满足	CT2132	CT2132LD0/AlmGGIO1.Alm8[ST]	-
- #	1100	#2主变低压侧测控3n同期压差不满足	CT2132	CT2132LD0/AlmGGIO1.Alm9[ST]	-
- #	1101	#2主变低压侧测控3n同期频差不满足	CT2132	CT2132LD0/AlmGGIO1.Alm10[ST]	-
- #	1102	#2主变低压侧测控3n同期角差不满足	CT2132	CT2132LD0/AlmGGIO1.Alm11[ST]	-
- #	1103	#2主变低压侧测控3n同期频率滑差不满足	CT2132	CT2132LD0/AlmGGIO1.Alm12[ST]	-
- #	1104	#2主变低压侧测控3n同期PT断线闭锁	CT2132	CT2132LD0/AlmGGIO1.Alm13[ST]	-
- #	1105	#2主变低压侧测控3n同期数据异常	CT2132	CT2132LD0/AlmGGIO1.Alm14[ST]	-
- #	1106	'#2主变低压侧测控3n站控层 GOOSE 总告警'	CT2132	CT2132LD0/GOAlmGGIO1.Alm1[ST]	-
- #	1107	'#2主变低压侧测控3n站控层 GO01-A 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm2[ST]	-
- #	1108	'#2主变低压侧测控3n站控层 GO02-A 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm4[ST]	-
- #	1109	'#2主变低压侧测控3n站控层 GO03-A 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm6[ST]	-
- #	1110	'#2主变低压侧测控3n站控层 GO04-A 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm8[ST]	-
- #	1111	'#2主变低压侧测控3n站控层 GO05-A 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm10[ST]	-
- #	1112	'#2主变低压侧测控3n站控层 GO06-A 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm12[ST]	-
- #	1113	'#2主变低压侧测控3n站控层 GO07-A 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm14[ST]	-
- #	1114	'#2主变低压侧测控3n站控层 GO08-A 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm16[ST]	-
- #	1115	'#2主变低压侧测控3n站控层 GO09-A 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm18[ST]	-
- #	1116	'#2主变低压侧测控3n站控层 GO01-B 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm3[ST]	-
- #	1117	'#2主变低压侧测控3n站控层 GO02-B 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm5[ST]	-
- #	1118	'#2主变低压侧测控3n站控层 GO03-B 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm7[ST]	-
- #	1119	'#2主变低压侧测控3n站控层 GO04-B 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm9[ST]	-
- #	1120	'#2主变低压侧测控3n站控层 GO05-B 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm11[ST]	-
- #	1121	'#2主变低压侧测控3n站控层 GO06-B 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm13[ST]	-
- #	1122	'#2主变低压侧测控3n站控层 GO07-B 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm15[ST]	-
- #	1123	'#2主变低压侧测控3n站控层 GO08-B 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm17[ST]	-
- #	1124	'#2主变低压侧测控3n站控层 GO09-B 网中断'	CT2132	CT2132LD0/GOAlmGGIO1.Alm19[ST]	-
- #	1125	#2主变低压侧测控3n装置检修	CT2132	CT2132CTRL/BinInGGIO1.Ind1[ST]	-
- #	1126	#2主变低压侧测控3n就地状态	CT2132	CT2132CTRL/BinInGGIO1.Ind2[ST]	-
- #	1127	#2主变低压侧测控3n解除闭锁	CT2132	CT2132CTRL/BinInGGIO1.Ind3[ST]	-
- #	1128	'#2主变低压侧测控3n内部工作电压 1'	CT2132	CT2132LD0/SPVT1.Vol1[MX]	-
- #	1129	'#2主变低压侧测控3n内部工作电压 2'	CT2132	CT2132LD0/SPVT1.Vol2[MX]	-
- #	1130	'#2主变低压侧测控3n内部工作电压 3'	CT2132	CT2132LD0/SPVT1.Vol3[MX]	-
- #	1131	'#2主变低压侧测控3n内部工作电压 4'	CT2132	CT2132LD0/SPVT1.Vol4[MX]	-
- #	1132	'#2主变低压侧测控3n内部工作电压 5'	CT2132	CT2132LD0/SPVT1.Vol5[MX]	-
- #	1133	#2主变低压侧测控3n装置温度	CT2132	CT2132LD0/STMP1.Tmp[MX]	-
- #	1134	#2主变低压侧测控3nC相电压	CT2132	CT2132PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	1135	#2主变本体测控7n装置异常	CT2122D	CT2122DLD0/DevAlmGGIO1.Alm1[ST]	-
- #	1136	#2主变本体测控7n对时信号状态	CT2122D	CT2122DLD0/LTSM1.HostTPortAlm[ST]	-
- #	1137	#2主变本体测控7n对时服务状态	CT2122D	CT2122DLD0/LTSM1.HostTSrvAlm[ST]	-
- #	1138	#2主变本体测控7n时间跳变侦测状态	CT2122D	CT2122DLD0/LTSM1.HostContAlm[ST]	-
- #	1139	'#2主变本体测控7nPT 断线'	CT2122D	CT2122DLD0/AlmGGIO1.Alm1[ST]	-
- #	1140	'#2主变本体测控7nCT 断线1'	CT2122D	CT2122DLD0/AlmGGIO1.Alm2[ST]	-
- #	1141	'#2主变本体测控7nCT 断线2'	CT2122D	CT2122DLD0/AlmGGIO1.Alm3[ST]	-
- #	1142	#2主变本体测控7n3U0越限	CT2122D	CT2122DLD0/AlmGGIO1.Alm4[ST]	-
- #	1143	#2主变本体测控7n3I0越限1	CT2122D	CT2122DLD0/AlmGGIO1.Alm5[ST]	-
- #	1144	#2主变本体测控7n3I0越限2	CT2122D	CT2122DLD0/AlmGGIO1.Alm6[ST]	-
- #	1145	#2主变本体测控7n同期无压条件不满足	CT2122D	CT2122DLD0/AlmGGIO1.Alm7[ST]	-
- #	1146	#2主变本体测控7n同期有压条件不满足	CT2122D	CT2122DLD0/AlmGGIO1.Alm8[ST]	-
- #	1147	#2主变本体测控7n同期压差不满足	CT2122D	CT2122DLD0/AlmGGIO1.Alm9[ST]	-
- #	1148	#2主变本体测控7n同期频差不满足	CT2122D	CT2122DLD0/AlmGGIO1.Alm10[ST]	-
- #	1149	#2主变本体测控7n同期角差不满足	CT2122D	CT2122DLD0/AlmGGIO1.Alm11[ST]	-
- #	1150	#2主变本体测控7n同期频率滑差不满足	CT2122D	CT2122DLD0/AlmGGIO1.Alm12[ST]	-
- #	1151	#2主变本体测控7n同期PT断线闭锁	CT2122D	CT2122DLD0/AlmGGIO1.Alm13[ST]	-
- #	1152	#2主变本体测控7n同期数据异常	CT2122D	CT2122DLD0/AlmGGIO1.Alm14[ST]	-
- #	1153	'#2主变本体测控7n站控层 GOOSE 总告警'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm1[ST]	-
- #	1154	'#2主变本体测控7n站控层 GO01-A 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm2[ST]	-
- #	1155	'#2主变本体测控7n站控层 GO02-A 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm4[ST]	-
- #	1156	'#2主变本体测控7n站控层 GO03-A 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm6[ST]	-
- #	1157	'#2主变本体测控7n站控层 GO04-A 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm8[ST]	-
- #	1158	'#2主变本体测控7n站控层 GO05-A 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm10[ST]	-
- #	1159	'#2主变本体测控7n站控层 GO06-A 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm12[ST]	-
- #	1160	'#2主变本体测控7n站控层 GO07-A 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm14[ST]	-
- #	1161	'#2主变本体测控7n站控层 GO08-A 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm16[ST]	-
- #	1162	'#2主变本体测控7n站控层 GO09-A 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm18[ST]	-
- #	1163	'#2主变本体测控7n站控层 GO01-B 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm3[ST]	-
- #	1164	'#2主变本体测控7n站控层 GO02-B 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm5[ST]	-
- #	1165	'#2主变本体测控7n站控层 GO03-B 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm7[ST]	-
- #	1166	'#2主变本体测控7n站控层 GO04-B 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm9[ST]	-
- #	1167	'#2主变本体测控7n站控层 GO05-B 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm11[ST]	-
- #	1168	'#2主变本体测控7n站控层 GO06-B 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm13[ST]	-
- #	1169	'#2主变本体测控7n站控层 GO07-B 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm15[ST]	-
- #	1170	'#2主变本体测控7n站控层 GO08-B 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm17[ST]	-
- #	1171	'#2主变本体测控7n站控层 GO09-B 网中断'	CT2122D	CT2122DLD0/GOAlmGGIO1.Alm19[ST]	-
- #	1172	#2主变本体测控7n装置检修	CT2122D	CT2122DCTRL/BinInGGIO1.Ind1[ST]	-
- #	1173	#2主变本体测控7n就地状态	CT2122D	CT2122DCTRL/BinInGGIO1.Ind2[ST]	-
- #	1174	#2主变本体测控7n解除闭锁	CT2122D	CT2122DCTRL/BinInGGIO1.Ind3[ST]	-
- #	1175	'#2主变本体测控7n内部工作电压 1'	CT2122D	CT2122DLD0/SPVT1.Vol1[MX]	-
- #	1176	'#2主变本体测控7n内部工作电压 2'	CT2122D	CT2122DLD0/SPVT1.Vol2[MX]	-
- #	1177	'#2主变本体测控7n内部工作电压 3'	CT2122D	CT2122DLD0/SPVT1.Vol3[MX]	-
- #	1178	'#2主变本体测控7n内部工作电压 4'	CT2122D	CT2122DLD0/SPVT1.Vol4[MX]	-
- #	1179	'#2主变本体测控7n内部工作电压 5'	CT2122D	CT2122DLD0/SPVT1.Vol5[MX]	-
- #	1180	#2主变本体测控7n装置温度	CT2122D	CT2122DLD0/STMP1.Tmp[MX]	-
- #	1181	#2主变本体测控7nC相电压	CT2122D	CT2122DPROT/PMMXU1.PPV.phsBC.cVal[MX]	-
- #	1182	220kV母线测控装置异常	CM2201	CM2201LD0/DevAlmGGIO1.Alm1[ST]	-
- #	1183	220kV母线测控对时信号状态	CM2201	CM2201LD0/LTSM1.HostTPortAlm[ST]	-
- #	1184	220kV母线测控对时服务状态	CM2201	CM2201LD0/LTSM1.HostTSrvAlm[ST]	-
- #	1185	220kV母线测控时间跳变侦测状态	CM2201	CM2201LD0/LTSM1.HostContAlm[ST]	-
- #	1186	'220kV母线测控PT 断线1'	CM2201	CM2201LD0/AlmGGIO1.Alm1[ST]	-
- #	1187	'220kV母线测控PT 断线2'	CM2201	CM2201LD0/AlmGGIO1.Alm2[ST]	-
- #	1188	220kV母线测控3U0越限1	CM2201	CM2201LD0/AlmGGIO1.Alm3[ST]	-
- #	1189	220kV母线测控3U0越限2	CM2201	CM2201LD0/AlmGGIO1.Alm4[ST]	-
- #	1190	'220kV母线测控站控层 GOOSE 总告警'	CM2201	CM2201LD0/GOAlmGGIO1.Alm1[ST]	-
- #	1191	'220kV母线测控站控层 GO01-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm2[ST]	-
- #	1192	'220kV母线测控站控层 GO02-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm4[ST]	-
- #	1193	'220kV母线测控站控层 GO03-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm6[ST]	-
- #	1194	'220kV母线测控站控层 GO04-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm8[ST]	-
- #	1195	'220kV母线测控站控层 GO05-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm10[ST]	-
- #	1196	'220kV母线测控站控层 GO06-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm12[ST]	-
- #	1197	'220kV母线测控站控层 GO07-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm14[ST]	-
- #	1198	'220kV母线测控站控层 GO08-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm16[ST]	-
- #	1199	'220kV母线测控站控层 GO09-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm18[ST]	-
- #	1200	'220kV母线测控站控层 GO10-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm20[ST]	-
- #	1201	'220kV母线测控站控层 GO11-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm22[ST]	-
- #	1202	'220kV母线测控站控层 GO12-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm24[ST]	-
- #	1203	'220kV母线测控站控层 GO13-1 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm26[ST]	-
- #	1204	'220kV母线测控站控层 GO14-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm28[ST]	-
- #	1205	'220kV母线测控站控层 GO015-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm30[ST]	-
- #	1206	'220kV母线测控站控层 GO016-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm1[ST]	-
- #	1207	'220kV母线测控站控层 GO017-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm3[ST]	-
- #	1208	'220kV母线测控站控层 GO018-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm5[ST]	-
- #	1209	'220kV母线测控站控层 GO019-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm7[ST]	-
- #	1210	'220kV母线测控站控层 GO020-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm9[ST]	-
- #	1211	'220kV母线测控站控层 GO021-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm11[ST]	-
- #	1212	'220kV母线测控站控层 GO022-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm13[ST]	-
- #	1213	'220kV母线测控站控层 GO023-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm15[ST]	-
- #	1214	'220kV母线测控站控层 GO024-A 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm17[ST]	-
- #	1215	'220kV母线测控站控层 GO01-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm3[ST]	-
- #	1216	'220kV母线测控站控层 GO02-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm5[ST]	-
- #	1217	'220kV母线测控站控层 GO03-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm7[ST]	-
- #	1218	'220kV母线测控站控层 GO04-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm9[ST]	-
- #	1219	'220kV母线测控站控层 GO05-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm11[ST]	-
- #	1220	'220kV母线测控站控层 GO06-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm13[ST]	-
- #	1221	'220kV母线测控站控层 GO07-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm15[ST]	-
- #	1222	'220kV母线测控站控层 GO08-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm17[ST]	-
- #	1223	'220kV母线测控站控层 GO09-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm19[ST]	-
- #	1224	'220kV母线测控站控层 GO10-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm21[ST]	-
- #	1225	'220kV母线测控站控层 GO11-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm23[ST]	-
- #	1226	'220kV母线测控站控层 GO12-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm25[ST]	-
- #	1227	'220kV母线测控站控层 GO13-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm27[ST]	-
- #	1228	'220kV母线测控站控层 GO14-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm29[ST]	-
- #	1229	'220kV母线测控站控层 GO15-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO1.Alm31[ST]	-
- #	1230	'220kV母线测控站控层 GO16-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm2[ST]	-
- #	1231	'220kV母线测控站控层 GO17-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm4[ST]	-
- #	1232	'220kV母线测控站控层 GO18-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm6[ST]	-
- #	1233	'220kV母线测控站控层 GO19-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm8[ST]	-
- #	1234	'220kV母线测控站控层 GO20-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm10[ST]	-
- #	1235	'220kV母线测控站控层 GO21-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm12[ST]	-
- #	1236	'220kV母线测控站控层 GO22-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm14[ST]	-
- #	1237	'220kV母线测控站控层 GO23-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm16[ST]	-
- #	1238	'220kV母线测控站控层 GO24-B 网中断'	CM2201	CM2201LD0/GOAlmGGIO2.Alm18[ST]	-
- #	1239	220kV母线测控装置检修	CM2201	CM2201CTRL/BinInGGIO1.Ind1[ST]	-
- #	1240	220kV母线测控就地状态	CM2201	CM2201CTRL/BinInGGIO1.Ind2[ST]	-
- #	1241	220kV母线测控解除闭锁	CM2201	CM2201CTRL/BinInGGIO1.Ind3[ST]	-
- #	1242	'220kV母线测控内部工作电压 1'	CM2201	CM2201LD0/SPVT1.Vol1[MX]	-
- #	1243	'220kV母线测控内部工作电压 2'	CM2201	CM2201LD0/SPVT1.Vol2[MX]	-
- #	1244	'220kV母线测控内部工作电压 3'	CM2201	CM2201LD0/SPVT1.Vol3[MX]	-
- #	1245	'220kV母线测控内部工作电压 4'	CM2201	CM2201LD0/SPVT1.Vol4[MX]	-
- #	1246	'220kV母线测控内部工作电压 5'	CM2201	CM2201LD0/SPVT1.Vol5[MX]	-
- #	1247	220kV母线测控装置温度	CM2201	CM2201LD0/STMP1.Tmp[MX]	-
- #	1248	110kV母线测控装置异常	CM2202	CM2202LD0/DevAlmGGIO1.Alm1[ST]	-
- #	1249	110kV母线测控对时信号状态	CM2202	CM2202LD0/LTSM1.HostTPortAlm[ST]	-
- #	1250	110kV母线测控对时服务状态	CM2202	CM2202LD0/LTSM1.HostTSrvAlm[ST]	-
- #	1251	110kV母线测控时间跳变侦测状态	CM2202	CM2202LD0/LTSM1.HostContAlm[ST]	-
- #	1252	'110kV母线测控PT 断线1'	CM2202	CM2202LD0/AlmGGIO1.Alm1[ST]	-
- #	1253	'110kV母线测控PT 断线2'	CM2202	CM2202LD0/AlmGGIO1.Alm2[ST]	-
- #	1254	110kV母线测控3U0越限1	CM2202	CM2202LD0/AlmGGIO1.Alm3[ST]	-
- #	1255	110kV母线测控3U0越限2	CM2202	CM2202LD0/AlmGGIO1.Alm4[ST]	-
- #	1256	'110kV母线测控站控层 GOOSE 总告警'	CM2202	CM2202LD0/GOAlmGGIO1.Alm1[ST]	-
- #	1257	'110kV母线测控站控层 GO01-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm2[ST]	-
- #	1258	'110kV母线测控站控层 GO02-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm4[ST]	-
- #	1259	'110kV母线测控站控层 GO03-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm6[ST]	-
- #	1260	'110kV母线测控站控层 GO04-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm8[ST]	-
- #	1261	'110kV母线测控站控层 GO05-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm10[ST]	-
- #	1262	'110kV母线测控站控层 GO06-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm12[ST]	-
- #	1263	'110kV母线测控站控层 GO07-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm14[ST]	-
- #	1264	'110kV母线测控站控层 GO08-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm16[ST]	-
- #	1265	'110kV母线测控站控层 GO09-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm18[ST]	-
- #	1266	'110kV母线测控站控层 GO10-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm20[ST]	-
- #	1267	'110kV母线测控站控层 GO11-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm22[ST]	-
- #	1268	'110kV母线测控站控层 GO12-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm24[ST]	-
- #	1269	'110kV母线测控站控层 GO13-1 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm26[ST]	-
- #	1270	'110kV母线测控站控层 GO14-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm28[ST]	-
- #	1271	'110kV母线测控站控层 GO015-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm30[ST]	-
- #	1272	'110kV母线测控站控层 GO016-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm1[ST]	-
- #	1273	'110kV母线测控站控层 GO017-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm3[ST]	-
- #	1274	'110kV母线测控站控层 GO018-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm5[ST]	-
- #	1275	'110kV母线测控站控层 GO019-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm7[ST]	-
- #	1276	'110kV母线测控站控层 GO020-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm9[ST]	-
- #	1277	'110kV母线测控站控层 GO021-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm11[ST]	-
- #	1278	'110kV母线测控站控层 GO022-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm13[ST]	-
- #	1279	'110kV母线测控站控层 GO023-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm15[ST]	-
- #	1280	'110kV母线测控站控层 GO024-A 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm17[ST]	-
- #	1281	'110kV母线测控站控层 GO01-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm3[ST]	-
- #	1282	'110kV母线测控站控层 GO02-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm5[ST]	-
- #	1283	'110kV母线测控站控层 GO03-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm7[ST]	-
- #	1284	'110kV母线测控站控层 GO04-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm9[ST]	-
- #	1285	'110kV母线测控站控层 GO05-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm11[ST]	-
- #	1286	'110kV母线测控站控层 GO06-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm13[ST]	-
- #	1287	'110kV母线测控站控层 GO07-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm15[ST]	-
- #	1288	'110kV母线测控站控层 GO08-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm17[ST]	-
- #	1289	'110kV母线测控站控层 GO09-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm19[ST]	-
- #	1290	'110kV母线测控站控层 GO10-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm21[ST]	-
- #	1291	'110kV母线测控站控层 GO11-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm23[ST]	-
- #	1292	'110kV母线测控站控层 GO12-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm25[ST]	-
- #	1293	'110kV母线测控站控层 GO13-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm27[ST]	-
- #	1294	'110kV母线测控站控层 GO14-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm29[ST]	-
- #	1295	'110kV母线测控站控层 GO15-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO1.Alm31[ST]	-
- #	1296	'110kV母线测控站控层 GO16-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm2[ST]	-
- #	1297	'110kV母线测控站控层 GO17-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm4[ST]	-
- #	1298	'110kV母线测控站控层 GO18-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm6[ST]	-
- #	1299	'110kV母线测控站控层 GO19-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm8[ST]	-
- #	1300	'110kV母线测控站控层 GO20-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm10[ST]	-
- #	1301	'110kV母线测控站控层 GO21-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm12[ST]	-
- #	1302	'110kV母线测控站控层 GO22-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm14[ST]	-
- #	1303	'110kV母线测控站控层 GO23-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm16[ST]	-
- #	1304	'110kV母线测控站控层 GO24-B 网中断'	CM2202	CM2202LD0/GOAlmGGIO2.Alm18[ST]	-
- #	1305	110kV母线测控装置检修	CM2202	CM2202CTRL/BinInGGIO1.Ind1[ST]	-
- #	1306	110kV母线测控就地状态	CM2202	CM2202CTRL/BinInGGIO1.Ind2[ST]	-
- #	1307	110kV母线测控解除闭锁	CM2202	CM2202CTRL/BinInGGIO1.Ind3[ST]	-
- #	1308	'110kV母线测控内部工作电压 1'	CM2202	CM2202LD0/SPVT1.Vol1[MX]	-
- #	1309	'110kV母线测控内部工作电压 2'	CM2202	CM2202LD0/SPVT1.Vol2[MX]	-
- #	1310	'110kV母线测控内部工作电压 3'	CM2202	CM2202LD0/SPVT1.Vol3[MX]	-
- #	1311	'110kV母线测控内部工作电压 4'	CM2202	CM2202LD0/SPVT1.Vol4[MX]	-
- #	1312	'110kV母线测控内部工作电压 5'	CM2202	CM2202LD0/SPVT1.Vol5[MX]	-
- #	1313	110kV母线测控装置温度	CM2202	CM2202LD0/STMP1.Tmp[MX]	-
- #	1314	35kV母线测控Ⅰ装置异常	CM2204	CM2204LD0/DevAlmGGIO1.Alm1[ST]	-
- #	1315	35kV母线测控Ⅰ对时信号状态	CM2204	CM2204LD0/LTSM1.HostTPortAlm[ST]	-
- #	1316	35kV母线测控Ⅰ对时服务状态	CM2204	CM2204LD0/LTSM1.HostTSrvAlm[ST]	-
- #	1317	35kV母线测控Ⅰ时间跳变侦测状态	CM2204	CM2204LD0/LTSM1.HostContAlm[ST]	-
- #	1318	'35kV母线测控ⅠPT 断线1'	CM2204	CM2204LD0/AlmGGIO1.Alm1[ST]	-
- #	1319	'35kV母线测控ⅠPT 断线2'	CM2204	CM2204LD0/AlmGGIO1.Alm2[ST]	-
- #	1320	35kV母线测控Ⅰ3U0越限1	CM2204	CM2204LD0/AlmGGIO1.Alm3[ST]	-
- #	1321	35kV母线测控Ⅰ3U0越限2	CM2204	CM2204LD0/AlmGGIO1.Alm4[ST]	-
- #	1322	'35kV母线测控Ⅰ站控层 GOOSE 总告警'	CM2204	CM2204LD0/GOAlmGGIO1.Alm1[ST]	-
- #	1323	'35kV母线测控Ⅰ站控层 GO01-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm2[ST]	-
- #	1324	'35kV母线测控Ⅰ站控层 GO02-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm4[ST]	-
- #	1325	'35kV母线测控Ⅰ站控层 GO03-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm6[ST]	-
- #	1326	'35kV母线测控Ⅰ站控层 GO04-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm8[ST]	-
- #	1327	'35kV母线测控Ⅰ站控层 GO05-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm10[ST]	-
- #	1328	'35kV母线测控Ⅰ站控层 GO06-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm12[ST]	-
- #	1329	'35kV母线测控Ⅰ站控层 GO07-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm14[ST]	-
- #	1330	'35kV母线测控Ⅰ站控层 GO08-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm16[ST]	-
- #	1331	'35kV母线测控Ⅰ站控层 GO09-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm18[ST]	-
- #	1332	'35kV母线测控Ⅰ站控层 GO10-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm20[ST]	-
- #	1333	'35kV母线测控Ⅰ站控层 GO11-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm22[ST]	-
- #	1334	'35kV母线测控Ⅰ站控层 GO12-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm24[ST]	-
- #	1335	'35kV母线测控Ⅰ站控层 GO13-1 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm26[ST]	-
- #	1336	'35kV母线测控Ⅰ站控层 GO14-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm28[ST]	-
- #	1337	'35kV母线测控Ⅰ站控层 GO015-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm30[ST]	-
- #	1338	'35kV母线测控Ⅰ站控层 GO016-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm1[ST]	-
- #	1339	'35kV母线测控Ⅰ站控层 GO017-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm3[ST]	-
- #	1340	'35kV母线测控Ⅰ站控层 GO018-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm5[ST]	-
- #	1341	'35kV母线测控Ⅰ站控层 GO019-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm7[ST]	-
- #	1342	'35kV母线测控Ⅰ站控层 GO020-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm9[ST]	-
- #	1343	'35kV母线测控Ⅰ站控层 GO021-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm11[ST]	-
- #	1344	'35kV母线测控Ⅰ站控层 GO022-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm13[ST]	-
- #	1345	'35kV母线测控Ⅰ站控层 GO023-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm15[ST]	-
- #	1346	'35kV母线测控Ⅰ站控层 GO024-A 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm17[ST]	-
- #	1347	'35kV母线测控Ⅰ站控层 GO01-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm3[ST]	-
- #	1348	'35kV母线测控Ⅰ站控层 GO02-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm5[ST]	-
- #	1349	'35kV母线测控Ⅰ站控层 GO03-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm7[ST]	-
- #	1350	'35kV母线测控Ⅰ站控层 GO04-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm9[ST]	-
- #	1351	'35kV母线测控Ⅰ站控层 GO05-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm11[ST]	-
- #	1352	'35kV母线测控Ⅰ站控层 GO06-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm13[ST]	-
- #	1353	'35kV母线测控Ⅰ站控层 GO07-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm15[ST]	-
- #	1354	'35kV母线测控Ⅰ站控层 GO08-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm17[ST]	-
- #	1355	'35kV母线测控Ⅰ站控层 GO09-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm19[ST]	-
- #	1356	'35kV母线测控Ⅰ站控层 GO10-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm21[ST]	-
- #	1357	'35kV母线测控Ⅰ站控层 GO11-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm23[ST]	-
- #	1358	'35kV母线测控Ⅰ站控层 GO12-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm25[ST]	-
- #	1359	'35kV母线测控Ⅰ站控层 GO13-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm27[ST]	-
- #	1360	'35kV母线测控Ⅰ站控层 GO14-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm29[ST]	-
- #	1361	'35kV母线测控Ⅰ站控层 GO15-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO1.Alm31[ST]	-
- #	1362	'35kV母线测控Ⅰ站控层 GO16-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm2[ST]	-
- #	1363	'35kV母线测控Ⅰ站控层 GO17-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm4[ST]	-
- #	1364	'35kV母线测控Ⅰ站控层 GO18-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm6[ST]	-
- #	1365	'35kV母线测控Ⅰ站控层 GO19-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm8[ST]	-
- #	1366	'35kV母线测控Ⅰ站控层 GO20-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm10[ST]	-
- #	1367	'35kV母线测控Ⅰ站控层 GO21-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm12[ST]	-
- #	1368	'35kV母线测控Ⅰ站控层 GO22-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm14[ST]	-
- #	1369	'35kV母线测控Ⅰ站控层 GO23-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm16[ST]	-
- #	1370	'35kV母线测控Ⅰ站控层 GO24-B 网中断'	CM2204	CM2204LD0/GOAlmGGIO2.Alm18[ST]	-
- #	1371	35kV母线测控Ⅰ装置检修	CM2204	CM2204CTRL/BinInGGIO1.Ind1[ST]	-
- #	1372	35kV母线测控Ⅰ就地状态	CM2204	CM2204CTRL/BinInGGIO1.Ind2[ST]	-
- #	1373	35kV母线测控Ⅰ解除闭锁	CM2204	CM2204CTRL/BinInGGIO1.Ind3[ST]	-
- #	1374	'35kV母线测控Ⅰ内部工作电压 1'	CM2204	CM2204LD0/SPVT1.Vol1[MX]	-
- #	1375	'35kV母线测控Ⅰ内部工作电压 2'	CM2204	CM2204LD0/SPVT1.Vol2[MX]	-
- #	1376	'35kV母线测控Ⅰ内部工作电压 3'	CM2204	CM2204LD0/SPVT1.Vol3[MX]	-
- #	1377	'35kV母线测控Ⅰ内部工作电压 4'	CM2204	CM2204LD0/SPVT1.Vol4[MX]	-
- #	1378	'35kV母线测控Ⅰ内部工作电压 5'	CM2204	CM2204LD0/SPVT1.Vol5[MX]	-
- #	1379	35kV母线测控Ⅰ装置温度	CM2204	CM2204LD0/STMP1.Tmp[MX]	-
- #	1380	35kV母线测控Ⅱ装置异常	CM2205	CM2205LD0/DevAlmGGIO1.Alm1[ST]	-
- #	1381	35kV母线测控Ⅱ对时信号状态	CM2205	CM2205LD0/LTSM1.HostTPortAlm[ST]	-
- #	1382	35kV母线测控Ⅱ对时服务状态	CM2205	CM2205LD0/LTSM1.HostTSrvAlm[ST]	-
- #	1383	35kV母线测控Ⅱ时间跳变侦测状态	CM2205	CM2205LD0/LTSM1.HostContAlm[ST]	-
- #	1384	'35kV母线测控ⅡPT 断线1'	CM2205	CM2205LD0/AlmGGIO1.Alm1[ST]	-
- #	1385	'35kV母线测控ⅡPT 断线2'	CM2205	CM2205LD0/AlmGGIO1.Alm2[ST]	-
- #	1386	35kV母线测控Ⅱ3U0越限1	CM2205	CM2205LD0/AlmGGIO1.Alm3[ST]	-
- #	1387	35kV母线测控Ⅱ3U0越限2	CM2205	CM2205LD0/AlmGGIO1.Alm4[ST]	-
- #	1388	'35kV母线测控Ⅱ站控层 GOOSE 总告警'	CM2205	CM2205LD0/GOAlmGGIO1.Alm1[ST]	-
- #	1389	'35kV母线测控Ⅱ站控层 GO01-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm2[ST]	-
- #	1390	'35kV母线测控Ⅱ站控层 GO02-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm4[ST]	-
- #	1391	'35kV母线测控Ⅱ站控层 GO03-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm6[ST]	-
- #	1392	'35kV母线测控Ⅱ站控层 GO04-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm8[ST]	-
- #	1393	'35kV母线测控Ⅱ站控层 GO05-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm10[ST]	-
- #	1394	'35kV母线测控Ⅱ站控层 GO06-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm12[ST]	-
- #	1395	'35kV母线测控Ⅱ站控层 GO07-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm14[ST]	-
- #	1396	'35kV母线测控Ⅱ站控层 GO08-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm16[ST]	-
- #	1397	'35kV母线测控Ⅱ站控层 GO09-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm18[ST]	-
- #	1398	'35kV母线测控Ⅱ站控层 GO10-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm20[ST]	-
- #	1399	'35kV母线测控Ⅱ站控层 GO11-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm22[ST]	-
- #	1400	'35kV母线测控Ⅱ站控层 GO12-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm24[ST]	-
- #	1401	'35kV母线测控Ⅱ站控层 GO13-1 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm26[ST]	-
- #	1402	'35kV母线测控Ⅱ站控层 GO14-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm28[ST]	-
- #	1403	'35kV母线测控Ⅱ站控层 GO015-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm30[ST]	-
- #	1404	'35kV母线测控Ⅱ站控层 GO016-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm1[ST]	-
- #	1405	'35kV母线测控Ⅱ站控层 GO017-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm3[ST]	-
- #	1406	'35kV母线测控Ⅱ站控层 GO018-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm5[ST]	-
- #	1407	'35kV母线测控Ⅱ站控层 GO019-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm7[ST]	-
- #	1408	'35kV母线测控Ⅱ站控层 GO020-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm9[ST]	-
- #	1409	'35kV母线测控Ⅱ站控层 GO021-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm11[ST]	-
- #	1410	'35kV母线测控Ⅱ站控层 GO022-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm13[ST]	-
- #	1411	'35kV母线测控Ⅱ站控层 GO023-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm15[ST]	-
- #	1412	'35kV母线测控Ⅱ站控层 GO024-A 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm17[ST]	-
- #	1413	'35kV母线测控Ⅱ站控层 GO01-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm3[ST]	-
- #	1414	'35kV母线测控Ⅱ站控层 GO02-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm5[ST]	-
- #	1415	'35kV母线测控Ⅱ站控层 GO03-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm7[ST]	-
- #	1416	'35kV母线测控Ⅱ站控层 GO04-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm9[ST]	-
- #	1417	'35kV母线测控Ⅱ站控层 GO05-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm11[ST]	-
- #	1418	'35kV母线测控Ⅱ站控层 GO06-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm13[ST]	-
- #	1419	'35kV母线测控Ⅱ站控层 GO07-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm15[ST]	-
- #	1420	'35kV母线测控Ⅱ站控层 GO08-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm17[ST]	-
- #	1421	'35kV母线测控Ⅱ站控层 GO09-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm19[ST]	-
- #	1422	'35kV母线测控Ⅱ站控层 GO10-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm21[ST]	-
- #	1423	'35kV母线测控Ⅱ站控层 GO11-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm23[ST]	-
- #	1424	'35kV母线测控Ⅱ站控层 GO12-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm25[ST]	-
- #	1425	'35kV母线测控Ⅱ站控层 GO13-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm27[ST]	-
- #	1426	'35kV母线测控Ⅱ站控层 GO14-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm29[ST]	-
- #	1427	'35kV母线测控Ⅱ站控层 GO15-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO1.Alm31[ST]	-
- #	1428	'35kV母线测控Ⅱ站控层 GO16-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm2[ST]	-
- #	1429	'35kV母线测控Ⅱ站控层 GO17-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm4[ST]	-
- #	1430	'35kV母线测控Ⅱ站控层 GO18-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm6[ST]	-
- #	1431	'35kV母线测控Ⅱ站控层 GO19-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm8[ST]	-
- #	1432	'35kV母线测控Ⅱ站控层 GO20-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm10[ST]	-
- #	1433	'35kV母线测控Ⅱ站控层 GO21-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm12[ST]	-
- #	1434	'35kV母线测控Ⅱ站控层 GO22-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm14[ST]	-
- #	1435	'35kV母线测控Ⅱ站控层 GO23-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm16[ST]	-
- #	1436	'35kV母线测控Ⅱ站控层 GO24-B 网中断'	CM2205	CM2205LD0/GOAlmGGIO2.Alm18[ST]	-
- #	1437	35kV母线测控Ⅱ装置检修	CM2205	CM2205CTRL/BinInGGIO1.Ind1[ST]	-
- #	1438	35kV母线测控Ⅱ就地状态	CM2205	CM2205CTRL/BinInGGIO1.Ind2[ST]	-
- #	1439	35kV母线测控Ⅱ解除闭锁	CM2205	CM2205CTRL/BinInGGIO1.Ind3[ST]	-
- #	1440	'35kV母线测控Ⅱ内部工作电压 1'	CM2205	CM2205LD0/SPVT1.Vol1[MX]	-
- #	1441	'35kV母线测控Ⅱ内部工作电压 2'	CM2205	CM2205LD0/SPVT1.Vol2[MX]	-
- #	1442	'35kV母线测控Ⅱ内部工作电压 3'	CM2205	CM2205LD0/SPVT1.Vol3[MX]	-
- #	1443	'35kV母线测控Ⅱ内部工作电压 4'	CM2205	CM2205LD0/SPVT1.Vol4[MX]	-
- #	1444	'35kV母线测控Ⅱ内部工作电压 5'	CM2205	CM2205LD0/SPVT1.Vol5[MX]	-
- #	1445	35kV母线测控Ⅱ装置温度	CM2205	CM2205LD0/STMP1.Tmp[MX]	-
- #	1446	测试cpu数据	D65	D65/CPU.RelB1[MX]	-
- #	1447	测试cpu数据	D65	D65/CPU.PV1[MX]	-
- #	1448	110kV赵康线测试ST的CIME导出	D65	D65LD0/LLN0.Mod[ST]	-
- #	1450	110kV赵康线测试MX的CIME导出	D65	D65PROT/PMMXU1.HzBus[MX]	-
+ #	101	110kV模拟1线测控装置装置异常	DEV01	DEV01LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	102	110kV模拟1线测控装置对时信号状态	DEV01	DEV01LD0/LTSM1.HostTPortAlm[ST]	-
+ #	103	110kV模拟1线测控装置对时服务状态	DEV01	DEV01LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	104	110kV模拟1线测控装置时间跳变侦测状态	DEV01	DEV01LD0/LTSM1.HostContAlm[ST]	-
+ #	105	'110kV模拟1线测控装置PT 断线'	DEV01	DEV01LD0/AlmGGIO1.Alm1[ST]	-
+ #	106	'110kV模拟1线测控装置CT 断线1'	DEV01	DEV01LD0/AlmGGIO1.Alm2[ST]	-
+ #	107	'110kV模拟1线测控装置CT 断线2'	DEV01	DEV01LD0/AlmGGIO1.Alm3[ST]	-
+ #	108	110kV模拟1线测控装置3U0越限	DEV01	DEV01LD0/AlmGGIO1.Alm4[ST]	-
+ #	109	110kV模拟1线测控装置3I0越限1	DEV01	DEV01LD0/AlmGGIO1.Alm5[ST]	-
+ #	110	110kV模拟1线测控装置3I0越限2	DEV01	DEV01LD0/AlmGGIO1.Alm6[ST]	-
+ #	111	110kV模拟1线测控装置同期无压条件不满足	DEV01	DEV01LD0/AlmGGIO1.Alm7[ST]	-
+ #	112	110kV模拟1线测控装置同期有压条件不满足	DEV01	DEV01LD0/AlmGGIO1.Alm8[ST]	-
+ #	113	110kV模拟1线测控装置同期压差不满足	DEV01	DEV01LD0/AlmGGIO1.Alm9[ST]	-
+ #	114	110kV模拟1线测控装置同期频差不满足	DEV01	DEV01LD0/AlmGGIO1.Alm10[ST]	-
+ #	115	110kV模拟1线测控装置同期角差不满足	DEV01	DEV01LD0/AlmGGIO1.Alm11[ST]	-
+ #	116	110kV模拟1线测控装置同期频率滑差不满足	DEV01	DEV01LD0/AlmGGIO1.Alm12[ST]	-
+ #	117	110kV模拟1线测控装置同期PT断线闭锁	DEV01	DEV01LD0/AlmGGIO1.Alm13[ST]	-
+ #	118	110kV模拟1线测控装置同期数据异常	DEV01	DEV01LD0/AlmGGIO1.Alm14[ST]	-
+ #	119	'110kV模拟1线测控装置站控层 GOOSE 总告警'	DEV01	DEV01LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	120	'110kV模拟1线测控装置站控层 GO01-A 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	121	'110kV模拟1线测控装置站控层 GO02-A 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	122	'110kV模拟1线测控装置站控层 GO03-A 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	123	'110kV模拟1线测控装置站控层 GO04-A 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	124	'110kV模拟1线测控装置站控层 GO05-A 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	125	'110kV模拟1线测控装置站控层 GO06-A 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	126	'110kV模拟1线测控装置站控层 GO07-A 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	127	'110kV模拟1线测控装置站控层 GO08-A 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	128	'110kV模拟1线测控装置站控层 GO09-A 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	129	'110kV模拟1线测控装置站控层 GO01-B 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	130	'110kV模拟1线测控装置站控层 GO02-B 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	131	'110kV模拟1线测控装置站控层 GO03-B 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	132	'110kV模拟1线测控装置站控层 GO04-B 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	133	'110kV模拟1线测控装置站控层 GO05-B 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	134	'110kV模拟1线测控装置站控层 GO06-B 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	135	'110kV模拟1线测控装置站控层 GO07-B 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	136	'110kV模拟1线测控装置站控层 GO08-B 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	137	'110kV模拟1线测控装置站控层 GO09-B 网中断'	DEV01	DEV01LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	138	110kV模拟1线测控装置检修	DEV01	DEV01CTRL/BinInGGIO1.Ind1[ST]	-
+ #	139	110kV模拟1线测控装置就地状态	DEV01	DEV01CTRL/BinInGGIO1.Ind2[ST]	-
+ #	140	110kV模拟1线测控装置解除闭锁	DEV01	DEV01CTRL/BinInGGIO1.Ind3[ST]	-
+ #	141	'110kV模拟1线测控装置内部工作电压 1'	DEV01	DEV01LD0/SPVT1.Vol1[MX]	-
+ #	142	'110kV模拟1线测控装置内部工作电压 2'	DEV01	DEV01LD0/SPVT1.Vol2[MX]	-
+ #	143	'110kV模拟1线测控装置内部工作电压 3'	DEV01	DEV01LD0/SPVT1.Vol3[MX]	-
+ #	144	'110kV模拟1线测控装置内部工作电压 4'	DEV01	DEV01LD0/SPVT1.Vol4[MX]	-
+ #	145	'110kV模拟1线测控装置内部工作电压 5'	DEV01	DEV01LD0/SPVT1.Vol5[MX]	-
+ #	146	110kV模拟1线测控装置温度	DEV01	DEV01LD0/STMP1.Tmp[MX]	-
+ #	147	110kV模拟1线测控装置C相电压	DEV01	DEV01PROT/PMMXU1.PPV.phsBC.cVal[MX]	V
+ #	148	220kV模拟2线测控装置装置异常	DEV02	DEV02LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	149	220kV模拟2线测控装置对时信号状态	DEV02	DEV02LD0/LTSM1.HostTPortAlm[ST]	-
+ #	150	220kV模拟2线测控装置对时服务状态	DEV02	DEV02LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	151	220kV模拟2线测控装置时间跳变侦测状态	DEV02	DEV02LD0/LTSM1.HostContAlm[ST]	-
+ #	152	'220kV模拟2线测控装置PT 断线'	DEV02	DEV02LD0/AlmGGIO1.Alm1[ST]	-
+ #	153	'220kV模拟2线测控装置CT 断线1'	DEV02	DEV02LD0/AlmGGIO1.Alm2[ST]	-
+ #	154	'220kV模拟2线测控装置CT 断线2'	DEV02	DEV02LD0/AlmGGIO1.Alm3[ST]	-
+ #	155	220kV模拟2线测控装置3U0越限	DEV02	DEV02LD0/AlmGGIO1.Alm4[ST]	-
+ #	156	220kV模拟2线测控装置3I0越限1	DEV02	DEV02LD0/AlmGGIO1.Alm5[ST]	-
+ #	157	220kV模拟2线测控装置3I0越限2	DEV02	DEV02LD0/AlmGGIO1.Alm6[ST]	-
+ #	158	220kV模拟2线测控装置同期无压条件不满足	DEV02	DEV02LD0/AlmGGIO1.Alm7[ST]	-
+ #	159	220kV模拟2线测控装置同期有压条件不满足	DEV02	DEV02LD0/AlmGGIO1.Alm8[ST]	-
+ #	160	220kV模拟2线测控装置同期压差不满足	DEV02	DEV02LD0/AlmGGIO1.Alm9[ST]	-
+ #	161	220kV模拟2线测控装置同期频差不满足	DEV02	DEV02LD0/AlmGGIO1.Alm10[ST]	-
+ #	162	220kV模拟2线测控装置同期角差不满足	DEV02	DEV02LD0/AlmGGIO1.Alm11[ST]	-
+ #	163	220kV模拟2线测控装置同期频率滑差不满足	DEV02	DEV02LD0/AlmGGIO1.Alm12[ST]	-
+ #	164	220kV模拟2线测控装置同期PT断线闭锁	DEV02	DEV02LD0/AlmGGIO1.Alm13[ST]	-
+ #	165	220kV模拟2线测控装置同期数据异常	DEV02	DEV02LD0/AlmGGIO1.Alm14[ST]	-
+ #	166	'220kV模拟2线测控装置站控层 GOOSE 总告警'	DEV02	DEV02LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	167	'220kV模拟2线测控装置站控层 GO01-A 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	168	'220kV模拟2线测控装置站控层 GO02-A 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	169	'220kV模拟2线测控装置站控层 GO03-A 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	170	'220kV模拟2线测控装置站控层 GO04-A 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	171	'220kV模拟2线测控装置站控层 GO05-A 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	172	'220kV模拟2线测控装置站控层 GO06-A 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	173	'220kV模拟2线测控装置站控层 GO07-A 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	174	'220kV模拟2线测控装置站控层 GO08-A 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	175	'220kV模拟2线测控装置站控层 GO09-A 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	176	'220kV模拟2线测控装置站控层 GO01-B 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	177	'220kV模拟2线测控装置站控层 GO02-B 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	178	'220kV模拟2线测控装置站控层 GO03-B 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	179	'220kV模拟2线测控装置站控层 GO04-B 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	180	'220kV模拟2线测控装置站控层 GO05-B 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	181	'220kV模拟2线测控装置站控层 GO06-B 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	182	'220kV模拟2线测控装置站控层 GO07-B 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	183	'220kV模拟2线测控装置站控层 GO08-B 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	184	'220kV模拟2线测控装置站控层 GO09-B 网中断'	DEV02	DEV02LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	185	220kV模拟2线测控装置检修	DEV02	DEV02CTRL/BinInGGIO1.Ind1[ST]	-
+ #	186	220kV模拟2线测控装置就地状态	DEV02	DEV02CTRL/BinInGGIO1.Ind2[ST]	-
+ #	187	220kV模拟2线测控装置解除闭锁	DEV02	DEV02CTRL/BinInGGIO1.Ind3[ST]	-
+ #	188	'220kV模拟2线测控装置内部工作电压 1'	DEV02	DEV02LD0/SPVT1.Vol1[MX]	-
+ #	189	'220kV模拟2线测控装置内部工作电压 2'	DEV02	DEV02LD0/SPVT1.Vol2[MX]	-
+ #	190	'220kV模拟2线测控装置内部工作电压 3'	DEV02	DEV02LD0/SPVT1.Vol3[MX]	-
+ #	191	'220kV模拟2线测控装置内部工作电压 4'	DEV02	DEV02LD0/SPVT1.Vol4[MX]	-
+ #	192	'220kV模拟2线测控装置内部工作电压 5'	DEV02	DEV02LD0/SPVT1.Vol5[MX]	-
+ #	193	220kV模拟2线测控装置温度	DEV02	DEV02LD0/STMP1.Tmp[MX]	-
+ #	194	220kV模拟2线测控装置C相电压	DEV02	DEV02PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	195	220kV模拟3线测控装置装置异常	DEV03	DEV03LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	196	220kV模拟3线测控装置对时信号状态	DEV03	DEV03LD0/LTSM1.HostTPortAlm[ST]	-
+ #	197	220kV模拟3线测控装置对时服务状态	DEV03	DEV03LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	198	220kV模拟3线测控装置时间跳变侦测状态	DEV03	DEV03LD0/LTSM1.HostContAlm[ST]	-
+ #	199	'220kV模拟3线测控装置PT 断线'	DEV03	DEV03LD0/AlmGGIO1.Alm1[ST]	-
+ #	200	'220kV模拟3线测控装置CT 断线1'	DEV03	DEV03LD0/AlmGGIO1.Alm2[ST]	-
+ #	201	'220kV模拟3线测控装置CT 断线2'	DEV03	DEV03LD0/AlmGGIO1.Alm3[ST]	-
+ #	202	220kV模拟3线测控装置3U0越限	DEV03	DEV03LD0/AlmGGIO1.Alm4[ST]	-
+ #	203	220kV模拟3线测控装置3I0越限1	DEV03	DEV03LD0/AlmGGIO1.Alm5[ST]	-
+ #	204	220kV模拟3线测控装置3I0越限2	DEV03	DEV03LD0/AlmGGIO1.Alm6[ST]	-
+ #	205	220kV模拟3线测控装置同期无压条件不满足	DEV03	DEV03LD0/AlmGGIO1.Alm7[ST]	-
+ #	206	220kV模拟3线测控装置同期有压条件不满足	DEV03	DEV03LD0/AlmGGIO1.Alm8[ST]	-
+ #	207	220kV模拟3线测控装置同期压差不满足	DEV03	DEV03LD0/AlmGGIO1.Alm9[ST]	-
+ #	208	220kV模拟3线测控装置同期频差不满足	DEV03	DEV03LD0/AlmGGIO1.Alm10[ST]	-
+ #	209	220kV模拟3线测控装置同期角差不满足	DEV03	DEV03LD0/AlmGGIO1.Alm11[ST]	-
+ #	210	220kV模拟3线测控装置同期频率滑差不满足	DEV03	DEV03LD0/AlmGGIO1.Alm12[ST]	-
+ #	211	220kV模拟3线测控装置同期PT断线闭锁	DEV03	DEV03LD0/AlmGGIO1.Alm13[ST]	-
+ #	212	220kV模拟3线测控装置同期数据异常	DEV03	DEV03LD0/AlmGGIO1.Alm14[ST]	-
+ #	213	'220kV模拟3线测控装置站控层 GOOSE 总告警'	DEV03	DEV03LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	214	'220kV模拟3线测控装置站控层 GO01-A 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	215	'220kV模拟3线测控装置站控层 GO02-A 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	216	'220kV模拟3线测控装置站控层 GO03-A 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	217	'220kV模拟3线测控装置站控层 GO04-A 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	218	'220kV模拟3线测控装置站控层 GO05-A 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	219	'220kV模拟3线测控装置站控层 GO06-A 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	220	'220kV模拟3线测控装置站控层 GO07-A 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	221	'220kV模拟3线测控装置站控层 GO08-A 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	222	'220kV模拟3线测控装置站控层 GO09-A 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	223	'220kV模拟3线测控装置站控层 GO01-B 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	224	'220kV模拟3线测控装置站控层 GO02-B 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	225	'220kV模拟3线测控装置站控层 GO03-B 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	226	'220kV模拟3线测控装置站控层 GO04-B 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	227	'220kV模拟3线测控装置站控层 GO05-B 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	228	'220kV模拟3线测控装置站控层 GO06-B 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	229	'220kV模拟3线测控装置站控层 GO07-B 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	230	'220kV模拟3线测控装置站控层 GO08-B 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	231	'220kV模拟3线测控装置站控层 GO09-B 网中断'	DEV03	DEV03LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	232	220kV模拟3线测控装置检修	DEV03	DEV03CTRL/BinInGGIO1.Ind1[ST]	-
+ #	233	220kV模拟3线测控装置就地状态	DEV03	DEV03CTRL/BinInGGIO1.Ind2[ST]	-
+ #	234	220kV模拟3线测控装置解除闭锁	DEV03	DEV03CTRL/BinInGGIO1.Ind3[ST]	-
+ #	235	'220kV模拟3线测控装置内部工作电压 1'	DEV03	DEV03LD0/SPVT1.Vol1[MX]	-
+ #	236	'220kV模拟3线测控装置内部工作电压 2'	DEV03	DEV03LD0/SPVT1.Vol2[MX]	-
+ #	237	'220kV模拟3线测控装置内部工作电压 3'	DEV03	DEV03LD0/SPVT1.Vol3[MX]	-
+ #	238	'220kV模拟3线测控装置内部工作电压 4'	DEV03	DEV03LD0/SPVT1.Vol4[MX]	-
+ #	239	'220kV模拟3线测控装置内部工作电压 5'	DEV03	DEV03LD0/SPVT1.Vol5[MX]	-
+ #	240	220kV模拟3线测控装置温度	DEV03	DEV03LD0/STMP1.Tmp[MX]	-
+ #	241	220kV模拟3线测控装置C相电压	DEV03	DEV03PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	242	220kV模拟4线测控装置装置异常	DEV04	DEV04LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	243	220kV模拟4线测控装置对时信号状态	DEV04	DEV04LD0/LTSM1.HostTPortAlm[ST]	-
+ #	244	220kV模拟4线测控装置对时服务状态	DEV04	DEV04LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	245	220kV模拟4线测控装置时间跳变侦测状态	DEV04	DEV04LD0/LTSM1.HostContAlm[ST]	-
+ #	246	'220kV模拟4线测控装置PT 断线'	DEV04	DEV04LD0/AlmGGIO1.Alm1[ST]	-
+ #	247	'220kV模拟4线测控装置CT 断线1'	DEV04	DEV04LD0/AlmGGIO1.Alm2[ST]	-
+ #	248	'220kV模拟4线测控装置CT 断线2'	DEV04	DEV04LD0/AlmGGIO1.Alm3[ST]	-
+ #	249	220kV模拟4线测控装置3U0越限	DEV04	DEV04LD0/AlmGGIO1.Alm4[ST]	-
+ #	250	220kV模拟4线测控装置3I0越限1	DEV04	DEV04LD0/AlmGGIO1.Alm5[ST]	-
+ #	251	220kV模拟4线测控装置3I0越限2	DEV04	DEV04LD0/AlmGGIO1.Alm6[ST]	-
+ #	252	220kV模拟4线测控装置同期无压条件不满足	DEV04	DEV04LD0/AlmGGIO1.Alm7[ST]	-
+ #	253	220kV模拟4线测控装置同期有压条件不满足	DEV04	DEV04LD0/AlmGGIO1.Alm8[ST]	-
+ #	254	220kV模拟4线测控装置同期压差不满足	DEV04	DEV04LD0/AlmGGIO1.Alm9[ST]	-
+ #	255	220kV模拟4线测控装置同期频差不满足	DEV04	DEV04LD0/AlmGGIO1.Alm10[ST]	-
+ #	256	220kV模拟4线测控装置同期角差不满足	DEV04	DEV04LD0/AlmGGIO1.Alm11[ST]	-
+ #	257	220kV模拟4线测控装置同期频率滑差不满足	DEV04	DEV04LD0/AlmGGIO1.Alm12[ST]	-
+ #	258	220kV模拟4线测控装置同期PT断线闭锁	DEV04	DEV04LD0/AlmGGIO1.Alm13[ST]	-
+ #	259	220kV模拟4线测控装置同期数据异常	DEV04	DEV04LD0/AlmGGIO1.Alm14[ST]	-
+ #	260	'220kV模拟4线测控装置站控层 GOOSE 总告警'	DEV04	DEV04LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	261	'220kV模拟4线测控装置站控层 GO01-A 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	262	'220kV模拟4线测控装置站控层 GO02-A 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	263	'220kV模拟4线测控装置站控层 GO03-A 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	264	'220kV模拟4线测控装置站控层 GO04-A 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	265	'220kV模拟4线测控装置站控层 GO05-A 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	266	'220kV模拟4线测控装置站控层 GO06-A 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	267	'220kV模拟4线测控装置站控层 GO07-A 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	268	'220kV模拟4线测控装置站控层 GO08-A 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	269	'220kV模拟4线测控装置站控层 GO09-A 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	270	'220kV模拟4线测控装置站控层 GO01-B 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	271	'220kV模拟4线测控装置站控层 GO02-B 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	272	'220kV模拟4线测控装置站控层 GO03-B 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	273	'220kV模拟4线测控装置站控层 GO04-B 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	274	'220kV模拟4线测控装置站控层 GO05-B 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	275	'220kV模拟4线测控装置站控层 GO06-B 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	276	'220kV模拟4线测控装置站控层 GO07-B 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	277	'220kV模拟4线测控装置站控层 GO08-B 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	278	'220kV模拟4线测控装置站控层 GO09-B 网中断'	DEV04	DEV04LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	279	220kV模拟4线测控装置检修	DEV04	DEV04CTRL/BinInGGIO1.Ind1[ST]	-
+ #	280	220kV模拟4线测控装置就地状态	DEV04	DEV04CTRL/BinInGGIO1.Ind2[ST]	-
+ #	281	220kV模拟4线测控装置解除闭锁	DEV04	DEV04CTRL/BinInGGIO1.Ind3[ST]	-
+ #	282	'220kV模拟4线测控装置内部工作电压 1'	DEV04	DEV04LD0/SPVT1.Vol1[MX]	-
+ #	283	'220kV模拟4线测控装置内部工作电压 2'	DEV04	DEV04LD0/SPVT1.Vol2[MX]	-
+ #	284	'220kV模拟4线测控装置内部工作电压 3'	DEV04	DEV04LD0/SPVT1.Vol3[MX]	-
+ #	285	'220kV模拟4线测控装置内部工作电压 4'	DEV04	DEV04LD0/SPVT1.Vol4[MX]	-
+ #	286	'220kV模拟4线测控装置内部工作电压 5'	DEV04	DEV04LD0/SPVT1.Vol5[MX]	-
+ #	287	220kV模拟4线测控装置温度	DEV04	DEV04LD0/STMP1.Tmp[MX]	-
+ #	288	220kV模拟4线测控装置C相电压	DEV04	DEV04PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	289	220kV模拟5线测控装置装置异常	DEV05	DEV05LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	290	220kV模拟5线测控装置对时信号状态	DEV05	DEV05LD0/LTSM1.HostTPortAlm[ST]	-
+ #	291	220kV模拟5线测控装置对时服务状态	DEV05	DEV05LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	292	220kV模拟5线测控装置时间跳变侦测状态	DEV05	DEV05LD0/LTSM1.HostContAlm[ST]	-
+ #	293	'220kV模拟5线测控装置PT 断线'	DEV05	DEV05LD0/AlmGGIO1.Alm1[ST]	-
+ #	294	'220kV模拟5线测控装置CT 断线1'	DEV05	DEV05LD0/AlmGGIO1.Alm2[ST]	-
+ #	295	'220kV模拟5线测控装置CT 断线2'	DEV05	DEV05LD0/AlmGGIO1.Alm3[ST]	-
+ #	296	220kV模拟5线测控装置3U0越限	DEV05	DEV05LD0/AlmGGIO1.Alm4[ST]	-
+ #	297	220kV模拟5线测控装置3I0越限1	DEV05	DEV05LD0/AlmGGIO1.Alm5[ST]	-
+ #	298	220kV模拟5线测控装置3I0越限2	DEV05	DEV05LD0/AlmGGIO1.Alm6[ST]	-
+ #	299	220kV模拟5线测控装置同期无压条件不满足	DEV05	DEV05LD0/AlmGGIO1.Alm7[ST]	-
+ #	300	220kV模拟5线测控装置同期有压条件不满足	DEV05	DEV05LD0/AlmGGIO1.Alm8[ST]	-
+ #	301	220kV模拟5线测控装置同期压差不满足	DEV05	DEV05LD0/AlmGGIO1.Alm9[ST]	-
+ #	302	220kV模拟5线测控装置同期频差不满足	DEV05	DEV05LD0/AlmGGIO1.Alm10[ST]	-
+ #	303	220kV模拟5线测控装置同期角差不满足	DEV05	DEV05LD0/AlmGGIO1.Alm11[ST]	-
+ #	304	220kV模拟5线测控装置同期频率滑差不满足	DEV05	DEV05LD0/AlmGGIO1.Alm12[ST]	-
+ #	305	220kV模拟5线测控装置同期PT断线闭锁	DEV05	DEV05LD0/AlmGGIO1.Alm13[ST]	-
+ #	306	220kV模拟5线测控装置同期数据异常	DEV05	DEV05LD0/AlmGGIO1.Alm14[ST]	-
+ #	307	'220kV模拟5线测控装置站控层 GOOSE 总告警'	DEV05	DEV05LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	308	'220kV模拟5线测控装置站控层 GO01-A 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	309	'220kV模拟5线测控装置站控层 GO02-A 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	310	'220kV模拟5线测控装置站控层 GO03-A 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	311	'220kV模拟5线测控装置站控层 GO04-A 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	312	'220kV模拟5线测控装置站控层 GO05-A 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	313	'220kV模拟5线测控装置站控层 GO06-A 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	314	'220kV模拟5线测控装置站控层 GO07-A 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	315	'220kV模拟5线测控装置站控层 GO08-A 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	316	'220kV模拟5线测控装置站控层 GO09-A 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	317	'220kV模拟5线测控装置站控层 GO01-B 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	318	'220kV模拟5线测控装置站控层 GO02-B 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	319	'220kV模拟5线测控装置站控层 GO03-B 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	320	'220kV模拟5线测控装置站控层 GO04-B 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	321	'220kV模拟5线测控装置站控层 GO05-B 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	322	'220kV模拟5线测控装置站控层 GO06-B 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	323	'220kV模拟5线测控装置站控层 GO07-B 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	324	'220kV模拟5线测控装置站控层 GO08-B 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	325	'220kV模拟5线测控装置站控层 GO09-B 网中断'	DEV05	DEV05LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	326	220kV模拟5线测控装置检修	DEV05	DEV05CTRL/BinInGGIO1.Ind1[ST]	-
+ #	327	220kV模拟5线测控装置就地状态	DEV05	DEV05CTRL/BinInGGIO1.Ind2[ST]	-
+ #	328	220kV模拟5线测控装置解除闭锁	DEV05	DEV05CTRL/BinInGGIO1.Ind3[ST]	-
+ #	329	'220kV模拟5线测控装置内部工作电压 1'	DEV05	DEV05LD0/SPVT1.Vol1[MX]	-
+ #	330	'220kV模拟5线测控装置内部工作电压 2'	DEV05	DEV05LD0/SPVT1.Vol2[MX]	-
+ #	331	'220kV模拟5线测控装置内部工作电压 3'	DEV05	DEV05LD0/SPVT1.Vol3[MX]	-
+ #	332	'220kV模拟5线测控装置内部工作电压 4'	DEV05	DEV05LD0/SPVT1.Vol4[MX]	-
+ #	333	'220kV模拟5线测控装置内部工作电压 5'	DEV05	DEV05LD0/SPVT1.Vol5[MX]	-
+ #	334	220kV模拟5线测控装置温度	DEV05	DEV05LD0/STMP1.Tmp[MX]	-
+ #	335	220kV模拟5线测控装置C相电压	DEV05	DEV05PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	336	220kV模拟6线测控装置装置异常	DEV06	DEV06LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	337	220kV模拟6线测控装置对时信号状态	DEV06	DEV06LD0/LTSM1.HostTPortAlm[ST]	-
+ #	338	220kV模拟6线测控装置对时服务状态	DEV06	DEV06LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	339	220kV模拟6线测控装置时间跳变侦测状态	DEV06	DEV06LD0/LTSM1.HostContAlm[ST]	-
+ #	340	'220kV模拟6线测控装置PT 断线'	DEV06	DEV06LD0/AlmGGIO1.Alm1[ST]	-
+ #	341	'220kV模拟6线测控装置CT 断线1'	DEV06	DEV06LD0/AlmGGIO1.Alm2[ST]	-
+ #	342	'220kV模拟6线测控装置CT 断线2'	DEV06	DEV06LD0/AlmGGIO1.Alm3[ST]	-
+ #	343	220kV模拟6线测控装置3U0越限	DEV06	DEV06LD0/AlmGGIO1.Alm4[ST]	-
+ #	344	220kV模拟6线测控装置3I0越限1	DEV06	DEV06LD0/AlmGGIO1.Alm5[ST]	-
+ #	345	220kV模拟6线测控装置3I0越限2	DEV06	DEV06LD0/AlmGGIO1.Alm6[ST]	-
+ #	346	220kV模拟6线测控装置同期无压条件不满足	DEV06	DEV06LD0/AlmGGIO1.Alm7[ST]	-
+ #	347	220kV模拟6线测控装置同期有压条件不满足	DEV06	DEV06LD0/AlmGGIO1.Alm8[ST]	-
+ #	348	220kV模拟6线测控装置同期压差不满足	DEV06	DEV06LD0/AlmGGIO1.Alm9[ST]	-
+ #	349	220kV模拟6线测控装置同期频差不满足	DEV06	DEV06LD0/AlmGGIO1.Alm10[ST]	-
+ #	350	220kV模拟6线测控装置同期角差不满足	DEV06	DEV06LD0/AlmGGIO1.Alm11[ST]	-
+ #	351	220kV模拟6线测控装置同期频率滑差不满足	DEV06	DEV06LD0/AlmGGIO1.Alm12[ST]	-
+ #	352	220kV模拟6线测控装置同期PT断线闭锁	DEV06	DEV06LD0/AlmGGIO1.Alm13[ST]	-
+ #	353	220kV模拟6线测控装置同期数据异常	DEV06	DEV06LD0/AlmGGIO1.Alm14[ST]	-
+ #	354	'220kV模拟6线测控装置站控层 GOOSE 总告警'	DEV06	DEV06LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	355	'220kV模拟6线测控装置站控层 GO01-A 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	356	'220kV模拟6线测控装置站控层 GO02-A 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	357	'220kV模拟6线测控装置站控层 GO03-A 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	358	'220kV模拟6线测控装置站控层 GO04-A 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	359	'220kV模拟6线测控装置站控层 GO05-A 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	360	'220kV模拟6线测控装置站控层 GO06-A 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	361	'220kV模拟6线测控装置站控层 GO07-A 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	362	'220kV模拟6线测控装置站控层 GO08-A 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	363	'220kV模拟6线测控装置站控层 GO09-A 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	364	'220kV模拟6线测控装置站控层 GO01-B 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	365	'220kV模拟6线测控装置站控层 GO02-B 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	366	'220kV模拟6线测控装置站控层 GO03-B 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	367	'220kV模拟6线测控装置站控层 GO04-B 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	368	'220kV模拟6线测控装置站控层 GO05-B 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	369	'220kV模拟6线测控装置站控层 GO06-B 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	370	'220kV模拟6线测控装置站控层 GO07-B 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	371	'220kV模拟6线测控装置站控层 GO08-B 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	372	'220kV模拟6线测控装置站控层 GO09-B 网中断'	DEV06	DEV06LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	373	220kV模拟6线测控装置检修	DEV06	DEV06CTRL/BinInGGIO1.Ind1[ST]	-
+ #	374	220kV模拟6线测控装置就地状态	DEV06	DEV06CTRL/BinInGGIO1.Ind2[ST]	-
+ #	375	220kV模拟6线测控装置解除闭锁	DEV06	DEV06CTRL/BinInGGIO1.Ind3[ST]	-
+ #	376	'220kV模拟6线测控装置内部工作电压 1'	DEV06	DEV06LD0/SPVT1.Vol1[MX]	-
+ #	377	'220kV模拟6线测控装置内部工作电压 2'	DEV06	DEV06LD0/SPVT1.Vol2[MX]	-
+ #	378	'220kV模拟6线测控装置内部工作电压 3'	DEV06	DEV06LD0/SPVT1.Vol3[MX]	-
+ #	379	'220kV模拟6线测控装置内部工作电压 4'	DEV06	DEV06LD0/SPVT1.Vol4[MX]	-
+ #	380	'220kV模拟6线测控装置内部工作电压 5'	DEV06	DEV06LD0/SPVT1.Vol5[MX]	-
+ #	381	220kV模拟6线测控装置温度	DEV06	DEV06LD0/STMP1.Tmp[MX]	-
+ #	382	220kV模拟6线测控装置C相电压	DEV06	DEV06PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	383	110kV模拟7线测控装置装置异常	DEV07	DEV07LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	384	110kV模拟7线测控装置对时信号状态	DEV07	DEV07LD0/LTSM1.HostTPortAlm[ST]	-
+ #	385	110kV模拟7线测控装置对时服务状态	DEV07	DEV07LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	386	110kV模拟7线测控装置时间跳变侦测状态	DEV07	DEV07LD0/LTSM1.HostContAlm[ST]	-
+ #	387	'110kV模拟7线测控装置PT 断线'	DEV07	DEV07LD0/AlmGGIO1.Alm1[ST]	-
+ #	388	'110kV模拟7线测控装置CT 断线1'	DEV07	DEV07LD0/AlmGGIO1.Alm2[ST]	-
+ #	389	'110kV模拟7线测控装置CT 断线2'	DEV07	DEV07LD0/AlmGGIO1.Alm3[ST]	-
+ #	390	110kV模拟7线测控装置3U0越限	DEV07	DEV07LD0/AlmGGIO1.Alm4[ST]	-
+ #	391	110kV模拟7线测控装置3I0越限1	DEV07	DEV07LD0/AlmGGIO1.Alm5[ST]	-
+ #	392	110kV模拟7线测控装置3I0越限2	DEV07	DEV07LD0/AlmGGIO1.Alm6[ST]	-
+ #	393	110kV模拟7线测控装置同期无压条件不满足	DEV07	DEV07LD0/AlmGGIO1.Alm7[ST]	-
+ #	394	110kV模拟7线测控装置同期有压条件不满足	DEV07	DEV07LD0/AlmGGIO1.Alm8[ST]	-
+ #	395	110kV模拟7线测控装置同期压差不满足	DEV07	DEV07LD0/AlmGGIO1.Alm9[ST]	-
+ #	396	110kV模拟7线测控装置同期频差不满足	DEV07	DEV07LD0/AlmGGIO1.Alm10[ST]	-
+ #	397	110kV模拟7线测控装置同期角差不满足	DEV07	DEV07LD0/AlmGGIO1.Alm11[ST]	-
+ #	398	110kV模拟7线测控装置同期频率滑差不满足	DEV07	DEV07LD0/AlmGGIO1.Alm12[ST]	-
+ #	399	110kV模拟7线测控装置同期PT断线闭锁	DEV07	DEV07LD0/AlmGGIO1.Alm13[ST]	-
+ #	400	110kV模拟7线测控装置同期数据异常	DEV07	DEV07LD0/AlmGGIO1.Alm14[ST]	-
+ #	401	'110kV模拟7线测控装置站控层 GOOSE 总告警'	DEV07	DEV07LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	402	'110kV模拟7线测控装置站控层 GO01-A 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	403	'110kV模拟7线测控装置站控层 GO02-A 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	404	'110kV模拟7线测控装置站控层 GO03-A 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	405	'110kV模拟7线测控装置站控层 GO04-A 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	406	'110kV模拟7线测控装置站控层 GO05-A 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	407	'110kV模拟7线测控装置站控层 GO06-A 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	408	'110kV模拟7线测控装置站控层 GO07-A 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	409	'110kV模拟7线测控装置站控层 GO08-A 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	410	'110kV模拟7线测控装置站控层 GO09-A 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	411	'110kV模拟7线测控装置站控层 GO01-B 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	412	'110kV模拟7线测控装置站控层 GO02-B 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	413	'110kV模拟7线测控装置站控层 GO03-B 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	414	'110kV模拟7线测控装置站控层 GO04-B 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	415	'110kV模拟7线测控装置站控层 GO05-B 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	416	'110kV模拟7线测控装置站控层 GO06-B 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	417	'110kV模拟7线测控装置站控层 GO07-B 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	418	'110kV模拟7线测控装置站控层 GO08-B 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	419	'110kV模拟7线测控装置站控层 GO09-B 网中断'	DEV07	DEV07LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	420	110kV模拟7线测控装置检修	DEV07	DEV07CTRL/BinInGGIO1.Ind1[ST]	-
+ #	421	110kV模拟7线测控装置就地状态	DEV07	DEV07CTRL/BinInGGIO1.Ind2[ST]	-
+ #	422	110kV模拟7线测控装置解除闭锁	DEV07	DEV07CTRL/BinInGGIO1.Ind3[ST]	-
+ #	423	'110kV模拟7线测控装置内部工作电压 1'	DEV07	DEV07LD0/SPVT1.Vol1[MX]	-
+ #	424	'110kV模拟7线测控装置内部工作电压 2'	DEV07	DEV07LD0/SPVT1.Vol2[MX]	-
+ #	425	'110kV模拟7线测控装置内部工作电压 3'	DEV07	DEV07LD0/SPVT1.Vol3[MX]	-
+ #	426	'110kV模拟7线测控装置内部工作电压 4'	DEV07	DEV07LD0/SPVT1.Vol4[MX]	-
+ #	427	'110kV模拟7线测控装置内部工作电压 5'	DEV07	DEV07LD0/SPVT1.Vol5[MX]	-
+ #	428	110kV模拟7线测控装置温度	DEV07	DEV07LD0/STMP1.Tmp[MX]	-
+ #	429	110kV模拟7线测控装置C相电压	DEV07	DEV07PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	430	110kV模拟8线测控装置装置异常	DEV08	DEV08LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	431	110kV模拟8线测控装置对时信号状态	DEV08	DEV08LD0/LTSM1.HostTPortAlm[ST]	-
+ #	432	110kV模拟8线测控装置对时服务状态	DEV08	DEV08LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	433	110kV模拟8线测控装置时间跳变侦测状态	DEV08	DEV08LD0/LTSM1.HostContAlm[ST]	-
+ #	434	'110kV模拟8线测控装置PT 断线'	DEV08	DEV08LD0/AlmGGIO1.Alm1[ST]	-
+ #	435	'110kV模拟8线测控装置CT 断线1'	DEV08	DEV08LD0/AlmGGIO1.Alm2[ST]	-
+ #	436	'110kV模拟8线测控装置CT 断线2'	DEV08	DEV08LD0/AlmGGIO1.Alm3[ST]	-
+ #	437	110kV模拟8线测控装置3U0越限	DEV08	DEV08LD0/AlmGGIO1.Alm4[ST]	-
+ #	438	110kV模拟8线测控装置3I0越限1	DEV08	DEV08LD0/AlmGGIO1.Alm5[ST]	-
+ #	439	110kV模拟8线测控装置3I0越限2	DEV08	DEV08LD0/AlmGGIO1.Alm6[ST]	-
+ #	440	110kV模拟8线测控装置同期无压条件不满足	DEV08	DEV08LD0/AlmGGIO1.Alm7[ST]	-
+ #	441	110kV模拟8线测控装置同期有压条件不满足	DEV08	DEV08LD0/AlmGGIO1.Alm8[ST]	-
+ #	442	110kV模拟8线测控装置同期压差不满足	DEV08	DEV08LD0/AlmGGIO1.Alm9[ST]	-
+ #	443	110kV模拟8线测控装置同期频差不满足	DEV08	DEV08LD0/AlmGGIO1.Alm10[ST]	-
+ #	444	110kV模拟8线测控装置同期角差不满足	DEV08	DEV08LD0/AlmGGIO1.Alm11[ST]	-
+ #	445	110kV模拟8线测控装置同期频率滑差不满足	DEV08	DEV08LD0/AlmGGIO1.Alm12[ST]	-
+ #	446	110kV模拟8线测控装置同期PT断线闭锁	DEV08	DEV08LD0/AlmGGIO1.Alm13[ST]	-
+ #	447	110kV模拟8线测控装置同期数据异常	DEV08	DEV08LD0/AlmGGIO1.Alm14[ST]	-
+ #	448	'110kV模拟8线测控装置站控层 GOOSE 总告警'	DEV08	DEV08LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	449	'110kV模拟8线测控装置站控层 GO01-A 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	450	'110kV模拟8线测控装置站控层 GO02-A 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	451	'110kV模拟8线测控装置站控层 GO03-A 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	452	'110kV模拟8线测控装置站控层 GO04-A 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	453	'110kV模拟8线测控装置站控层 GO05-A 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	454	'110kV模拟8线测控装置站控层 GO06-A 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	455	'110kV模拟8线测控装置站控层 GO07-A 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	456	'110kV模拟8线测控装置站控层 GO08-A 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	457	'110kV模拟8线测控装置站控层 GO09-A 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	458	'110kV模拟8线测控装置站控层 GO01-B 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	459	'110kV模拟8线测控装置站控层 GO02-B 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	460	'110kV模拟8线测控装置站控层 GO03-B 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	461	'110kV模拟8线测控装置站控层 GO04-B 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	462	'110kV模拟8线测控装置站控层 GO05-B 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	463	'110kV模拟8线测控装置站控层 GO06-B 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	464	'110kV模拟8线测控装置站控层 GO07-B 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	465	'110kV模拟8线测控装置站控层 GO08-B 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	466	'110kV模拟8线测控装置站控层 GO09-B 网中断'	DEV08	DEV08LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	467	110kV模拟8线测控装置检修	DEV08	DEV08CTRL/BinInGGIO1.Ind1[ST]	-
+ #	468	110kV模拟8线测控装置就地状态	DEV08	DEV08CTRL/BinInGGIO1.Ind2[ST]	-
+ #	469	110kV模拟8线测控装置解除闭锁	DEV08	DEV08CTRL/BinInGGIO1.Ind3[ST]	-
+ #	470	'110kV模拟8线测控装置内部工作电压 1'	DEV08	DEV08LD0/SPVT1.Vol1[MX]	-
+ #	471	'110kV模拟8线测控装置内部工作电压 2'	DEV08	DEV08LD0/SPVT1.Vol2[MX]	-
+ #	472	'110kV模拟8线测控装置内部工作电压 3'	DEV08	DEV08LD0/SPVT1.Vol3[MX]	-
+ #	473	'110kV模拟8线测控装置内部工作电压 4'	DEV08	DEV08LD0/SPVT1.Vol4[MX]	-
+ #	474	'110kV模拟8线测控装置内部工作电压 5'	DEV08	DEV08LD0/SPVT1.Vol5[MX]	-
+ #	475	110kV模拟8线测控装置温度	DEV08	DEV08LD0/STMP1.Tmp[MX]	-
+ #	476	110kV模拟8线测控装置C相电压	DEV08	DEV08PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	477	110kV模拟9线测控装置装置异常	DEV09	DEV09LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	478	110kV模拟9线测控装置对时信号状态	DEV09	DEV09LD0/LTSM1.HostTPortAlm[ST]	-
+ #	479	110kV模拟9线测控装置对时服务状态	DEV09	DEV09LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	480	110kV模拟9线测控装置时间跳变侦测状态	DEV09	DEV09LD0/LTSM1.HostContAlm[ST]	-
+ #	481	'110kV模拟9线测控装置PT 断线'	DEV09	DEV09LD0/AlmGGIO1.Alm1[ST]	-
+ #	482	'110kV模拟9线测控装置CT 断线1'	DEV09	DEV09LD0/AlmGGIO1.Alm2[ST]	-
+ #	483	'110kV模拟9线测控装置CT 断线2'	DEV09	DEV09LD0/AlmGGIO1.Alm3[ST]	-
+ #	484	110kV模拟9线测控装置3U0越限	DEV09	DEV09LD0/AlmGGIO1.Alm4[ST]	-
+ #	485	110kV模拟9线测控装置3I0越限1	DEV09	DEV09LD0/AlmGGIO1.Alm5[ST]	-
+ #	486	110kV模拟9线测控装置3I0越限2	DEV09	DEV09LD0/AlmGGIO1.Alm6[ST]	-
+ #	487	110kV模拟9线测控装置同期无压条件不满足	DEV09	DEV09LD0/AlmGGIO1.Alm7[ST]	-
+ #	488	110kV模拟9线测控装置同期有压条件不满足	DEV09	DEV09LD0/AlmGGIO1.Alm8[ST]	-
+ #	489	110kV模拟9线测控装置同期压差不满足	DEV09	DEV09LD0/AlmGGIO1.Alm9[ST]	-
+ #	490	110kV模拟9线测控装置同期频差不满足	DEV09	DEV09LD0/AlmGGIO1.Alm10[ST]	-
+ #	491	110kV模拟9线测控装置同期角差不满足	DEV09	DEV09LD0/AlmGGIO1.Alm11[ST]	-
+ #	492	110kV模拟9线测控装置同期频率滑差不满足	DEV09	DEV09LD0/AlmGGIO1.Alm12[ST]	-
+ #	493	110kV模拟9线测控装置同期PT断线闭锁	DEV09	DEV09LD0/AlmGGIO1.Alm13[ST]	-
+ #	494	110kV模拟9线测控装置同期数据异常	DEV09	DEV09LD0/AlmGGIO1.Alm14[ST]	-
+ #	495	'110kV模拟9线测控装置站控层 GOOSE 总告警'	DEV09	DEV09LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	496	'110kV模拟9线测控装置站控层 GO01-A 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	497	'110kV模拟9线测控装置站控层 GO02-A 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	498	'110kV模拟9线测控装置站控层 GO03-A 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	499	'110kV模拟9线测控装置站控层 GO04-A 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	500	'110kV模拟9线测控装置站控层 GO05-A 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	501	'110kV模拟9线测控装置站控层 GO06-A 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	502	'110kV模拟9线测控装置站控层 GO07-A 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	503	'110kV模拟9线测控装置站控层 GO08-A 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	504	'110kV模拟9线测控装置站控层 GO09-A 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	505	'110kV模拟9线测控装置站控层 GO01-B 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	506	'110kV模拟9线测控装置站控层 GO02-B 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	507	'110kV模拟9线测控装置站控层 GO03-B 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	508	'110kV模拟9线测控装置站控层 GO04-B 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	509	'110kV模拟9线测控装置站控层 GO05-B 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	510	'110kV模拟9线测控装置站控层 GO06-B 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	511	'110kV模拟9线测控装置站控层 GO07-B 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	512	'110kV模拟9线测控装置站控层 GO08-B 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	513	'110kV模拟9线测控装置站控层 GO09-B 网中断'	DEV09	DEV09LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	514	110kV模拟9线测控装置检修	DEV09	DEV09CTRL/BinInGGIO1.Ind1[ST]	-
+ #	515	110kV模拟9线测控装置就地状态	DEV09	DEV09CTRL/BinInGGIO1.Ind2[ST]	-
+ #	516	110kV模拟9线测控装置解除闭锁	DEV09	DEV09CTRL/BinInGGIO1.Ind3[ST]	-
+ #	517	'110kV模拟9线测控装置内部工作电压 1'	DEV09	DEV09LD0/SPVT1.Vol1[MX]	-
+ #	518	'110kV模拟9线测控装置内部工作电压 2'	DEV09	DEV09LD0/SPVT1.Vol2[MX]	-
+ #	519	'110kV模拟9线测控装置内部工作电压 3'	DEV09	DEV09LD0/SPVT1.Vol3[MX]	-
+ #	520	'110kV模拟9线测控装置内部工作电压 4'	DEV09	DEV09LD0/SPVT1.Vol4[MX]	-
+ #	521	'110kV模拟9线测控装置内部工作电压 5'	DEV09	DEV09LD0/SPVT1.Vol5[MX]	-
+ #	522	110kV模拟9线测控装置温度	DEV09	DEV09LD0/STMP1.Tmp[MX]	-
+ #	523	110kV模拟9线测控装置C相电压	DEV09	DEV09PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	524	110kV模拟10线测控装置装置异常	DEV10	DEV10LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	525	110kV模拟10线测控装置对时信号状态	DEV10	DEV10LD0/LTSM1.HostTPortAlm[ST]	-
+ #	526	110kV模拟10线测控装置对时服务状态	DEV10	DEV10LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	527	110kV模拟10线测控装置时间跳变侦测状态	DEV10	DEV10LD0/LTSM1.HostContAlm[ST]	-
+ #	528	'110kV模拟10线测控装置PT 断线'	DEV10	DEV10LD0/AlmGGIO1.Alm1[ST]	-
+ #	529	'110kV模拟10线测控装置CT 断线1'	DEV10	DEV10LD0/AlmGGIO1.Alm2[ST]	-
+ #	530	'110kV模拟10线测控装置CT 断线2'	DEV10	DEV10LD0/AlmGGIO1.Alm3[ST]	-
+ #	531	110kV模拟10线测控装置3U0越限	DEV10	DEV10LD0/AlmGGIO1.Alm4[ST]	-
+ #	532	110kV模拟10线测控装置3I0越限1	DEV10	DEV10LD0/AlmGGIO1.Alm5[ST]	-
+ #	533	110kV模拟10线测控装置3I0越限2	DEV10	DEV10LD0/AlmGGIO1.Alm6[ST]	-
+ #	534	110kV模拟10线测控装置同期无压条件不满足	DEV10	DEV10LD0/AlmGGIO1.Alm7[ST]	-
+ #	535	110kV模拟10线测控装置同期有压条件不满足	DEV10	DEV10LD0/AlmGGIO1.Alm8[ST]	-
+ #	536	110kV模拟10线测控装置同期压差不满足	DEV10	DEV10LD0/AlmGGIO1.Alm9[ST]	-
+ #	537	110kV模拟10线测控装置同期频差不满足	DEV10	DEV10LD0/AlmGGIO1.Alm10[ST]	-
+ #	538	110kV模拟10线测控装置同期角差不满足	DEV10	DEV10LD0/AlmGGIO1.Alm11[ST]	-
+ #	539	110kV模拟10线测控装置同期频率滑差不满足	DEV10	DEV10LD0/AlmGGIO1.Alm12[ST]	-
+ #	540	110kV模拟10线测控装置同期PT断线闭锁	DEV10	DEV10LD0/AlmGGIO1.Alm13[ST]	-
+ #	541	110kV模拟10线测控装置同期数据异常	DEV10	DEV10LD0/AlmGGIO1.Alm14[ST]	-
+ #	542	'110kV模拟10线测控装置站控层 GOOSE 总告警'	DEV10	DEV10LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	543	'110kV模拟10线测控装置站控层 GO01-A 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	544	'110kV模拟10线测控装置站控层 GO02-A 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	545	'110kV模拟10线测控装置站控层 GO03-A 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	546	'110kV模拟10线测控装置站控层 GO04-A 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	547	'110kV模拟10线测控装置站控层 GO05-A 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	548	'110kV模拟10线测控装置站控层 GO06-A 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	549	'110kV模拟10线测控装置站控层 GO07-A 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	550	'110kV模拟10线测控装置站控层 GO08-A 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	551	'110kV模拟10线测控装置站控层 GO09-A 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	552	'110kV模拟10线测控装置站控层 GO01-B 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	553	'110kV模拟10线测控装置站控层 GO02-B 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	554	'110kV模拟10线测控装置站控层 GO03-B 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	555	'110kV模拟10线测控装置站控层 GO04-B 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	556	'110kV模拟10线测控装置站控层 GO05-B 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	557	'110kV模拟10线测控装置站控层 GO06-B 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	558	'110kV模拟10线测控装置站控层 GO07-B 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	559	'110kV模拟10线测控装置站控层 GO08-B 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	560	'110kV模拟10线测控装置站控层 GO09-B 网中断'	DEV10	DEV10LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	561	110kV模拟10线测控装置检修	DEV10	DEV10CTRL/BinInGGIO1.Ind1[ST]	-
+ #	562	110kV模拟10线测控装置就地状态	DEV10	DEV10CTRL/BinInGGIO1.Ind2[ST]	-
+ #	563	110kV模拟10线测控装置解除闭锁	DEV10	DEV10CTRL/BinInGGIO1.Ind3[ST]	-
+ #	564	'110kV模拟10线测控装置内部工作电压 1'	DEV10	DEV10LD0/SPVT1.Vol1[MX]	-
+ #	565	'110kV模拟10线测控装置内部工作电压 2'	DEV10	DEV10LD0/SPVT1.Vol2[MX]	-
+ #	566	'110kV模拟10线测控装置内部工作电压 3'	DEV10	DEV10LD0/SPVT1.Vol3[MX]	-
+ #	567	'110kV模拟10线测控装置内部工作电压 4'	DEV10	DEV10LD0/SPVT1.Vol4[MX]	-
+ #	568	'110kV模拟10线测控装置内部工作电压 5'	DEV10	DEV10LD0/SPVT1.Vol5[MX]	-
+ #	569	110kV模拟10线测控装置温度	DEV10	DEV10LD0/STMP1.Tmp[MX]	-
+ #	570	110kV模拟10线测控装置C相电压	DEV10	DEV10PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	571	110kV模拟11线测控装置装置异常	DEV11	DEV11LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	572	110kV模拟11线测控装置对时信号状态	DEV11	DEV11LD0/LTSM1.HostTPortAlm[ST]	-
+ #	573	110kV模拟11线测控装置对时服务状态	DEV11	DEV11LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	574	110kV模拟11线测控装置时间跳变侦测状态	DEV11	DEV11LD0/LTSM1.HostContAlm[ST]	-
+ #	575	'110kV模拟11线测控装置PT 断线'	DEV11	DEV11LD0/AlmGGIO1.Alm1[ST]	-
+ #	576	'110kV模拟11线测控装置CT 断线1'	DEV11	DEV11LD0/AlmGGIO1.Alm2[ST]	-
+ #	577	'110kV模拟11线测控装置CT 断线2'	DEV11	DEV11LD0/AlmGGIO1.Alm3[ST]	-
+ #	578	110kV模拟11线测控装置3U0越限	DEV11	DEV11LD0/AlmGGIO1.Alm4[ST]	-
+ #	579	110kV模拟11线测控装置3I0越限1	DEV11	DEV11LD0/AlmGGIO1.Alm5[ST]	-
+ #	580	110kV模拟11线测控装置3I0越限2	DEV11	DEV11LD0/AlmGGIO1.Alm6[ST]	-
+ #	581	110kV模拟11线测控装置同期无压条件不满足	DEV11	DEV11LD0/AlmGGIO1.Alm7[ST]	-
+ #	582	110kV模拟11线测控装置同期有压条件不满足	DEV11	DEV11LD0/AlmGGIO1.Alm8[ST]	-
+ #	583	110kV模拟11线测控装置同期压差不满足	DEV11	DEV11LD0/AlmGGIO1.Alm9[ST]	-
+ #	584	110kV模拟11线测控装置同期频差不满足	DEV11	DEV11LD0/AlmGGIO1.Alm10[ST]	-
+ #	585	110kV模拟11线测控装置同期角差不满足	DEV11	DEV11LD0/AlmGGIO1.Alm11[ST]	-
+ #	586	110kV模拟11线测控装置同期频率滑差不满足	DEV11	DEV11LD0/AlmGGIO1.Alm12[ST]	-
+ #	587	110kV模拟11线测控装置同期PT断线闭锁	DEV11	DEV11LD0/AlmGGIO1.Alm13[ST]	-
+ #	588	110kV模拟11线测控装置同期数据异常	DEV11	DEV11LD0/AlmGGIO1.Alm14[ST]	-
+ #	589	'110kV模拟11线测控装置站控层 GOOSE 总告警'	DEV11	DEV11LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	590	'110kV模拟11线测控装置站控层 GO01-A 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	591	'110kV模拟11线测控装置站控层 GO02-A 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	592	'110kV模拟11线测控装置站控层 GO03-A 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	593	'110kV模拟11线测控装置站控层 GO04-A 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	594	'110kV模拟11线测控装置站控层 GO05-A 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	595	'110kV模拟11线测控装置站控层 GO06-A 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	596	'110kV模拟11线测控装置站控层 GO07-A 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	597	'110kV模拟11线测控装置站控层 GO08-A 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	598	'110kV模拟11线测控装置站控层 GO09-A 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	599	'110kV模拟11线测控装置站控层 GO01-B 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	600	'110kV模拟11线测控装置站控层 GO02-B 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	601	'110kV模拟11线测控装置站控层 GO03-B 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	602	'110kV模拟11线测控装置站控层 GO04-B 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	603	'110kV模拟11线测控装置站控层 GO05-B 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	604	'110kV模拟11线测控装置站控层 GO06-B 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	605	'110kV模拟11线测控装置站控层 GO07-B 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	606	'110kV模拟11线测控装置站控层 GO08-B 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	607	'110kV模拟11线测控装置站控层 GO09-B 网中断'	DEV11	DEV11LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	608	110kV模拟11线测控装置检修	DEV11	DEV11CTRL/BinInGGIO1.Ind1[ST]	-
+ #	609	110kV模拟11线测控装置就地状态	DEV11	DEV11CTRL/BinInGGIO1.Ind2[ST]	-
+ #	610	110kV模拟11线测控装置解除闭锁	DEV11	DEV11CTRL/BinInGGIO1.Ind3[ST]	-
+ #	611	'110kV模拟11线测控装置内部工作电压 1'	DEV11	DEV11LD0/SPVT1.Vol1[MX]	-
+ #	612	'110kV模拟11线测控装置内部工作电压 2'	DEV11	DEV11LD0/SPVT1.Vol2[MX]	-
+ #	613	'110kV模拟11线测控装置内部工作电压 3'	DEV11	DEV11LD0/SPVT1.Vol3[MX]	-
+ #	614	'110kV模拟11线测控装置内部工作电压 4'	DEV11	DEV11LD0/SPVT1.Vol4[MX]	-
+ #	615	'110kV模拟11线测控装置内部工作电压 5'	DEV11	DEV11LD0/SPVT1.Vol5[MX]	-
+ #	616	110kV模拟11线测控装置温度	DEV11	DEV11LD0/STMP1.Tmp[MX]	-
+ #	617	110kV模拟11线测控装置C相电压	DEV11	DEV11PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	618	110kV模拟12线测控装置装置异常	DEV12	DEV12LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	619	110kV模拟12线测控装置对时信号状态	DEV12	DEV12LD0/LTSM1.HostTPortAlm[ST]	-
+ #	620	110kV模拟12线测控装置对时服务状态	DEV12	DEV12LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	621	110kV模拟12线测控装置时间跳变侦测状态	DEV12	DEV12LD0/LTSM1.HostContAlm[ST]	-
+ #	622	'110kV模拟12线测控装置PT 断线'	DEV12	DEV12LD0/AlmGGIO1.Alm1[ST]	-
+ #	623	'110kV模拟12线测控装置CT 断线1'	DEV12	DEV12LD0/AlmGGIO1.Alm2[ST]	-
+ #	624	'110kV模拟12线测控装置CT 断线2'	DEV12	DEV12LD0/AlmGGIO1.Alm3[ST]	-
+ #	625	110kV模拟12线测控装置3U0越限	DEV12	DEV12LD0/AlmGGIO1.Alm4[ST]	-
+ #	626	110kV模拟12线测控装置3I0越限1	DEV12	DEV12LD0/AlmGGIO1.Alm5[ST]	-
+ #	627	110kV模拟12线测控装置3I0越限2	DEV12	DEV12LD0/AlmGGIO1.Alm6[ST]	-
+ #	628	110kV模拟12线测控装置同期无压条件不满足	DEV12	DEV12LD0/AlmGGIO1.Alm7[ST]	-
+ #	629	110kV模拟12线测控装置同期有压条件不满足	DEV12	DEV12LD0/AlmGGIO1.Alm8[ST]	-
+ #	630	110kV模拟12线测控装置同期压差不满足	DEV12	DEV12LD0/AlmGGIO1.Alm9[ST]	-
+ #	631	110kV模拟12线测控装置同期频差不满足	DEV12	DEV12LD0/AlmGGIO1.Alm10[ST]	-
+ #	632	110kV模拟12线测控装置同期角差不满足	DEV12	DEV12LD0/AlmGGIO1.Alm11[ST]	-
+ #	633	110kV模拟12线测控装置同期频率滑差不满足	DEV12	DEV12LD0/AlmGGIO1.Alm12[ST]	-
+ #	634	110kV模拟12线测控装置同期PT断线闭锁	DEV12	DEV12LD0/AlmGGIO1.Alm13[ST]	-
+ #	635	110kV模拟12线测控装置同期数据异常	DEV12	DEV12LD0/AlmGGIO1.Alm14[ST]	-
+ #	636	'110kV模拟12线测控装置站控层 GOOSE 总告警'	DEV12	DEV12LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	637	'110kV模拟12线测控装置站控层 GO01-A 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	638	'110kV模拟12线测控装置站控层 GO02-A 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	639	'110kV模拟12线测控装置站控层 GO03-A 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	640	'110kV模拟12线测控装置站控层 GO04-A 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	641	'110kV模拟12线测控装置站控层 GO05-A 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	642	'110kV模拟12线测控装置站控层 GO06-A 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	643	'110kV模拟12线测控装置站控层 GO07-A 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	644	'110kV模拟12线测控装置站控层 GO08-A 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	645	'110kV模拟12线测控装置站控层 GO09-A 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	646	'110kV模拟12线测控装置站控层 GO01-B 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	647	'110kV模拟12线测控装置站控层 GO02-B 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	648	'110kV模拟12线测控装置站控层 GO03-B 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	649	'110kV模拟12线测控装置站控层 GO04-B 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	650	'110kV模拟12线测控装置站控层 GO05-B 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	651	'110kV模拟12线测控装置站控层 GO06-B 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	652	'110kV模拟12线测控装置站控层 GO07-B 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	653	'110kV模拟12线测控装置站控层 GO08-B 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	654	'110kV模拟12线测控装置站控层 GO09-B 网中断'	DEV12	DEV12LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	655	110kV模拟12线测控装置检修	DEV12	DEV12CTRL/BinInGGIO1.Ind1[ST]	-
+ #	656	110kV模拟12线测控装置就地状态	DEV12	DEV12CTRL/BinInGGIO1.Ind2[ST]	-
+ #	657	110kV模拟12线测控装置解除闭锁	DEV12	DEV12CTRL/BinInGGIO1.Ind3[ST]	-
+ #	658	'110kV模拟12线测控装置内部工作电压 1'	DEV12	DEV12LD0/SPVT1.Vol1[MX]	-
+ #	659	'110kV模拟12线测控装置内部工作电压 2'	DEV12	DEV12LD0/SPVT1.Vol2[MX]	-
+ #	660	'110kV模拟12线测控装置内部工作电压 3'	DEV12	DEV12LD0/SPVT1.Vol3[MX]	-
+ #	661	'110kV模拟12线测控装置内部工作电压 4'	DEV12	DEV12LD0/SPVT1.Vol4[MX]	-
+ #	662	'110kV模拟12线测控装置内部工作电压 5'	DEV12	DEV12LD0/SPVT1.Vol5[MX]	-
+ #	663	110kV模拟12线测控装置温度	DEV12	DEV12LD0/STMP1.Tmp[MX]	-
+ #	664	110kV模拟12线测控装置C相电压	DEV12	DEV12PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	665	110kV模拟13线测控装置装置异常	DEV13	DEV13LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	666	110kV模拟13线测控装置对时信号状态	DEV13	DEV13LD0/LTSM1.HostTPortAlm[ST]	-
+ #	667	110kV模拟13线测控装置对时服务状态	DEV13	DEV13LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	668	110kV模拟13线测控装置时间跳变侦测状态	DEV13	DEV13LD0/LTSM1.HostContAlm[ST]	-
+ #	669	'110kV模拟13线测控装置PT 断线'	DEV13	DEV13LD0/AlmGGIO1.Alm1[ST]	-
+ #	670	'110kV模拟13线测控装置CT 断线1'	DEV13	DEV13LD0/AlmGGIO1.Alm2[ST]	-
+ #	671	'110kV模拟13线测控装置CT 断线2'	DEV13	DEV13LD0/AlmGGIO1.Alm3[ST]	-
+ #	672	110kV模拟13线测控装置3U0越限	DEV13	DEV13LD0/AlmGGIO1.Alm4[ST]	-
+ #	673	110kV模拟13线测控装置3I0越限1	DEV13	DEV13LD0/AlmGGIO1.Alm5[ST]	-
+ #	674	110kV模拟13线测控装置3I0越限2	DEV13	DEV13LD0/AlmGGIO1.Alm6[ST]	-
+ #	675	110kV模拟13线测控装置同期无压条件不满足	DEV13	DEV13LD0/AlmGGIO1.Alm7[ST]	-
+ #	676	110kV模拟13线测控装置同期有压条件不满足	DEV13	DEV13LD0/AlmGGIO1.Alm8[ST]	-
+ #	677	110kV模拟13线测控装置同期压差不满足	DEV13	DEV13LD0/AlmGGIO1.Alm9[ST]	-
+ #	678	110kV模拟13线测控装置同期频差不满足	DEV13	DEV13LD0/AlmGGIO1.Alm10[ST]	-
+ #	679	110kV模拟13线测控装置同期角差不满足	DEV13	DEV13LD0/AlmGGIO1.Alm11[ST]	-
+ #	680	110kV模拟13线测控装置同期频率滑差不满足	DEV13	DEV13LD0/AlmGGIO1.Alm12[ST]	-
+ #	681	110kV模拟13线测控装置同期PT断线闭锁	DEV13	DEV13LD0/AlmGGIO1.Alm13[ST]	-
+ #	682	110kV模拟13线测控装置同期数据异常	DEV13	DEV13LD0/AlmGGIO1.Alm14[ST]	-
+ #	683	'110kV模拟13线测控装置站控层 GOOSE 总告警'	DEV13	DEV13LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	684	'110kV模拟13线测控装置站控层 GO01-A 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	685	'110kV模拟13线测控装置站控层 GO02-A 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	686	'110kV模拟13线测控装置站控层 GO03-A 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	687	'110kV模拟13线测控装置站控层 GO04-A 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	688	'110kV模拟13线测控装置站控层 GO05-A 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	689	'110kV模拟13线测控装置站控层 GO06-A 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	690	'110kV模拟13线测控装置站控层 GO07-A 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	691	'110kV模拟13线测控装置站控层 GO08-A 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	692	'110kV模拟13线测控装置站控层 GO09-A 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	693	'110kV模拟13线测控装置站控层 GO01-B 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	694	'110kV模拟13线测控装置站控层 GO02-B 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	695	'110kV模拟13线测控装置站控层 GO03-B 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	696	'110kV模拟13线测控装置站控层 GO04-B 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	697	'110kV模拟13线测控装置站控层 GO05-B 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	698	'110kV模拟13线测控装置站控层 GO06-B 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	699	'110kV模拟13线测控装置站控层 GO07-B 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	700	'110kV模拟13线测控装置站控层 GO08-B 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	701	'110kV模拟13线测控装置站控层 GO09-B 网中断'	DEV13	DEV13LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	702	110kV模拟13线测控装置检修	DEV13	DEV13CTRL/BinInGGIO1.Ind1[ST]	-
+ #	703	110kV模拟13线测控装置就地状态	DEV13	DEV13CTRL/BinInGGIO1.Ind2[ST]	-
+ #	704	110kV模拟13线测控装置解除闭锁	DEV13	DEV13CTRL/BinInGGIO1.Ind3[ST]	-
+ #	705	'110kV模拟13线测控装置内部工作电压 1'	DEV13	DEV13LD0/SPVT1.Vol1[MX]	-
+ #	706	'110kV模拟13线测控装置内部工作电压 2'	DEV13	DEV13LD0/SPVT1.Vol2[MX]	-
+ #	707	'110kV模拟13线测控装置内部工作电压 3'	DEV13	DEV13LD0/SPVT1.Vol3[MX]	-
+ #	708	'110kV模拟13线测控装置内部工作电压 4'	DEV13	DEV13LD0/SPVT1.Vol4[MX]	-
+ #	709	'110kV模拟13线测控装置内部工作电压 5'	DEV13	DEV13LD0/SPVT1.Vol5[MX]	-
+ #	710	110kV模拟13线测控装置温度	DEV13	DEV13LD0/STMP1.Tmp[MX]	-
+ #	711	110kV模拟13线测控装置C相电压	DEV13	DEV13PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	712	110kV模拟14线测控装置装置异常	DEV14	DEV14LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	713	110kV模拟14线测控装置对时信号状态	DEV14	DEV14LD0/LTSM1.HostTPortAlm[ST]	-
+ #	714	110kV模拟14线测控装置对时服务状态	DEV14	DEV14LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	715	110kV模拟14线测控装置时间跳变侦测状态	DEV14	DEV14LD0/LTSM1.HostContAlm[ST]	-
+ #	716	'110kV模拟14线测控装置PT 断线'	DEV14	DEV14LD0/AlmGGIO1.Alm1[ST]	-
+ #	717	'110kV模拟14线测控装置CT 断线1'	DEV14	DEV14LD0/AlmGGIO1.Alm2[ST]	-
+ #	718	'110kV模拟14线测控装置CT 断线2'	DEV14	DEV14LD0/AlmGGIO1.Alm3[ST]	-
+ #	719	110kV模拟14线测控装置3U0越限	DEV14	DEV14LD0/AlmGGIO1.Alm4[ST]	-
+ #	720	110kV模拟14线测控装置3I0越限1	DEV14	DEV14LD0/AlmGGIO1.Alm5[ST]	-
+ #	721	110kV模拟14线测控装置3I0越限2	DEV14	DEV14LD0/AlmGGIO1.Alm6[ST]	-
+ #	722	110kV模拟14线测控装置同期无压条件不满足	DEV14	DEV14LD0/AlmGGIO1.Alm7[ST]	-
+ #	723	110kV模拟14线测控装置同期有压条件不满足	DEV14	DEV14LD0/AlmGGIO1.Alm8[ST]	-
+ #	724	110kV模拟14线测控装置同期压差不满足	DEV14	DEV14LD0/AlmGGIO1.Alm9[ST]	-
+ #	725	110kV模拟14线测控装置同期频差不满足	DEV14	DEV14LD0/AlmGGIO1.Alm10[ST]	-
+ #	726	110kV模拟14线测控装置同期角差不满足	DEV14	DEV14LD0/AlmGGIO1.Alm11[ST]	-
+ #	727	110kV模拟14线测控装置同期频率滑差不满足	DEV14	DEV14LD0/AlmGGIO1.Alm12[ST]	-
+ #	728	110kV模拟14线测控装置同期PT断线闭锁	DEV14	DEV14LD0/AlmGGIO1.Alm13[ST]	-
+ #	729	110kV模拟14线测控装置同期数据异常	DEV14	DEV14LD0/AlmGGIO1.Alm14[ST]	-
+ #	730	'110kV模拟14线测控装置站控层 GOOSE 总告警'	DEV14	DEV14LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	731	'110kV模拟14线测控装置站控层 GO01-A 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	732	'110kV模拟14线测控装置站控层 GO02-A 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	733	'110kV模拟14线测控装置站控层 GO03-A 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	734	'110kV模拟14线测控装置站控层 GO04-A 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	735	'110kV模拟14线测控装置站控层 GO05-A 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	736	'110kV模拟14线测控装置站控层 GO06-A 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	737	'110kV模拟14线测控装置站控层 GO07-A 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	738	'110kV模拟14线测控装置站控层 GO08-A 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	739	'110kV模拟14线测控装置站控层 GO09-A 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	740	'110kV模拟14线测控装置站控层 GO01-B 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	741	'110kV模拟14线测控装置站控层 GO02-B 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	742	'110kV模拟14线测控装置站控层 GO03-B 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	743	'110kV模拟14线测控装置站控层 GO04-B 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	744	'110kV模拟14线测控装置站控层 GO05-B 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	745	'110kV模拟14线测控装置站控层 GO06-B 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	746	'110kV模拟14线测控装置站控层 GO07-B 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	747	'110kV模拟14线测控装置站控层 GO08-B 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	748	'110kV模拟14线测控装置站控层 GO09-B 网中断'	DEV14	DEV14LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	749	110kV模拟14线测控装置检修	DEV14	DEV14CTRL/BinInGGIO1.Ind1[ST]	-
+ #	750	110kV模拟14线测控装置就地状态	DEV14	DEV14CTRL/BinInGGIO1.Ind2[ST]	-
+ #	751	110kV模拟14线测控装置解除闭锁	DEV14	DEV14CTRL/BinInGGIO1.Ind3[ST]	-
+ #	752	'110kV模拟14线测控装置内部工作电压 1'	DEV14	DEV14LD0/SPVT1.Vol1[MX]	-
+ #	753	'110kV模拟14线测控装置内部工作电压 2'	DEV14	DEV14LD0/SPVT1.Vol2[MX]	-
+ #	754	'110kV模拟14线测控装置内部工作电压 3'	DEV14	DEV14LD0/SPVT1.Vol3[MX]	-
+ #	755	'110kV模拟14线测控装置内部工作电压 4'	DEV14	DEV14LD0/SPVT1.Vol4[MX]	-
+ #	756	'110kV模拟14线测控装置内部工作电压 5'	DEV14	DEV14LD0/SPVT1.Vol5[MX]	-
+ #	757	110kV模拟14线测控装置温度	DEV14	DEV14LD0/STMP1.Tmp[MX]	-
+ #	758	110kV模拟14线测控装置C相电压	DEV14	DEV14PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	759	110kV模拟15线测控装置装置异常	DEV15	DEV15LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	760	110kV模拟15线测控装置对时信号状态	DEV15	DEV15LD0/LTSM1.HostTPortAlm[ST]	-
+ #	761	110kV模拟15线测控装置对时服务状态	DEV15	DEV15LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	762	110kV模拟15线测控装置时间跳变侦测状态	DEV15	DEV15LD0/LTSM1.HostContAlm[ST]	-
+ #	763	'110kV模拟15线测控装置PT 断线'	DEV15	DEV15LD0/AlmGGIO1.Alm1[ST]	-
+ #	764	'110kV模拟15线测控装置CT 断线1'	DEV15	DEV15LD0/AlmGGIO1.Alm2[ST]	-
+ #	765	'110kV模拟15线测控装置CT 断线2'	DEV15	DEV15LD0/AlmGGIO1.Alm3[ST]	-
+ #	766	110kV模拟15线测控装置3U0越限	DEV15	DEV15LD0/AlmGGIO1.Alm4[ST]	-
+ #	767	110kV模拟15线测控装置3I0越限1	DEV15	DEV15LD0/AlmGGIO1.Alm5[ST]	-
+ #	768	110kV模拟15线测控装置3I0越限2	DEV15	DEV15LD0/AlmGGIO1.Alm6[ST]	-
+ #	769	110kV模拟15线测控装置同期无压条件不满足	DEV15	DEV15LD0/AlmGGIO1.Alm7[ST]	-
+ #	770	110kV模拟15线测控装置同期有压条件不满足	DEV15	DEV15LD0/AlmGGIO1.Alm8[ST]	-
+ #	771	110kV模拟15线测控装置同期压差不满足	DEV15	DEV15LD0/AlmGGIO1.Alm9[ST]	-
+ #	772	110kV模拟15线测控装置同期频差不满足	DEV15	DEV15LD0/AlmGGIO1.Alm10[ST]	-
+ #	773	110kV模拟15线测控装置同期角差不满足	DEV15	DEV15LD0/AlmGGIO1.Alm11[ST]	-
+ #	774	110kV模拟15线测控装置同期频率滑差不满足	DEV15	DEV15LD0/AlmGGIO1.Alm12[ST]	-
+ #	775	110kV模拟15线测控装置同期PT断线闭锁	DEV15	DEV15LD0/AlmGGIO1.Alm13[ST]	-
+ #	776	110kV模拟15线测控装置同期数据异常	DEV15	DEV15LD0/AlmGGIO1.Alm14[ST]	-
+ #	777	'110kV模拟15线测控装置站控层 GOOSE 总告警'	DEV15	DEV15LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	778	'110kV模拟15线测控装置站控层 GO01-A 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	779	'110kV模拟15线测控装置站控层 GO02-A 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	780	'110kV模拟15线测控装置站控层 GO03-A 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	781	'110kV模拟15线测控装置站控层 GO04-A 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	782	'110kV模拟15线测控装置站控层 GO05-A 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	783	'110kV模拟15线测控装置站控层 GO06-A 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	784	'110kV模拟15线测控装置站控层 GO07-A 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	785	'110kV模拟15线测控装置站控层 GO08-A 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	786	'110kV模拟15线测控装置站控层 GO09-A 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	787	'110kV模拟15线测控装置站控层 GO01-B 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	788	'110kV模拟15线测控装置站控层 GO02-B 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	789	'110kV模拟15线测控装置站控层 GO03-B 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	790	'110kV模拟15线测控装置站控层 GO04-B 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	791	'110kV模拟15线测控装置站控层 GO05-B 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	792	'110kV模拟15线测控装置站控层 GO06-B 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	793	'110kV模拟15线测控装置站控层 GO07-B 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	794	'110kV模拟15线测控装置站控层 GO08-B 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	795	'110kV模拟15线测控装置站控层 GO09-B 网中断'	DEV15	DEV15LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	796	110kV模拟15线测控装置检修	DEV15	DEV15CTRL/BinInGGIO1.Ind1[ST]	-
+ #	797	110kV模拟15线测控装置就地状态	DEV15	DEV15CTRL/BinInGGIO1.Ind2[ST]	-
+ #	798	110kV模拟15线测控装置解除闭锁	DEV15	DEV15CTRL/BinInGGIO1.Ind3[ST]	-
+ #	799	'110kV模拟15线测控装置内部工作电压 1'	DEV15	DEV15LD0/SPVT1.Vol1[MX]	-
+ #	800	'110kV模拟15线测控装置内部工作电压 2'	DEV15	DEV15LD0/SPVT1.Vol2[MX]	-
+ #	801	'110kV模拟15线测控装置内部工作电压 3'	DEV15	DEV15LD0/SPVT1.Vol3[MX]	-
+ #	802	'110kV模拟15线测控装置内部工作电压 4'	DEV15	DEV15LD0/SPVT1.Vol4[MX]	-
+ #	803	'110kV模拟15线测控装置内部工作电压 5'	DEV15	DEV15LD0/SPVT1.Vol5[MX]	-
+ #	804	110kV模拟15线测控装置温度	DEV15	DEV15LD0/STMP1.Tmp[MX]	-
+ #	805	110kV模拟15线测控装置C相电压	DEV15	DEV15PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	806	模拟1间隔测控装置装置异常	DEV16	DEV16LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	807	模拟1间隔测控装置对时信号状态	DEV16	DEV16LD0/LTSM1.HostTPortAlm[ST]	-
+ #	808	模拟1间隔测控装置对时服务状态	DEV16	DEV16LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	809	模拟1间隔测控装置时间跳变侦测状态	DEV16	DEV16LD0/LTSM1.HostContAlm[ST]	-
+ #	810	'模拟1间隔测控装置PT 断线'	DEV16	DEV16LD0/AlmGGIO1.Alm1[ST]	-
+ #	811	'模拟1间隔测控装置CT 断线1'	DEV16	DEV16LD0/AlmGGIO1.Alm2[ST]	-
+ #	812	'模拟1间隔测控装置CT 断线2'	DEV16	DEV16LD0/AlmGGIO1.Alm3[ST]	-
+ #	813	模拟1间隔测控装置3U0越限	DEV16	DEV16LD0/AlmGGIO1.Alm4[ST]	-
+ #	814	模拟1间隔测控装置3I0越限1	DEV16	DEV16LD0/AlmGGIO1.Alm5[ST]	-
+ #	815	模拟1间隔测控装置3I0越限2	DEV16	DEV16LD0/AlmGGIO1.Alm6[ST]	-
+ #	816	模拟1间隔测控装置同期无压条件不满足	DEV16	DEV16LD0/AlmGGIO1.Alm7[ST]	-
+ #	817	模拟1间隔测控装置同期有压条件不满足	DEV16	DEV16LD0/AlmGGIO1.Alm8[ST]	-
+ #	818	模拟1间隔测控装置同期压差不满足	DEV16	DEV16LD0/AlmGGIO1.Alm9[ST]	-
+ #	819	模拟1间隔测控装置同期频差不满足	DEV16	DEV16LD0/AlmGGIO1.Alm10[ST]	-
+ #	820	模拟1间隔测控装置同期角差不满足	DEV16	DEV16LD0/AlmGGIO1.Alm11[ST]	-
+ #	821	模拟1间隔测控装置同期频率滑差不满足	DEV16	DEV16LD0/AlmGGIO1.Alm12[ST]	-
+ #	822	模拟1间隔测控装置同期PT断线闭锁	DEV16	DEV16LD0/AlmGGIO1.Alm13[ST]	-
+ #	823	模拟1间隔测控装置同期数据异常	DEV16	DEV16LD0/AlmGGIO1.Alm14[ST]	-
+ #	824	'模拟1间隔测控装置站控层 GOOSE 总告警'	DEV16	DEV16LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	825	'模拟1间隔测控装置站控层 GO01-A 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	826	'模拟1间隔测控装置站控层 GO02-A 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	827	'模拟1间隔测控装置站控层 GO03-A 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	828	'模拟1间隔测控装置站控层 GO04-A 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	829	'模拟1间隔测控装置站控层 GO05-A 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	830	'模拟1间隔测控装置站控层 GO06-A 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	831	'模拟1间隔测控装置站控层 GO07-A 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	832	'模拟1间隔测控装置站控层 GO08-A 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	833	'模拟1间隔测控装置站控层 GO09-A 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	834	'模拟1间隔测控装置站控层 GO01-B 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	835	'模拟1间隔测控装置站控层 GO02-B 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	836	'模拟1间隔测控装置站控层 GO03-B 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	837	'模拟1间隔测控装置站控层 GO04-B 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	838	'模拟1间隔测控装置站控层 GO05-B 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	839	'模拟1间隔测控装置站控层 GO06-B 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	840	'模拟1间隔测控装置站控层 GO07-B 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	841	'模拟1间隔测控装置站控层 GO08-B 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	842	'模拟1间隔测控装置站控层 GO09-B 网中断'	DEV16	DEV16LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	843	模拟1间隔测控装置检修	DEV16	DEV16CTRL/BinInGGIO1.Ind1[ST]	-
+ #	844	模拟1间隔测控装置就地状态	DEV16	DEV16CTRL/BinInGGIO1.Ind2[ST]	-
+ #	845	模拟1间隔测控装置解除闭锁	DEV16	DEV16CTRL/BinInGGIO1.Ind3[ST]	-
+ #	846	'模拟1间隔测控装置内部工作电压 1'	DEV16	DEV16LD0/SPVT1.Vol1[MX]	-
+ #	847	'模拟1间隔测控装置内部工作电压 2'	DEV16	DEV16LD0/SPVT1.Vol2[MX]	-
+ #	848	'模拟1间隔测控装置内部工作电压 3'	DEV16	DEV16LD0/SPVT1.Vol3[MX]	-
+ #	849	'模拟1间隔测控装置内部工作电压 4'	DEV16	DEV16LD0/SPVT1.Vol4[MX]	-
+ #	850	'模拟1间隔测控装置内部工作电压 5'	DEV16	DEV16LD0/SPVT1.Vol5[MX]	-
+ #	851	模拟1间隔测控装置温度	DEV16	DEV16LD0/STMP1.Tmp[MX]	-
+ #	852	模拟1间隔1nC相电压	DEV16	DEV16PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	853	模拟2间隔测控装置装置异常	DEV17	DEV17LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	854	模拟2间隔测控装置对时信号状态	DEV17	DEV17LD0/LTSM1.HostTPortAlm[ST]	-
+ #	855	模拟2间隔测控装置对时服务状态	DEV17	DEV17LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	856	模拟2间隔测控装置时间跳变侦测状态	DEV17	DEV17LD0/LTSM1.HostContAlm[ST]	-
+ #	857	'模拟2间隔测控装置PT 断线'	DEV17	DEV17LD0/AlmGGIO1.Alm1[ST]	-
+ #	858	'模拟2间隔测控装置CT 断线1'	DEV17	DEV17LD0/AlmGGIO1.Alm2[ST]	-
+ #	859	'模拟2间隔测控装置CT 断线2'	DEV17	DEV17LD0/AlmGGIO1.Alm3[ST]	-
+ #	860	模拟2间隔测控装置3U0越限	DEV17	DEV17LD0/AlmGGIO1.Alm4[ST]	-
+ #	861	模拟2间隔测控装置3I0越限1	DEV17	DEV17LD0/AlmGGIO1.Alm5[ST]	-
+ #	862	模拟2间隔测控装置3I0越限2	DEV17	DEV17LD0/AlmGGIO1.Alm6[ST]	-
+ #	863	模拟2间隔测控装置同期无压条件不满足	DEV17	DEV17LD0/AlmGGIO1.Alm7[ST]	-
+ #	864	模拟2间隔测控装置同期有压条件不满足	DEV17	DEV17LD0/AlmGGIO1.Alm8[ST]	-
+ #	865	模拟2间隔测控装置同期压差不满足	DEV17	DEV17LD0/AlmGGIO1.Alm9[ST]	-
+ #	866	模拟2间隔测控装置同期频差不满足	DEV17	DEV17LD0/AlmGGIO1.Alm10[ST]	-
+ #	867	模拟2间隔测控装置同期角差不满足	DEV17	DEV17LD0/AlmGGIO1.Alm11[ST]	-
+ #	868	模拟2间隔测控装置同期频率滑差不满足	DEV17	DEV17LD0/AlmGGIO1.Alm12[ST]	-
+ #	869	模拟2间隔测控装置同期PT断线闭锁	DEV17	DEV17LD0/AlmGGIO1.Alm13[ST]	-
+ #	870	模拟2间隔测控装置同期数据异常	DEV17	DEV17LD0/AlmGGIO1.Alm14[ST]	-
+ #	871	'模拟2间隔测控装置站控层 GOOSE 总告警'	DEV17	DEV17LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	872	'模拟2间隔测控装置站控层 GO01-A 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	873	'模拟2间隔测控装置站控层 GO02-A 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	874	'模拟2间隔测控装置站控层 GO03-A 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	875	'模拟2间隔测控装置站控层 GO04-A 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	876	'模拟2间隔测控装置站控层 GO05-A 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	877	'模拟2间隔测控装置站控层 GO06-A 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	878	'模拟2间隔测控装置站控层 GO07-A 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	879	'模拟2间隔测控装置站控层 GO08-A 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	880	'模拟2间隔测控装置站控层 GO09-A 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	881	'模拟2间隔测控装置站控层 GO01-B 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	882	'模拟2间隔测控装置站控层 GO02-B 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	883	'模拟2间隔测控装置站控层 GO03-B 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	884	'模拟2间隔测控装置站控层 GO04-B 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	885	'模拟2间隔测控装置站控层 GO05-B 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	886	'模拟2间隔测控装置站控层 GO06-B 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	887	'模拟2间隔测控装置站控层 GO07-B 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	888	'模拟2间隔测控装置站控层 GO08-B 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	889	'模拟2间隔测控装置站控层 GO09-B 网中断'	DEV17	DEV17LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	890	模拟2间隔测控装置检修	DEV17	DEV17CTRL/BinInGGIO1.Ind1[ST]	-
+ #	891	模拟2间隔测控装置就地状态	DEV17	DEV17CTRL/BinInGGIO1.Ind2[ST]	-
+ #	892	模拟2间隔测控装置解除闭锁	DEV17	DEV17CTRL/BinInGGIO1.Ind3[ST]	-
+ #	893	'模拟2间隔测控装置内部工作电压 1'	DEV17	DEV17LD0/SPVT1.Vol1[MX]	-
+ #	894	'模拟2间隔测控装置内部工作电压 2'	DEV17	DEV17LD0/SPVT1.Vol2[MX]	-
+ #	895	'模拟2间隔测控装置内部工作电压 3'	DEV17	DEV17LD0/SPVT1.Vol3[MX]	-
+ #	896	'模拟2间隔测控装置内部工作电压 4'	DEV17	DEV17LD0/SPVT1.Vol4[MX]	-
+ #	897	'模拟2间隔测控装置内部工作电压 5'	DEV17	DEV17LD0/SPVT1.Vol5[MX]	-
+ #	898	模拟2间隔测控装置温度	DEV17	DEV17LD0/STMP1.Tmp[MX]	-
+ #	899	模拟2间隔2nC相电压	DEV17	DEV17PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	900	模拟3间隔测控装置装置异常	DEV18	DEV18LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	901	模拟3间隔测控装置对时信号状态	DEV18	DEV18LD0/LTSM1.HostTPortAlm[ST]	-
+ #	902	模拟3间隔测控装置对时服务状态	DEV18	DEV18LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	903	模拟3间隔测控装置时间跳变侦测状态	DEV18	DEV18LD0/LTSM1.HostContAlm[ST]	-
+ #	904	'模拟3间隔测控装置PT 断线'	DEV18	DEV18LD0/AlmGGIO1.Alm1[ST]	-
+ #	905	'模拟3间隔测控装置CT 断线1'	DEV18	DEV18LD0/AlmGGIO1.Alm2[ST]	-
+ #	906	'模拟3间隔测控装置CT 断线2'	DEV18	DEV18LD0/AlmGGIO1.Alm3[ST]	-
+ #	907	模拟3间隔测控装置3U0越限	DEV18	DEV18LD0/AlmGGIO1.Alm4[ST]	-
+ #	908	模拟3间隔测控装置3I0越限1	DEV18	DEV18LD0/AlmGGIO1.Alm5[ST]	-
+ #	909	模拟3间隔测控装置3I0越限2	DEV18	DEV18LD0/AlmGGIO1.Alm6[ST]	-
+ #	910	模拟3间隔测控装置同期无压条件不满足	DEV18	DEV18LD0/AlmGGIO1.Alm7[ST]	-
+ #	911	模拟3间隔测控装置同期有压条件不满足	DEV18	DEV18LD0/AlmGGIO1.Alm8[ST]	-
+ #	912	模拟3间隔测控装置同期压差不满足	DEV18	DEV18LD0/AlmGGIO1.Alm9[ST]	-
+ #	913	模拟3间隔测控装置同期频差不满足	DEV18	DEV18LD0/AlmGGIO1.Alm10[ST]	-
+ #	914	模拟3间隔测控装置同期角差不满足	DEV18	DEV18LD0/AlmGGIO1.Alm11[ST]	-
+ #	915	模拟3间隔测控装置同期频率滑差不满足	DEV18	DEV18LD0/AlmGGIO1.Alm12[ST]	-
+ #	916	模拟3间隔测控装置同期PT断线闭锁	DEV18	DEV18LD0/AlmGGIO1.Alm13[ST]	-
+ #	917	模拟3间隔测控装置同期数据异常	DEV18	DEV18LD0/AlmGGIO1.Alm14[ST]	-
+ #	918	'模拟3间隔测控装置站控层 GOOSE 总告警'	DEV18	DEV18LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	919	'模拟3间隔测控装置站控层 GO01-A 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	920	'模拟3间隔测控装置站控层 GO02-A 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	921	'模拟3间隔测控装置站控层 GO03-A 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	922	'模拟3间隔测控装置站控层 GO04-A 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	923	'模拟3间隔测控装置站控层 GO05-A 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	924	'模拟3间隔测控装置站控层 GO06-A 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	925	'模拟3间隔测控装置站控层 GO07-A 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	926	'模拟3间隔测控装置站控层 GO08-A 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	927	'模拟3间隔测控装置站控层 GO09-A 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	928	'模拟3间隔测控装置站控层 GO01-B 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	929	'模拟3间隔测控装置站控层 GO02-B 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	930	'模拟3间隔测控装置站控层 GO03-B 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	931	'模拟3间隔测控装置站控层 GO04-B 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	932	'模拟3间隔测控装置站控层 GO05-B 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	933	'模拟3间隔测控装置站控层 GO06-B 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	934	'模拟3间隔测控装置站控层 GO07-B 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	935	'模拟3间隔测控装置站控层 GO08-B 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	936	'模拟3间隔测控装置站控层 GO09-B 网中断'	DEV18	DEV18LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	937	模拟3间隔测控装置检修	DEV18	DEV18CTRL/BinInGGIO1.Ind1[ST]	-
+ #	938	模拟3间隔测控装置就地状态	DEV18	DEV18CTRL/BinInGGIO1.Ind2[ST]	-
+ #	939	模拟3间隔测控装置解除闭锁	DEV18	DEV18CTRL/BinInGGIO1.Ind3[ST]	-
+ #	940	'模拟3间隔测控装置内部工作电压 1'	DEV18	DEV18LD0/SPVT1.Vol1[MX]	-
+ #	941	'模拟3间隔测控装置内部工作电压 2'	DEV18	DEV18LD0/SPVT1.Vol2[MX]	-
+ #	942	'模拟3间隔测控装置内部工作电压 3'	DEV18	DEV18LD0/SPVT1.Vol3[MX]	-
+ #	943	'模拟3间隔测控装置内部工作电压 4'	DEV18	DEV18LD0/SPVT1.Vol4[MX]	-
+ #	944	'模拟3间隔测控装置内部工作电压 5'	DEV18	DEV18LD0/SPVT1.Vol5[MX]	-
+ #	945	模拟3间隔测控装置温度	DEV18	DEV18LD0/STMP1.Tmp[MX]	-
+ #	946	模拟3间隔3nC相电压	DEV18	DEV18PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	947	模拟4间隔测控装置装置异常	DEV19	DEV01LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	948	模拟4间隔测控装置对时信号状态	DEV19	DEV01LD0/LTSM1.HostTPortAlm[ST]	-
+ #	949	模拟4间隔测控装置对时服务状态	DEV19	DEV01LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	950	模拟4间隔测控装置时间跳变侦测状态	DEV19	DEV01LD0/LTSM1.HostContAlm[ST]	-
+ #	951	'模拟4间隔测控装置PT 断线'	DEV19	DEV01LD0/AlmGGIO1.Alm1[ST]	-
+ #	952	'模拟4间隔测控装置CT 断线1'	DEV19	DEV01LD0/AlmGGIO1.Alm2[ST]	-
+ #	953	'模拟4间隔测控装置CT 断线2'	DEV19	DEV01LD0/AlmGGIO1.Alm3[ST]	-
+ #	954	模拟4间隔测控装置3U0越限	DEV19	DEV01LD0/AlmGGIO1.Alm4[ST]	-
+ #	955	模拟4间隔测控装置3I0越限1	DEV19	DEV01LD0/AlmGGIO1.Alm5[ST]	-
+ #	956	模拟4间隔测控装置3I0越限2	DEV19	DEV01LD0/AlmGGIO1.Alm6[ST]	-
+ #	957	模拟4间隔测控装置同期无压条件不满足	DEV19	DEV01LD0/AlmGGIO1.Alm7[ST]	-
+ #	958	模拟4间隔测控装置同期有压条件不满足	DEV19	DEV01LD0/AlmGGIO1.Alm8[ST]	-
+ #	959	模拟4间隔测控装置同期压差不满足	DEV19	DEV01LD0/AlmGGIO1.Alm9[ST]	-
+ #	960	模拟4间隔测控装置同期频差不满足	DEV19	DEV01LD0/AlmGGIO1.Alm10[ST]	-
+ #	961	模拟4间隔测控装置同期角差不满足	DEV19	DEV01LD0/AlmGGIO1.Alm11[ST]	-
+ #	962	模拟4间隔测控装置同期频率滑差不满足	DEV19	DEV01LD0/AlmGGIO1.Alm12[ST]	-
+ #	963	模拟4间隔测控装置同期PT断线闭锁	DEV19	DEV01LD0/AlmGGIO1.Alm13[ST]	-
+ #	964	模拟4间隔测控装置同期数据异常	DEV19	DEV01LD0/AlmGGIO1.Alm14[ST]	-
+ #	965	'模拟4间隔测控装置站控层 GOOSE 总告警'	DEV19	DEV01LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	966	'模拟4间隔测控装置站控层 GO01-A 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	967	'模拟4间隔测控装置站控层 GO02-A 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	968	'模拟4间隔测控装置站控层 GO03-A 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	969	'模拟4间隔测控装置站控层 GO04-A 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	970	'模拟4间隔测控装置站控层 GO05-A 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	971	'模拟4间隔测控装置站控层 GO06-A 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	972	'模拟4间隔测控装置站控层 GO07-A 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	973	'模拟4间隔测控装置站控层 GO08-A 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	974	'模拟4间隔测控装置站控层 GO09-A 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	975	'模拟4间隔测控装置站控层 GO01-B 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	976	'模拟4间隔测控装置站控层 GO02-B 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	977	'模拟4间隔测控装置站控层 GO03-B 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	978	'模拟4间隔测控装置站控层 GO04-B 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	979	'模拟4间隔测控装置站控层 GO05-B 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	980	'模拟4间隔测控装置站控层 GO06-B 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	981	'模拟4间隔测控装置站控层 GO07-B 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	982	'模拟4间隔测控装置站控层 GO08-B 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	983	'模拟4间隔测控装置站控层 GO09-B 网中断'	DEV19	DEV01LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	984	模拟4间隔测控装置检修	DEV19	DEV01CTRL/BinInGGIO1.Ind1[ST]	-
+ #	985	模拟4间隔测控装置就地状态	DEV19	DEV01CTRL/BinInGGIO1.Ind2[ST]	-
+ #	986	模拟4间隔测控装置解除闭锁	DEV19	DEV01CTRL/BinInGGIO1.Ind3[ST]	-
+ #	987	'模拟4间隔测控装置内部工作电压 1'	DEV19	DEV01LD0/SPVT1.Vol1[MX]	-
+ #	988	'模拟4间隔测控装置内部工作电压 2'	DEV19	DEV01LD0/SPVT1.Vol2[MX]	-
+ #	989	'模拟4间隔测控装置内部工作电压 3'	DEV19	DEV01LD0/SPVT1.Vol3[MX]	-
+ #	990	'模拟4间隔测控装置内部工作电压 4'	DEV19	DEV01LD0/SPVT1.Vol4[MX]	-
+ #	991	'模拟4间隔测控装置内部工作电压 5'	DEV19	DEV01LD0/SPVT1.Vol5[MX]	-
+ #	992	模拟4间隔测控装置温度	DEV19	DEV01LD0/STMP1.Tmp[MX]	-
+ #	993	模拟4间隔测控装置C相电压	DEV19	DEV01PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	994	模拟1间隔测控装置装置异常	DEV20	DEV20LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	995	模拟1间隔测控装置对时信号状态	DEV20	DEV20LD0/LTSM1.HostTPortAlm[ST]	-
+ #	996	模拟1间隔测控装置对时服务状态	DEV20	DEV20LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	997	模拟1间隔测控装置时间跳变侦测状态	DEV20	DEV20LD0/LTSM1.HostContAlm[ST]	-
+ #	998	'模拟1间隔测控装置PT 断线'	DEV20	DEV20LD0/AlmGGIO1.Alm1[ST]	-
+ #	999	'模拟1间隔测控装置CT 断线1'	DEV20	DEV20LD0/AlmGGIO1.Alm2[ST]	-
+ #	1000	'模拟1间隔测控装置CT 断线2'	DEV20	DEV20LD0/AlmGGIO1.Alm3[ST]	-
+ #	1001	模拟1间隔测控装置3U0越限	DEV20	DEV20LD0/AlmGGIO1.Alm4[ST]	-
+ #	1002	模拟1间隔测控装置3I0越限1	DEV20	DEV20LD0/AlmGGIO1.Alm5[ST]	-
+ #	1003	模拟1间隔测控装置3I0越限2	DEV20	DEV20LD0/AlmGGIO1.Alm6[ST]	-
+ #	1004	模拟1间隔测控装置同期无压条件不满足	DEV20	DEV20LD0/AlmGGIO1.Alm7[ST]	-
+ #	1005	模拟1间隔测控装置同期有压条件不满足	DEV20	DEV20LD0/AlmGGIO1.Alm8[ST]	-
+ #	1006	模拟1间隔测控装置同期压差不满足	DEV20	DEV20LD0/AlmGGIO1.Alm9[ST]	-
+ #	1007	模拟1间隔测控装置同期频差不满足	DEV20	DEV20LD0/AlmGGIO1.Alm10[ST]	-
+ #	1008	模拟1间隔测控装置同期角差不满足	DEV20	DEV20LD0/AlmGGIO1.Alm11[ST]	-
+ #	1009	模拟1间隔测控装置同期频率滑差不满足	DEV20	DEV20LD0/AlmGGIO1.Alm12[ST]	-
+ #	1010	模拟1间隔测控装置同期PT断线闭锁	DEV20	DEV20LD0/AlmGGIO1.Alm13[ST]	-
+ #	1011	模拟1间隔测控装置同期数据异常	DEV20	DEV20LD0/AlmGGIO1.Alm14[ST]	-
+ #	1012	'模拟1间隔测控装置站控层 GOOSE 总告警'	DEV20	DEV20LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	1013	'模拟1间隔测控装置站控层 GO01-A 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	1014	'模拟1间隔测控装置站控层 GO02-A 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	1015	'模拟1间隔测控装置站控层 GO03-A 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	1016	'模拟1间隔测控装置站控层 GO04-A 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	1017	'模拟1间隔测控装置站控层 GO05-A 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	1018	'模拟1间隔测控装置站控层 GO06-A 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	1019	'模拟1间隔测控装置站控层 GO07-A 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	1020	'模拟1间隔测控装置站控层 GO08-A 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	1021	'模拟1间隔测控装置站控层 GO09-A 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	1022	'模拟1间隔测控装置站控层 GO01-B 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	1023	'模拟1间隔测控装置站控层 GO02-B 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	1024	'模拟1间隔测控装置站控层 GO03-B 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	1025	'模拟1间隔测控装置站控层 GO04-B 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	1026	'模拟1间隔测控装置站控层 GO05-B 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	1027	'模拟1间隔测控装置站控层 GO06-B 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	1028	'模拟1间隔测控装置站控层 GO07-B 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	1029	'模拟1间隔测控装置站控层 GO08-B 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	1030	'模拟1间隔测控装置站控层 GO09-B 网中断'	DEV20	DEV20LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	1031	模拟1间隔测控装置检修	DEV20	DEV20CTRL/BinInGGIO1.Ind1[ST]	-
+ #	1032	模拟1间隔测控装置就地状态	DEV20	DEV20CTRL/BinInGGIO1.Ind2[ST]	-
+ #	1033	模拟1间隔测控装置解除闭锁	DEV20	DEV20CTRL/BinInGGIO1.Ind3[ST]	-
+ #	1034	'模拟1间隔测控装置内部工作电压 1'	DEV20	DEV20LD0/SPVT1.Vol1[MX]	-
+ #	1035	'模拟1间隔测控装置内部工作电压 2'	DEV20	DEV20LD0/SPVT1.Vol2[MX]	-
+ #	1036	'模拟1间隔测控装置内部工作电压 3'	DEV20	DEV20LD0/SPVT1.Vol3[MX]	-
+ #	1037	'模拟1间隔测控装置内部工作电压 4'	DEV20	DEV20LD0/SPVT1.Vol4[MX]	-
+ #	1038	'模拟1间隔测控装置内部工作电压 5'	DEV20	DEV20LD0/SPVT1.Vol5[MX]	-
+ #	1039	模拟1间隔测控装置温度	DEV20	DEV20LD0/STMP1.Tmp[MX]	-
+ #	1040	模拟1间隔C相电压	DEV20	DEV20PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	1041	模拟2间隔测控装置装置异常	DEV21	DEV21LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	1042	模拟2间隔测控装置对时信号状态	DEV21	DEV21LD0/LTSM1.HostTPortAlm[ST]	-
+ #	1043	模拟2间隔测控装置对时服务状态	DEV21	DEV21LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	1044	模拟2间隔测控装置时间跳变侦测状态	DEV21	DEV21LD0/LTSM1.HostContAlm[ST]	-
+ #	1045	'模拟2间隔测控装置PT 断线'	DEV21	DEV21LD0/AlmGGIO1.Alm1[ST]	-
+ #	1046	'模拟2间隔测控装置CT 断线1'	DEV21	DEV21LD0/AlmGGIO1.Alm2[ST]	-
+ #	1047	'模拟2间隔测控装置CT 断线2'	DEV21	DEV21LD0/AlmGGIO1.Alm3[ST]	-
+ #	1048	模拟2间隔测控装置3U0越限	DEV21	DEV21LD0/AlmGGIO1.Alm4[ST]	-
+ #	1049	模拟2间隔测控装置3I0越限1	DEV21	DEV21LD0/AlmGGIO1.Alm5[ST]	-
+ #	1050	模拟2间隔测控装置3I0越限2	DEV21	DEV21LD0/AlmGGIO1.Alm6[ST]	-
+ #	1051	模拟2间隔测控装置同期无压条件不满足	DEV21	DEV21LD0/AlmGGIO1.Alm7[ST]	-
+ #	1052	模拟2间隔测控装置同期有压条件不满足	DEV21	DEV21LD0/AlmGGIO1.Alm8[ST]	-
+ #	1053	模拟2间隔测控装置同期压差不满足	DEV21	DEV21LD0/AlmGGIO1.Alm9[ST]	-
+ #	1054	模拟2间隔测控装置同期频差不满足	DEV21	DEV21LD0/AlmGGIO1.Alm10[ST]	-
+ #	1055	模拟2间隔测控装置同期角差不满足	DEV21	DEV21LD0/AlmGGIO1.Alm11[ST]	-
+ #	1056	模拟2间隔测控装置同期频率滑差不满足	DEV21	DEV21LD0/AlmGGIO1.Alm12[ST]	-
+ #	1057	模拟2间隔测控装置同期PT断线闭锁	DEV21	DEV21LD0/AlmGGIO1.Alm13[ST]	-
+ #	1058	模拟2间隔测控装置同期数据异常	DEV21	DEV21LD0/AlmGGIO1.Alm14[ST]	-
+ #	1059	'模拟2间隔测控装置站控层 GOOSE 总告警'	DEV21	DEV21LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	1060	'模拟2间隔测控装置站控层 GO01-A 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	1061	'模拟2间隔测控装置站控层 GO02-A 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	1062	'模拟2间隔测控装置站控层 GO03-A 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	1063	'模拟2间隔测控装置站控层 GO04-A 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	1064	'模拟2间隔测控装置站控层 GO05-A 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	1065	'模拟2间隔测控装置站控层 GO06-A 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	1066	'模拟2间隔测控装置站控层 GO07-A 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	1067	'模拟2间隔测控装置站控层 GO08-A 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	1068	'模拟2间隔测控装置站控层 GO09-A 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	1069	'模拟2间隔测控装置站控层 GO01-B 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	1070	'模拟2间隔测控装置站控层 GO02-B 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	1071	'模拟2间隔测控装置站控层 GO03-B 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	1072	'模拟2间隔测控装置站控层 GO04-B 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	1073	'模拟2间隔测控装置站控层 GO05-B 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	1074	'模拟2间隔测控装置站控层 GO06-B 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	1075	'模拟2间隔测控装置站控层 GO07-B 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	1076	'模拟2间隔测控装置站控层 GO08-B 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	1077	'模拟2间隔测控装置站控层 GO09-B 网中断'	DEV21	DEV21LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	1078	模拟2间隔测控装置检修	DEV21	DEV21CTRL/BinInGGIO1.Ind1[ST]	-
+ #	1079	模拟2间隔测控装置就地状态	DEV21	DEV21CTRL/BinInGGIO1.Ind2[ST]	-
+ #	1080	模拟2间隔测控装置解除闭锁	DEV21	DEV21CTRL/BinInGGIO1.Ind3[ST]	-
+ #	1081	'模拟2间隔测控装置内部工作电压 1'	DEV21	DEV21LD0/SPVT1.Vol1[MX]	-
+ #	1082	'模拟2间隔测控装置内部工作电压 2'	DEV21	DEV21LD0/SPVT1.Vol2[MX]	-
+ #	1083	'模拟2间隔测控装置内部工作电压 3'	DEV21	DEV21LD0/SPVT1.Vol3[MX]	-
+ #	1084	'模拟2间隔测控装置内部工作电压 4'	DEV21	DEV21LD0/SPVT1.Vol4[MX]	-
+ #	1085	'模拟2间隔测控装置内部工作电压 5'	DEV21	DEV21LD0/SPVT1.Vol5[MX]	-
+ #	1086	模拟2间隔测控装置温度	DEV21	DEV21LD0/STMP1.Tmp[MX]	-
+ #	1087	模拟2间隔2nC相电压	DEV21	DEV21PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	1088	模拟3间隔测控装置装置异常	DEV22	DEV22LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	1089	模拟3间隔测控装置对时信号状态	DEV22	DEV22LD0/LTSM1.HostTPortAlm[ST]	-
+ #	1090	模拟3间隔测控装置对时服务状态	DEV22	DEV22LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	1091	模拟3间隔测控装置时间跳变侦测状态	DEV22	DEV22LD0/LTSM1.HostContAlm[ST]	-
+ #	1092	'模拟3间隔测控装置PT 断线'	DEV22	DEV22LD0/AlmGGIO1.Alm1[ST]	-
+ #	1093	'模拟3间隔测控装置CT 断线1'	DEV22	DEV22LD0/AlmGGIO1.Alm2[ST]	-
+ #	1094	'模拟3间隔测控装置CT 断线2'	DEV22	DEV22LD0/AlmGGIO1.Alm3[ST]	-
+ #	1095	模拟3间隔测控装置3U0越限	DEV22	DEV22LD0/AlmGGIO1.Alm4[ST]	-
+ #	1096	模拟3间隔测控装置3I0越限1	DEV22	DEV22LD0/AlmGGIO1.Alm5[ST]	-
+ #	1097	模拟3间隔测控装置3I0越限2	DEV22	DEV22LD0/AlmGGIO1.Alm6[ST]	-
+ #	1098	模拟3间隔测控装置同期无压条件不满足	DEV22	DEV22LD0/AlmGGIO1.Alm7[ST]	-
+ #	1099	模拟3间隔测控装置同期有压条件不满足	DEV22	DEV22LD0/AlmGGIO1.Alm8[ST]	-
+ #	1100	模拟3间隔测控装置同期压差不满足	DEV22	DEV22LD0/AlmGGIO1.Alm9[ST]	-
+ #	1101	模拟3间隔测控装置同期频差不满足	DEV22	DEV22LD0/AlmGGIO1.Alm10[ST]	-
+ #	1102	模拟3间隔测控装置同期角差不满足	DEV22	DEV22LD0/AlmGGIO1.Alm11[ST]	-
+ #	1103	模拟3间隔测控装置同期频率滑差不满足	DEV22	DEV22LD0/AlmGGIO1.Alm12[ST]	-
+ #	1104	模拟3间隔测控装置同期PT断线闭锁	DEV22	DEV22LD0/AlmGGIO1.Alm13[ST]	-
+ #	1105	模拟3间隔测控装置同期数据异常	DEV22	DEV22LD0/AlmGGIO1.Alm14[ST]	-
+ #	1106	'模拟3间隔测控装置站控层 GOOSE 总告警'	DEV22	DEV22LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	1107	'模拟3间隔测控装置站控层 GO01-A 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	1108	'模拟3间隔测控装置站控层 GO02-A 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	1109	'模拟3间隔测控装置站控层 GO03-A 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	1110	'模拟3间隔测控装置站控层 GO04-A 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	1111	'模拟3间隔测控装置站控层 GO05-A 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	1112	'模拟3间隔测控装置站控层 GO06-A 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	1113	'模拟3间隔测控装置站控层 GO07-A 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	1114	'模拟3间隔测控装置站控层 GO08-A 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	1115	'模拟3间隔测控装置站控层 GO09-A 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	1116	'模拟3间隔测控装置站控层 GO01-B 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	1117	'模拟3间隔测控装置站控层 GO02-B 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	1118	'模拟3间隔测控装置站控层 GO03-B 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	1119	'模拟3间隔测控装置站控层 GO04-B 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	1120	'模拟3间隔测控装置站控层 GO05-B 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	1121	'模拟3间隔测控装置站控层 GO06-B 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	1122	'模拟3间隔测控装置站控层 GO07-B 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	1123	'模拟3间隔测控装置站控层 GO08-B 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	1124	'模拟3间隔测控装置站控层 GO09-B 网中断'	DEV22	DEV22LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	1125	模拟3间隔测控装置检修	DEV22	DEV22CTRL/BinInGGIO1.Ind1[ST]	-
+ #	1126	模拟3间隔测控装置就地状态	DEV22	DEV22CTRL/BinInGGIO1.Ind2[ST]	-
+ #	1127	模拟3间隔测控装置解除闭锁	DEV22	DEV22CTRL/BinInGGIO1.Ind3[ST]	-
+ #	1128	'模拟3间隔测控装置内部工作电压 1'	DEV22	DEV22LD0/SPVT1.Vol1[MX]	-
+ #	1129	'模拟3间隔测控装置内部工作电压 2'	DEV22	DEV22LD0/SPVT1.Vol2[MX]	-
+ #	1130	'模拟3间隔测控装置内部工作电压 3'	DEV22	DEV22LD0/SPVT1.Vol3[MX]	-
+ #	1131	'模拟3间隔测控装置内部工作电压 4'	DEV22	DEV22LD0/SPVT1.Vol4[MX]	-
+ #	1132	'模拟3间隔测控装置内部工作电压 5'	DEV22	DEV22LD0/SPVT1.Vol5[MX]	-
+ #	1133	模拟3间隔测控装置温度	DEV22	DEV22LD0/STMP1.Tmp[MX]	-
+ #	1134	模拟3间隔3nC相电压	DEV22	DEV22PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	1135	模拟4间隔测控装置装置异常	DEV23	DEV02LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	1136	模拟4间隔测控装置对时信号状态	DEV23	DEV02LD0/LTSM1.HostTPortAlm[ST]	-
+ #	1137	模拟4间隔测控装置对时服务状态	DEV23	DEV02LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	1138	模拟4间隔测控装置时间跳变侦测状态	DEV23	DEV02LD0/LTSM1.HostContAlm[ST]	-
+ #	1139	'模拟4间隔测控装置PT 断线'	DEV23	DEV02LD0/AlmGGIO1.Alm1[ST]	-
+ #	1140	'模拟4间隔测控装置CT 断线1'	DEV23	DEV02LD0/AlmGGIO1.Alm2[ST]	-
+ #	1141	'模拟4间隔测控装置CT 断线2'	DEV23	DEV02LD0/AlmGGIO1.Alm3[ST]	-
+ #	1142	模拟4间隔测控装置3U0越限	DEV23	DEV02LD0/AlmGGIO1.Alm4[ST]	-
+ #	1143	模拟4间隔测控装置3I0越限1	DEV23	DEV02LD0/AlmGGIO1.Alm5[ST]	-
+ #	1144	模拟4间隔测控装置3I0越限2	DEV23	DEV02LD0/AlmGGIO1.Alm6[ST]	-
+ #	1145	模拟4间隔测控装置同期无压条件不满足	DEV23	DEV02LD0/AlmGGIO1.Alm7[ST]	-
+ #	1146	模拟4间隔测控装置同期有压条件不满足	DEV23	DEV02LD0/AlmGGIO1.Alm8[ST]	-
+ #	1147	模拟4间隔测控装置同期压差不满足	DEV23	DEV02LD0/AlmGGIO1.Alm9[ST]	-
+ #	1148	模拟4间隔测控装置同期频差不满足	DEV23	DEV02LD0/AlmGGIO1.Alm10[ST]	-
+ #	1149	模拟4间隔测控装置同期角差不满足	DEV23	DEV02LD0/AlmGGIO1.Alm11[ST]	-
+ #	1150	模拟4间隔测控装置同期频率滑差不满足	DEV23	DEV02LD0/AlmGGIO1.Alm12[ST]	-
+ #	1151	模拟4间隔测控装置同期PT断线闭锁	DEV23	DEV02LD0/AlmGGIO1.Alm13[ST]	-
+ #	1152	模拟4间隔测控装置同期数据异常	DEV23	DEV02LD0/AlmGGIO1.Alm14[ST]	-
+ #	1153	'模拟4间隔测控装置站控层 GOOSE 总告警'	DEV23	DEV02LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	1154	'模拟4间隔测控装置站控层 GO01-A 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	1155	'模拟4间隔测控装置站控层 GO02-A 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	1156	'模拟4间隔测控装置站控层 GO03-A 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	1157	'模拟4间隔测控装置站控层 GO04-A 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	1158	'模拟4间隔测控装置站控层 GO05-A 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	1159	'模拟4间隔测控装置站控层 GO06-A 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	1160	'模拟4间隔测控装置站控层 GO07-A 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	1161	'模拟4间隔测控装置站控层 GO08-A 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	1162	'模拟4间隔测控装置站控层 GO09-A 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	1163	'模拟4间隔测控装置站控层 GO01-B 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	1164	'模拟4间隔测控装置站控层 GO02-B 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	1165	'模拟4间隔测控装置站控层 GO03-B 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	1166	'模拟4间隔测控装置站控层 GO04-B 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	1167	'模拟4间隔测控装置站控层 GO05-B 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	1168	'模拟4间隔测控装置站控层 GO06-B 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	1169	'模拟4间隔测控装置站控层 GO07-B 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	1170	'模拟4间隔测控装置站控层 GO08-B 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	1171	'模拟4间隔测控装置站控层 GO09-B 网中断'	DEV23	DEV02LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	1172	模拟4间隔测控装置检修	DEV23	DEV02CTRL/BinInGGIO1.Ind1[ST]	-
+ #	1173	模拟4间隔测控装置就地状态	DEV23	DEV02CTRL/BinInGGIO1.Ind2[ST]	-
+ #	1174	模拟4间隔测控装置解除闭锁	DEV23	DEV02CTRL/BinInGGIO1.Ind3[ST]	-
+ #	1175	'模拟4间隔测控装置内部工作电压 1'	DEV23	DEV02LD0/SPVT1.Vol1[MX]	-
+ #	1176	'模拟4间隔测控装置内部工作电压 2'	DEV23	DEV02LD0/SPVT1.Vol2[MX]	-
+ #	1177	'模拟4间隔测控装置内部工作电压 3'	DEV23	DEV02LD0/SPVT1.Vol3[MX]	-
+ #	1178	'模拟4间隔测控装置内部工作电压 4'	DEV23	DEV02LD0/SPVT1.Vol4[MX]	-
+ #	1179	'模拟4间隔测控装置内部工作电压 5'	DEV23	DEV02LD0/SPVT1.Vol5[MX]	-
+ #	1180	模拟4间隔测控装置温度	DEV23	DEV02LD0/STMP1.Tmp[MX]	-
+ #	1181	模拟4间隔测控装置C相电压	DEV23	DEV02PROT/PMMXU1.PPV.phsBC.cVal[MX]	-
+ #	1182	220kV母线测控装置异常	DEV24	DEV24LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	1183	220kV母线测控对时信号状态	DEV24	DEV24LD0/LTSM1.HostTPortAlm[ST]	-
+ #	1184	220kV母线测控对时服务状态	DEV24	DEV24LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	1185	220kV母线测控时间跳变侦测状态	DEV24	DEV24LD0/LTSM1.HostContAlm[ST]	-
+ #	1186	'220kV母线测控PT 断线1'	DEV24	DEV24LD0/AlmGGIO1.Alm1[ST]	-
+ #	1187	'220kV母线测控PT 断线2'	DEV24	DEV24LD0/AlmGGIO1.Alm2[ST]	-
+ #	1188	220kV母线测控3U0越限1	DEV24	DEV24LD0/AlmGGIO1.Alm3[ST]	-
+ #	1189	220kV母线测控3U0越限2	DEV24	DEV24LD0/AlmGGIO1.Alm4[ST]	-
+ #	1190	'220kV母线测控站控层 GOOSE 总告警'	DEV24	DEV24LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	1191	'220kV母线测控站控层 GO01-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	1192	'220kV母线测控站控层 GO02-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	1193	'220kV母线测控站控层 GO03-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	1194	'220kV母线测控站控层 GO04-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	1195	'220kV母线测控站控层 GO05-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	1196	'220kV母线测控站控层 GO06-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	1197	'220kV母线测控站控层 GO07-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	1198	'220kV母线测控站控层 GO08-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	1199	'220kV母线测控站控层 GO09-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	1200	'220kV母线测控站控层 GO10-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm20[ST]	-
+ #	1201	'220kV母线测控站控层 GO11-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm22[ST]	-
+ #	1202	'220kV母线测控站控层 GO12-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm24[ST]	-
+ #	1203	'220kV母线测控站控层 GO13-1 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm26[ST]	-
+ #	1204	'220kV母线测控站控层 GO14-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm28[ST]	-
+ #	1205	'220kV母线测控站控层 GO015-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm30[ST]	-
+ #	1206	'220kV母线测控站控层 GO016-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm1[ST]	-
+ #	1207	'220kV母线测控站控层 GO017-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm3[ST]	-
+ #	1208	'220kV母线测控站控层 GO018-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm5[ST]	-
+ #	1209	'220kV母线测控站控层 GO019-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm7[ST]	-
+ #	1210	'220kV母线测控站控层 GO020-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm9[ST]	-
+ #	1211	'220kV母线测控站控层 GO021-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm11[ST]	-
+ #	1212	'220kV母线测控站控层 GO022-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm13[ST]	-
+ #	1213	'220kV母线测控站控层 GO023-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm15[ST]	-
+ #	1214	'220kV母线测控站控层 GO024-A 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm17[ST]	-
+ #	1215	'220kV母线测控站控层 GO01-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	1216	'220kV母线测控站控层 GO02-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	1217	'220kV母线测控站控层 GO03-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	1218	'220kV母线测控站控层 GO04-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	1219	'220kV母线测控站控层 GO05-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	1220	'220kV母线测控站控层 GO06-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	1221	'220kV母线测控站控层 GO07-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	1222	'220kV母线测控站控层 GO08-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	1223	'220kV母线测控站控层 GO09-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	1224	'220kV母线测控站控层 GO10-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm21[ST]	-
+ #	1225	'220kV母线测控站控层 GO11-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm23[ST]	-
+ #	1226	'220kV母线测控站控层 GO12-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm25[ST]	-
+ #	1227	'220kV母线测控站控层 GO13-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm27[ST]	-
+ #	1228	'220kV母线测控站控层 GO14-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm29[ST]	-
+ #	1229	'220kV母线测控站控层 GO15-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO1.Alm31[ST]	-
+ #	1230	'220kV母线测控站控层 GO16-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm2[ST]	-
+ #	1231	'220kV母线测控站控层 GO17-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm4[ST]	-
+ #	1232	'220kV母线测控站控层 GO18-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm6[ST]	-
+ #	1233	'220kV母线测控站控层 GO19-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm8[ST]	-
+ #	1234	'220kV母线测控站控层 GO20-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm10[ST]	-
+ #	1235	'220kV母线测控站控层 GO21-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm12[ST]	-
+ #	1236	'220kV母线测控站控层 GO22-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm14[ST]	-
+ #	1237	'220kV母线测控站控层 GO23-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm16[ST]	-
+ #	1238	'220kV母线测控站控层 GO24-B 网中断'	DEV24	DEV24LD0/GOAlmGGIO2.Alm18[ST]	-
+ #	1239	220kV母线测控装置检修	DEV24	DEV24CTRL/BinInGGIO1.Ind1[ST]	-
+ #	1240	220kV母线测控就地状态	DEV24	DEV24CTRL/BinInGGIO1.Ind2[ST]	-
+ #	1241	220kV母线测控解除闭锁	DEV24	DEV24CTRL/BinInGGIO1.Ind3[ST]	-
+ #	1242	'220kV母线测控内部工作电压 1'	DEV24	DEV24LD0/SPVT1.Vol1[MX]	-
+ #	1243	'220kV母线测控内部工作电压 2'	DEV24	DEV24LD0/SPVT1.Vol2[MX]	-
+ #	1244	'220kV母线测控内部工作电压 3'	DEV24	DEV24LD0/SPVT1.Vol3[MX]	-
+ #	1245	'220kV母线测控内部工作电压 4'	DEV24	DEV24LD0/SPVT1.Vol4[MX]	-
+ #	1246	'220kV母线测控内部工作电压 5'	DEV24	DEV24LD0/SPVT1.Vol5[MX]	-
+ #	1247	220kV母线测控装置温度	DEV24	DEV24LD0/STMP1.Tmp[MX]	-
+ #	1248	110kV母线测控装置异常	DEV25	DEV25LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	1249	110kV母线测控对时信号状态	DEV25	DEV25LD0/LTSM1.HostTPortAlm[ST]	-
+ #	1250	110kV母线测控对时服务状态	DEV25	DEV25LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	1251	110kV母线测控时间跳变侦测状态	DEV25	DEV25LD0/LTSM1.HostContAlm[ST]	-
+ #	1252	'110kV母线测控PT 断线1'	DEV25	DEV25LD0/AlmGGIO1.Alm1[ST]	-
+ #	1253	'110kV母线测控PT 断线2'	DEV25	DEV25LD0/AlmGGIO1.Alm2[ST]	-
+ #	1254	110kV母线测控3U0越限1	DEV25	DEV25LD0/AlmGGIO1.Alm3[ST]	-
+ #	1255	110kV母线测控3U0越限2	DEV25	DEV25LD0/AlmGGIO1.Alm4[ST]	-
+ #	1256	'110kV母线测控站控层 GOOSE 总告警'	DEV25	DEV25LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	1257	'110kV母线测控站控层 GO01-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	1258	'110kV母线测控站控层 GO02-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	1259	'110kV母线测控站控层 GO03-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	1260	'110kV母线测控站控层 GO04-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	1261	'110kV母线测控站控层 GO05-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	1262	'110kV母线测控站控层 GO06-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	1263	'110kV母线测控站控层 GO07-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	1264	'110kV母线测控站控层 GO08-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	1265	'110kV母线测控站控层 GO09-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	1266	'110kV母线测控站控层 GO10-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm20[ST]	-
+ #	1267	'110kV母线测控站控层 GO11-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm22[ST]	-
+ #	1268	'110kV母线测控站控层 GO12-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm24[ST]	-
+ #	1269	'110kV母线测控站控层 GO13-1 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm26[ST]	-
+ #	1270	'110kV母线测控站控层 GO14-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm28[ST]	-
+ #	1271	'110kV母线测控站控层 GO015-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm30[ST]	-
+ #	1272	'110kV母线测控站控层 GO016-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm1[ST]	-
+ #	1273	'110kV母线测控站控层 GO017-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm3[ST]	-
+ #	1274	'110kV母线测控站控层 GO018-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm5[ST]	-
+ #	1275	'110kV母线测控站控层 GO019-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm7[ST]	-
+ #	1276	'110kV母线测控站控层 GO020-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm9[ST]	-
+ #	1277	'110kV母线测控站控层 GO021-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm11[ST]	-
+ #	1278	'110kV母线测控站控层 GO022-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm13[ST]	-
+ #	1279	'110kV母线测控站控层 GO023-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm15[ST]	-
+ #	1280	'110kV母线测控站控层 GO024-A 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm17[ST]	-
+ #	1281	'110kV母线测控站控层 GO01-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	1282	'110kV母线测控站控层 GO02-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	1283	'110kV母线测控站控层 GO03-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	1284	'110kV母线测控站控层 GO04-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	1285	'110kV母线测控站控层 GO05-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	1286	'110kV母线测控站控层 GO06-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	1287	'110kV母线测控站控层 GO07-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	1288	'110kV母线测控站控层 GO08-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	1289	'110kV母线测控站控层 GO09-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	1290	'110kV母线测控站控层 GO10-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm21[ST]	-
+ #	1291	'110kV母线测控站控层 GO11-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm23[ST]	-
+ #	1292	'110kV母线测控站控层 GO12-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm25[ST]	-
+ #	1293	'110kV母线测控站控层 GO13-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm27[ST]	-
+ #	1294	'110kV母线测控站控层 GO14-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm29[ST]	-
+ #	1295	'110kV母线测控站控层 GO15-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO1.Alm31[ST]	-
+ #	1296	'110kV母线测控站控层 GO16-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm2[ST]	-
+ #	1297	'110kV母线测控站控层 GO17-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm4[ST]	-
+ #	1298	'110kV母线测控站控层 GO18-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm6[ST]	-
+ #	1299	'110kV母线测控站控层 GO19-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm8[ST]	-
+ #	1300	'110kV母线测控站控层 GO20-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm10[ST]	-
+ #	1301	'110kV母线测控站控层 GO21-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm12[ST]	-
+ #	1302	'110kV母线测控站控层 GO22-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm14[ST]	-
+ #	1303	'110kV母线测控站控层 GO23-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm16[ST]	-
+ #	1304	'110kV母线测控站控层 GO24-B 网中断'	DEV25	DEV25LD0/GOAlmGGIO2.Alm18[ST]	-
+ #	1305	110kV母线测控装置检修	DEV25	DEV25CTRL/BinInGGIO1.Ind1[ST]	-
+ #	1306	110kV母线测控就地状态	DEV25	DEV25CTRL/BinInGGIO1.Ind2[ST]	-
+ #	1307	110kV母线测控解除闭锁	DEV25	DEV25CTRL/BinInGGIO1.Ind3[ST]	-
+ #	1308	'110kV母线测控内部工作电压 1'	DEV25	DEV25LD0/SPVT1.Vol1[MX]	-
+ #	1309	'110kV母线测控内部工作电压 2'	DEV25	DEV25LD0/SPVT1.Vol2[MX]	-
+ #	1310	'110kV母线测控内部工作电压 3'	DEV25	DEV25LD0/SPVT1.Vol3[MX]	-
+ #	1311	'110kV母线测控内部工作电压 4'	DEV25	DEV25LD0/SPVT1.Vol4[MX]	-
+ #	1312	'110kV母线测控内部工作电压 5'	DEV25	DEV25LD0/SPVT1.Vol5[MX]	-
+ #	1313	110kV母线测控装置温度	DEV25	DEV25LD0/STMP1.Tmp[MX]	-
+ #	1314	35kV母线测控Ⅰ装置异常	DEV26	DEV26LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	1315	35kV母线测控Ⅰ对时信号状态	DEV26	DEV26LD0/LTSM1.HostTPortAlm[ST]	-
+ #	1316	35kV母线测控Ⅰ对时服务状态	DEV26	DEV26LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	1317	35kV母线测控Ⅰ时间跳变侦测状态	DEV26	DEV26LD0/LTSM1.HostContAlm[ST]	-
+ #	1318	'35kV母线测控ⅠPT 断线1'	DEV26	DEV26LD0/AlmGGIO1.Alm1[ST]	-
+ #	1319	'35kV母线测控ⅠPT 断线2'	DEV26	DEV26LD0/AlmGGIO1.Alm2[ST]	-
+ #	1320	35kV母线测控Ⅰ3U0越限1	DEV26	DEV26LD0/AlmGGIO1.Alm3[ST]	-
+ #	1321	35kV母线测控Ⅰ3U0越限2	DEV26	DEV26LD0/AlmGGIO1.Alm4[ST]	-
+ #	1322	'35kV母线测控Ⅰ站控层 GOOSE 总告警'	DEV26	DEV26LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	1323	'35kV母线测控Ⅰ站控层 GO01-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	1324	'35kV母线测控Ⅰ站控层 GO02-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	1325	'35kV母线测控Ⅰ站控层 GO03-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	1326	'35kV母线测控Ⅰ站控层 GO04-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	1327	'35kV母线测控Ⅰ站控层 GO05-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	1328	'35kV母线测控Ⅰ站控层 GO06-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	1329	'35kV母线测控Ⅰ站控层 GO07-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	1330	'35kV母线测控Ⅰ站控层 GO08-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	1331	'35kV母线测控Ⅰ站控层 GO09-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	1332	'35kV母线测控Ⅰ站控层 GO10-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm20[ST]	-
+ #	1333	'35kV母线测控Ⅰ站控层 GO11-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm22[ST]	-
+ #	1334	'35kV母线测控Ⅰ站控层 GO12-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm24[ST]	-
+ #	1335	'35kV母线测控Ⅰ站控层 GO13-1 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm26[ST]	-
+ #	1336	'35kV母线测控Ⅰ站控层 GO14-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm28[ST]	-
+ #	1337	'35kV母线测控Ⅰ站控层 GO015-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm30[ST]	-
+ #	1338	'35kV母线测控Ⅰ站控层 GO016-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm1[ST]	-
+ #	1339	'35kV母线测控Ⅰ站控层 GO017-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm3[ST]	-
+ #	1340	'35kV母线测控Ⅰ站控层 GO018-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm5[ST]	-
+ #	1341	'35kV母线测控Ⅰ站控层 GO019-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm7[ST]	-
+ #	1342	'35kV母线测控Ⅰ站控层 GO020-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm9[ST]	-
+ #	1343	'35kV母线测控Ⅰ站控层 GO021-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm11[ST]	-
+ #	1344	'35kV母线测控Ⅰ站控层 GO022-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm13[ST]	-
+ #	1345	'35kV母线测控Ⅰ站控层 GO023-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm15[ST]	-
+ #	1346	'35kV母线测控Ⅰ站控层 GO024-A 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm17[ST]	-
+ #	1347	'35kV母线测控Ⅰ站控层 GO01-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	1348	'35kV母线测控Ⅰ站控层 GO02-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	1349	'35kV母线测控Ⅰ站控层 GO03-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	1350	'35kV母线测控Ⅰ站控层 GO04-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	1351	'35kV母线测控Ⅰ站控层 GO05-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	1352	'35kV母线测控Ⅰ站控层 GO06-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	1353	'35kV母线测控Ⅰ站控层 GO07-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	1354	'35kV母线测控Ⅰ站控层 GO08-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	1355	'35kV母线测控Ⅰ站控层 GO09-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	1356	'35kV母线测控Ⅰ站控层 GO10-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm21[ST]	-
+ #	1357	'35kV母线测控Ⅰ站控层 GO11-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm23[ST]	-
+ #	1358	'35kV母线测控Ⅰ站控层 GO12-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm25[ST]	-
+ #	1359	'35kV母线测控Ⅰ站控层 GO13-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm27[ST]	-
+ #	1360	'35kV母线测控Ⅰ站控层 GO14-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm29[ST]	-
+ #	1361	'35kV母线测控Ⅰ站控层 GO15-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO1.Alm31[ST]	-
+ #	1362	'35kV母线测控Ⅰ站控层 GO16-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm2[ST]	-
+ #	1363	'35kV母线测控Ⅰ站控层 GO17-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm4[ST]	-
+ #	1364	'35kV母线测控Ⅰ站控层 GO18-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm6[ST]	-
+ #	1365	'35kV母线测控Ⅰ站控层 GO19-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm8[ST]	-
+ #	1366	'35kV母线测控Ⅰ站控层 GO20-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm10[ST]	-
+ #	1367	'35kV母线测控Ⅰ站控层 GO21-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm12[ST]	-
+ #	1368	'35kV母线测控Ⅰ站控层 GO22-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm14[ST]	-
+ #	1369	'35kV母线测控Ⅰ站控层 GO23-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm16[ST]	-
+ #	1370	'35kV母线测控Ⅰ站控层 GO24-B 网中断'	DEV26	DEV26LD0/GOAlmGGIO2.Alm18[ST]	-
+ #	1371	35kV母线测控Ⅰ装置检修	DEV26	DEV26CTRL/BinInGGIO1.Ind1[ST]	-
+ #	1372	35kV母线测控Ⅰ就地状态	DEV26	DEV26CTRL/BinInGGIO1.Ind2[ST]	-
+ #	1373	35kV母线测控Ⅰ解除闭锁	DEV26	DEV26CTRL/BinInGGIO1.Ind3[ST]	-
+ #	1374	'35kV母线测控Ⅰ内部工作电压 1'	DEV26	DEV26LD0/SPVT1.Vol1[MX]	-
+ #	1375	'35kV母线测控Ⅰ内部工作电压 2'	DEV26	DEV26LD0/SPVT1.Vol2[MX]	-
+ #	1376	'35kV母线测控Ⅰ内部工作电压 3'	DEV26	DEV26LD0/SPVT1.Vol3[MX]	-
+ #	1377	'35kV母线测控Ⅰ内部工作电压 4'	DEV26	DEV26LD0/SPVT1.Vol4[MX]	-
+ #	1378	'35kV母线测控Ⅰ内部工作电压 5'	DEV26	DEV26LD0/SPVT1.Vol5[MX]	-
+ #	1379	35kV母线测控Ⅰ装置温度	DEV26	DEV26LD0/STMP1.Tmp[MX]	-
+ #	1380	35kV母线测控Ⅱ装置异常	DEV27	DEV27LD0/DevAlmGGIO1.Alm1[ST]	-
+ #	1381	35kV母线测控Ⅱ对时信号状态	DEV27	DEV27LD0/LTSM1.HostTPortAlm[ST]	-
+ #	1382	35kV母线测控Ⅱ对时服务状态	DEV27	DEV27LD0/LTSM1.HostTSrvAlm[ST]	-
+ #	1383	35kV母线测控Ⅱ时间跳变侦测状态	DEV27	DEV27LD0/LTSM1.HostContAlm[ST]	-
+ #	1384	'35kV母线测控ⅡPT 断线1'	DEV27	DEV27LD0/AlmGGIO1.Alm1[ST]	-
+ #	1385	'35kV母线测控ⅡPT 断线2'	DEV27	DEV27LD0/AlmGGIO1.Alm2[ST]	-
+ #	1386	35kV母线测控Ⅱ3U0越限1	DEV27	DEV27LD0/AlmGGIO1.Alm3[ST]	-
+ #	1387	35kV母线测控Ⅱ3U0越限2	DEV27	DEV27LD0/AlmGGIO1.Alm4[ST]	-
+ #	1388	'35kV母线测控Ⅱ站控层 GOOSE 总告警'	DEV27	DEV27LD0/GOAlmGGIO1.Alm1[ST]	-
+ #	1389	'35kV母线测控Ⅱ站控层 GO01-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm2[ST]	-
+ #	1390	'35kV母线测控Ⅱ站控层 GO02-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm4[ST]	-
+ #	1391	'35kV母线测控Ⅱ站控层 GO03-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm6[ST]	-
+ #	1392	'35kV母线测控Ⅱ站控层 GO04-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm8[ST]	-
+ #	1393	'35kV母线测控Ⅱ站控层 GO05-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm10[ST]	-
+ #	1394	'35kV母线测控Ⅱ站控层 GO06-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm12[ST]	-
+ #	1395	'35kV母线测控Ⅱ站控层 GO07-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm14[ST]	-
+ #	1396	'35kV母线测控Ⅱ站控层 GO08-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm16[ST]	-
+ #	1397	'35kV母线测控Ⅱ站控层 GO09-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm18[ST]	-
+ #	1398	'35kV母线测控Ⅱ站控层 GO10-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm20[ST]	-
+ #	1399	'35kV母线测控Ⅱ站控层 GO11-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm22[ST]	-
+ #	1400	'35kV母线测控Ⅱ站控层 GO12-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm24[ST]	-
+ #	1401	'35kV母线测控Ⅱ站控层 GO13-1 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm26[ST]	-
+ #	1402	'35kV母线测控Ⅱ站控层 GO14-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm28[ST]	-
+ #	1403	'35kV母线测控Ⅱ站控层 GO015-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm30[ST]	-
+ #	1404	'35kV母线测控Ⅱ站控层 GO016-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm1[ST]	-
+ #	1405	'35kV母线测控Ⅱ站控层 GO017-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm3[ST]	-
+ #	1406	'35kV母线测控Ⅱ站控层 GO018-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm5[ST]	-
+ #	1407	'35kV母线测控Ⅱ站控层 GO019-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm7[ST]	-
+ #	1408	'35kV母线测控Ⅱ站控层 GO020-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm9[ST]	-
+ #	1409	'35kV母线测控Ⅱ站控层 GO021-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm11[ST]	-
+ #	1410	'35kV母线测控Ⅱ站控层 GO022-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm13[ST]	-
+ #	1411	'35kV母线测控Ⅱ站控层 GO023-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm15[ST]	-
+ #	1412	'35kV母线测控Ⅱ站控层 GO024-A 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm17[ST]	-
+ #	1413	'35kV母线测控Ⅱ站控层 GO01-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm3[ST]	-
+ #	1414	'35kV母线测控Ⅱ站控层 GO02-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm5[ST]	-
+ #	1415	'35kV母线测控Ⅱ站控层 GO03-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm7[ST]	-
+ #	1416	'35kV母线测控Ⅱ站控层 GO04-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm9[ST]	-
+ #	1417	'35kV母线测控Ⅱ站控层 GO05-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm11[ST]	-
+ #	1418	'35kV母线测控Ⅱ站控层 GO06-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm13[ST]	-
+ #	1419	'35kV母线测控Ⅱ站控层 GO07-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm15[ST]	-
+ #	1420	'35kV母线测控Ⅱ站控层 GO08-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm17[ST]	-
+ #	1421	'35kV母线测控Ⅱ站控层 GO09-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm19[ST]	-
+ #	1422	'35kV母线测控Ⅱ站控层 GO10-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm21[ST]	-
+ #	1423	'35kV母线测控Ⅱ站控层 GO11-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm23[ST]	-
+ #	1424	'35kV母线测控Ⅱ站控层 GO12-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm25[ST]	-
+ #	1425	'35kV母线测控Ⅱ站控层 GO13-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm27[ST]	-
+ #	1426	'35kV母线测控Ⅱ站控层 GO14-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm29[ST]	-
+ #	1427	'35kV母线测控Ⅱ站控层 GO15-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO1.Alm31[ST]	-
+ #	1428	'35kV母线测控Ⅱ站控层 GO16-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm2[ST]	-
+ #	1429	'35kV母线测控Ⅱ站控层 GO17-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm4[ST]	-
+ #	1430	'35kV母线测控Ⅱ站控层 GO18-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm6[ST]	-
+ #	1431	'35kV母线测控Ⅱ站控层 GO19-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm8[ST]	-
+ #	1432	'35kV母线测控Ⅱ站控层 GO20-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm10[ST]	-
+ #	1433	'35kV母线测控Ⅱ站控层 GO21-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm12[ST]	-
+ #	1434	'35kV母线测控Ⅱ站控层 GO22-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm14[ST]	-
+ #	1435	'35kV母线测控Ⅱ站控层 GO23-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm16[ST]	-
+ #	1436	'35kV母线测控Ⅱ站控层 GO24-B 网中断'	DEV27	DEV27LD0/GOAlmGGIO2.Alm18[ST]	-
+ #	1437	35kV母线测控Ⅱ装置检修	DEV27	DEV27CTRL/BinInGGIO1.Ind1[ST]	-
+ #	1438	35kV母线测控Ⅱ就地状态	DEV27	DEV27CTRL/BinInGGIO1.Ind2[ST]	-
+ #	1439	35kV母线测控Ⅱ解除闭锁	DEV27	DEV27CTRL/BinInGGIO1.Ind3[ST]	-
+ #	1440	'35kV母线测控Ⅱ内部工作电压 1'	DEV27	DEV27LD0/SPVT1.Vol1[MX]	-
+ #	1441	'35kV母线测控Ⅱ内部工作电压 2'	DEV27	DEV27LD0/SPVT1.Vol2[MX]	-
+ #	1442	'35kV母线测控Ⅱ内部工作电压 3'	DEV27	DEV27LD0/SPVT1.Vol3[MX]	-
+ #	1443	'35kV母线测控Ⅱ内部工作电压 4'	DEV27	DEV27LD0/SPVT1.Vol4[MX]	-
+ #	1444	'35kV母线测控Ⅱ内部工作电压 5'	DEV27	DEV27LD0/SPVT1.Vol5[MX]	-
+ #	1445	35kV母线测控Ⅱ装置温度	DEV27	DEV27LD0/STMP1.Tmp[MX]	-
+ #	1446	测试cpu数据	DEV01	DEV01CPU.RelB1[MX]	-
+ #	1447	测试cpu数据	DEV01	DEV01CPU.PV1[MX]	-
+ #	1448	110kV模拟1线测试ST的CIME导出	DEV01	DEV01LD0/LLN0.Mod[ST]	-
+ #	1450	110kV模拟1线测试MX的CIME导出	DEV01	DEV01PROT/PMMXU1.HzBus[MX]	-
 </PointTable>
