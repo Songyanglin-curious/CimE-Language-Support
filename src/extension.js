@@ -247,9 +247,19 @@ function headerLabel(document, block, fieldIndex) {
 function updateCrosshair() {
     const editor = vscode.window.activeTextEditor;
 
-    // 切换编辑器时清掉旧编辑器上残留的装饰
+    // 切换编辑器时清掉旧编辑器上残留的装饰。
+    // 注意：文件关闭再重开后，decoratedEditor 指向已关闭的编辑器，
+    // 对它调用 setDecorations 会抛异常并中断整个 updateCrosshair（高亮/状态栏全部失效），
+    // 因此先检查 isClosed，并用 try/catch 兜底。
     if (decoratedEditor && decoratedEditor !== editor) {
-        setCrosshair(decoratedEditor, [], [], []);
+        if (!decoratedEditor.document.isClosed) {
+            try {
+                setCrosshair(decoratedEditor, [], [], []);
+            } catch {
+                // 编辑器刚好被销毁，无需清理
+            }
+        }
+        decoratedEditor = null;
     }
 
     const rows = [];
