@@ -157,6 +157,11 @@ let rowDecoration;
 let fieldDecoration;
 let columnDecoration;
 let labelDecoration;
+// 表头/注释字段的行内样式装饰（加粗+下划线）。
+// 关键：backgroundColor 映射为块级 className，Sticky Scroll 吸顶条不渲染；
+// fontWeight/textDecoration 映射为 inlineClassName，吸顶条会渲染。
+// 这样正文里字段有橙底，吸顶的 @ 行与 // 行里对应字段加粗+下划线。
+let stickyFieldDecoration;
 let crosshairStatus = null;
 let decoratedEditor = null;
 let blockCache = null;
@@ -171,11 +176,12 @@ function getDataBlocks(document) {
     return blockCache.blocks;
 }
 
-function setCrosshair(editor, rows, fields, columns, labels) {
+function setCrosshair(editor, rows, fields, columns, labels, stickyMarks) {
     editor.setDecorations(rowDecoration, rows);
     editor.setDecorations(fieldDecoration, fields);
     editor.setDecorations(columnDecoration, columns);
     editor.setDecorations(labelDecoration, labels);
+    editor.setDecorations(stickyFieldDecoration, stickyMarks);
 }
 
 /** 指定行是否在编辑器可视范围内 */
@@ -184,8 +190,21 @@ function isLineVisible(editor, line) {
 }
 
 /**
+ * 切分注释行字段，偏移量换算回原始行坐标。
+ * 剥掉行首 // 或 <!-- 前缀后切分；行尾 --> 即使残留为末尾字段也不影响按下标取列。
+ */
+function tokenizeCommentLine(line) {
+    const prefix = line.match(/^\s*(?:\/\/|<!--)\s*/u);
+    const offset = prefix ? prefix[0].length : 0;
+    return tokenizeFields(line.slice(offset)).map((field) => ({
+        text: field.text,
+        start: field.start + offset,
+        end: field.end + offset,
+    }));
+}
+
+/**
  * 取指定列的字段名：表头英文名 +（若有）注释行对应的中文名。
- * 注释行的 // 与 <!-- 前缀、--> 后缀先剥掉再切分。
  */
 function headerLabel(document, block, fieldIndex) {
     const headerField = tokenizeFields(document.lineAt(block.headerLine).text)[fieldIndex];
@@ -194,10 +213,7 @@ function headerLabel(document, block, fieldIndex) {
     }
     let label = headerField.text;
     if (block.commentLine !== undefined) {
-        let comment = document.lineAt(block.commentLine).text
-            .replace(/^\s*(?:\/\/|<!--)\s*/u, '')
-            .replace(/-->\s*$/u, '');
-        const commentField = tokenizeFields(comment)[fieldIndex];
+        const commentField = tokenizeCommentLine(document.lineAt(block.commentLine).text)[fieldIndex];
         if (commentField) {
             label += ` · ${commentField.text}`;
         }
@@ -207,8 +223,9 @@ function headerLabel(document, block, fieldIndex) {
 
 /**
  * 光标落在横表数据块内时：
- * 当前行淡背景、当前字段与表头对应字段明显背景、
+ * 当前行淡背景、当前字段与表头/注释行对应字段明显背景、
  * 可见范围内同列其他数据行淡背景；
+ * 表头与注释行字段加行内样式（加粗+下划线），Sticky Scroll 吸顶后仍可见；
  * 表头滚出视口后在当前字段后内联显示字段名，并由状态栏提示列位置。
  * 全程只读，不修改文档。
  */
@@ -217,13 +234,14 @@ function updateCrosshair() {
 
     // 切换编辑器时清掉旧编辑器上残留的装饰
     if (decoratedEditor && decoratedEditor !== editor) {
-        setCrosshair(decoratedEditor, [], [], [], []);
+        setCrosshair(decoratedEditor, [], [], [], [], []);
     }
 
     const rows = [];
     const fields = [];
     const columns = [];
     const labels = [];
+    const stickyMarks = [];
     let statusText = null;
 
     if (editor && editor.document.languageId === 'cime') {
@@ -254,10 +272,21 @@ function updateCrosshair() {
 
                     // 当前字段 + 表头对应字段（光标在表头行上时二者为同一段）
                     fields.push(new vscode.Range(cursor.line, field.start, cursor.line, field.end));
-                    if (!onHeader) {
-                        const headerField = headerFields[fieldIndex];
-                        if (headerField) {
-                            fields.push(new vscode.Range(block.headerLine, headerField.start, block.headerLine, headerField.end));
+                    const headerField = headerFields[fieldIndex];
+                    if (headerField) {
+                        const range = new vscode.Range(block.headerLine, headerField.start, block.headerLine, headerField.end);
+                        fields.push(range);
+                        // 行内样式：吸顶条只渲染 inlineClassName，加粗+下划线使其可见
+                        stickyMarks.push(range);
+                    }
+
+                    // 注释行对应中文字段：橙底（正文）+ 加粗下划线（吸顶条）
+                    if (block.commentLine !== undefined) {
+                        const commentField = tokenizeCommentLine(document.lineAt(block.commentLine).text)[fieldIndex];
+                        if (commentField) {
+                            const range = new vscode.Range(block.commentLine, commentField.start, block.commentLine, commentField.end);
+                            fields.push(range);
+                            stickyMarks.push(range);
                         }
                     }
 
@@ -304,7 +333,7 @@ function updateCrosshair() {
     }
 
     if (editor) {
-        setCrosshair(editor, rows, fields, columns, labels);
+        setCrosshair(editor, rows, fields, columns, labels, stickyMarks);
     }
     if (crosshairStatus) {
         if (statusText) {
@@ -338,6 +367,11 @@ function activate(context) {
     });
     // 注意：类型上声明空的 after，DecorationOptions 里的 renderOptions.after 才会生效
     labelDecoration = vscode.window.createTextEditorDecorationType({ after: {} });
+    // 吸顶条可见的行内样式（backgroundColor 属块级样式，吸顶条不渲染，故不使用）
+    stickyFieldDecoration = vscode.window.createTextEditorDecorationType({
+        fontWeight: 'bold',
+        textDecoration: 'underline',
+    });
 
     crosshairStatus = vscode.window.createStatusBarItem(
         vscode.StatusBarAlignment.Right,
@@ -349,6 +383,7 @@ function activate(context) {
         fieldDecoration,
         columnDecoration,
         labelDecoration,
+        stickyFieldDecoration,
         crosshairStatus,
         vscode.window.onDidChangeTextEditorSelection(() => updateCrosshair()),
         vscode.window.onDidChangeActiveTextEditor(() => updateCrosshair()),
