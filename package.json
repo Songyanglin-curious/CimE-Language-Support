@@ -34,7 +34,9 @@
     "contributes": {
         "configurationDefaults": {
             "[cime]": {
-                "editor.renderWhitespace": "all"
+                "editor.renderWhitespace": "all",
+                "editor.tabSize": 4,
+                "editor.detectIndentation": false
             }
         },
         "languages": [
