@@ -32,6 +32,11 @@
         "Programming Languages"
     ],
     "contributes": {
+        "configurationDefaults": {
+            "[cime]": {
+                "editor.renderWhitespace": "all"
+            }
+        },
         "languages": [
             {
                 "id": "cime",
