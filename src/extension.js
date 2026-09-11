@@ -151,10 +151,13 @@ function provideCimeFoldingRanges(document) {
 const CROSSHAIR_ROW_COLOR = 'rgba(66, 133, 244, 0.10)';    // 当前行淡背景
 const CROSSHAIR_COLUMN_COLOR = 'rgba(66, 133, 244, 0.18)'; // 可见范围内同列其他行淡背景
 const CROSSHAIR_FIELD_COLOR = 'rgba(255, 167, 38, 0.35)';  // 当前字段与表头对应字段背景
+const CROSSHAIR_LABEL_COLOR = 'rgba(153, 153, 153, 0.9)';  // 字段名内联标签
 
 let rowDecoration;
 let fieldDecoration;
 let columnDecoration;
+let labelDecoration;
+let crosshairStatus = null;
 let decoratedEditor = null;
 let blockCache = null;
 
@@ -168,28 +171,60 @@ function getDataBlocks(document) {
     return blockCache.blocks;
 }
 
-function setCrosshair(editor, rows, fields, columns) {
+function setCrosshair(editor, rows, fields, columns, labels) {
     editor.setDecorations(rowDecoration, rows);
     editor.setDecorations(fieldDecoration, fields);
     editor.setDecorations(columnDecoration, columns);
+    editor.setDecorations(labelDecoration, labels);
+}
+
+/** 指定行是否在编辑器可视范围内 */
+function isLineVisible(editor, line) {
+    return editor.visibleRanges.some((range) => range.start.line <= line && line <= range.end.line);
+}
+
+/**
+ * 取指定列的字段名：表头英文名 +（若有）注释行对应的中文名。
+ * 注释行的 // 与 <!-- 前缀、--> 后缀先剥掉再切分。
+ */
+function headerLabel(document, block, fieldIndex) {
+    const headerField = tokenizeFields(document.lineAt(block.headerLine).text)[fieldIndex];
+    if (!headerField) {
+        return undefined;
+    }
+    let label = headerField.text;
+    if (block.commentLine !== undefined) {
+        let comment = document.lineAt(block.commentLine).text
+            .replace(/^\s*(?:\/\/|<!--)\s*/u, '')
+            .replace(/-->\s*$/u, '');
+        const commentField = tokenizeFields(comment)[fieldIndex];
+        if (commentField) {
+            label += ` · ${commentField.text}`;
+        }
+    }
+    return label;
 }
 
 /**
  * 光标落在横表数据块内时：
  * 当前行淡背景、当前字段与表头对应字段明显背景、
- * 可见范围内同列其他数据行淡背景。全程只读，不修改文档。
+ * 可见范围内同列其他数据行淡背景；
+ * 表头滚出视口后在当前字段后内联显示字段名，并由状态栏提示列位置。
+ * 全程只读，不修改文档。
  */
 function updateCrosshair() {
     const editor = vscode.window.activeTextEditor;
 
     // 切换编辑器时清掉旧编辑器上残留的装饰
     if (decoratedEditor && decoratedEditor !== editor) {
-        setCrosshair(decoratedEditor, [], [], []);
+        setCrosshair(decoratedEditor, [], [], [], []);
     }
 
     const rows = [];
     const fields = [];
     const columns = [];
+    const labels = [];
+    let statusText = null;
 
     if (editor && editor.document.languageId === 'cime') {
         const document = editor.document;
@@ -244,13 +279,40 @@ function updateCrosshair() {
                             }
                         }
                     }
+
+                    // 状态栏提示列位置（表头/数据行均生效）
+                    const label = headerLabel(document, block, fieldIndex);
+                    statusText = `CIME 第 ${fieldIndex + 1}/${headerFields.length} 列` + (label ? `：${label}` : '');
+
+                    // 表头滚出视口时（Sticky 吸顶条不显示扩展装饰），
+                    // 在当前字段后内联显示字段名，保证不看表头也知道列含义
+                    if (!onHeader && !isLineVisible(editor, block.headerLine) && label) {
+                        labels.push({
+                            range: new vscode.Range(cursor.line, field.end, cursor.line, field.end),
+                            renderOptions: {
+                                after: {
+                                    contentText: ` ◂ ${label}`,
+                                    color: CROSSHAIR_LABEL_COLOR,
+                                    fontStyle: 'italic',
+                                },
+                            },
+                        });
+                    }
                 }
             }
         }
     }
 
     if (editor) {
-        setCrosshair(editor, rows, fields, columns);
+        setCrosshair(editor, rows, fields, columns, labels);
+    }
+    if (crosshairStatus) {
+        if (statusText) {
+            crosshairStatus.text = statusText;
+            crosshairStatus.show();
+        } else {
+            crosshairStatus.hide();
+        }
     }
     decoratedEditor = editor;
 }
@@ -263,7 +325,7 @@ function activate(context) {
         ),
     );
 
-    // 十字定位：行 / 列 / 字段三层装饰
+    // 十字定位：行 / 列 / 字段三层装饰 + 字段名内联标签
     rowDecoration = vscode.window.createTextEditorDecorationType({
         isWholeLine: true,
         backgroundColor: CROSSHAIR_ROW_COLOR,
@@ -274,13 +336,23 @@ function activate(context) {
     columnDecoration = vscode.window.createTextEditorDecorationType({
         backgroundColor: CROSSHAIR_COLUMN_COLOR,
     });
+    // 注意：类型上声明空的 after，DecorationOptions 里的 renderOptions.after 才会生效
+    labelDecoration = vscode.window.createTextEditorDecorationType({ after: {} });
+
+    crosshairStatus = vscode.window.createStatusBarItem(
+        vscode.StatusBarAlignment.Right,
+        100,
+    );
 
     context.subscriptions.push(
         rowDecoration,
         fieldDecoration,
         columnDecoration,
+        labelDecoration,
+        crosshairStatus,
         vscode.window.onDidChangeTextEditorSelection(() => updateCrosshair()),
         vscode.window.onDidChangeActiveTextEditor(() => updateCrosshair()),
+        vscode.window.onDidChangeTextEditorVisibleRanges(() => updateCrosshair()),
         vscode.workspace.onDidChangeTextDocument(() => updateCrosshair()),
     );
 
