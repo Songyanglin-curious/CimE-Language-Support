@@ -151,12 +151,10 @@ function provideCimeFoldingRanges(document) {
 const CROSSHAIR_ROW_COLOR = 'rgba(66, 133, 244, 0.10)';    // 当前行淡背景
 const CROSSHAIR_COLUMN_COLOR = 'rgba(66, 133, 244, 0.18)'; // 可见范围内同列其他行淡背景
 const CROSSHAIR_FIELD_COLOR = 'rgba(255, 167, 38, 0.35)';  // 当前字段与表头对应字段背景
-const CROSSHAIR_LABEL_COLOR = 'rgba(153, 153, 153, 0.9)';  // 字段名内联标签
 
 let rowDecoration;
 let fieldDecoration;
 let columnDecoration;
-let labelDecoration;
 // 表头/注释字段的行内样式装饰（加粗+下划线）。
 // 关键：backgroundColor 映射为块级 className，Sticky Scroll 吸顶条不渲染；
 // fontWeight/textDecoration 映射为 inlineClassName，吸顶条会渲染。
@@ -176,17 +174,11 @@ function getDataBlocks(document) {
     return blockCache.blocks;
 }
 
-function setCrosshair(editor, rows, fields, columns, labels, stickyMarks) {
+function setCrosshair(editor, rows, fields, columns, stickyMarks) {
     editor.setDecorations(rowDecoration, rows);
     editor.setDecorations(fieldDecoration, fields);
     editor.setDecorations(columnDecoration, columns);
-    editor.setDecorations(labelDecoration, labels);
     editor.setDecorations(stickyFieldDecoration, stickyMarks);
-}
-
-/** 指定行是否在编辑器可视范围内 */
-function isLineVisible(editor, line) {
-    return editor.visibleRanges.some((range) => range.start.line <= line && line <= range.end.line);
 }
 
 /** 上一次吸顶标记的指纹，用于判断是否需要触发吸顶条刷新 */
@@ -249,22 +241,20 @@ function headerLabel(document, block, fieldIndex) {
  * 光标落在横表数据块内时：
  * 当前行淡背景、当前字段与表头/注释行对应字段明显背景、
  * 可见范围内同列其他数据行淡背景；
- * 表头与注释行字段加行内样式（加粗+下划线），Sticky Scroll 吸顶后仍可见；
- * 表头滚出视口后在当前字段后内联显示字段名，并由状态栏提示列位置。
- * 全程只读，不修改文档。
+ * 表头与注释行字段加行内样式（加粗+下划线），Sticky Scroll 吸顶后仍可见，
+ * 并由状态栏提示列位置。全程只读，不修改文档。
  */
 function updateCrosshair() {
     const editor = vscode.window.activeTextEditor;
 
     // 切换编辑器时清掉旧编辑器上残留的装饰
     if (decoratedEditor && decoratedEditor !== editor) {
-        setCrosshair(decoratedEditor, [], [], [], [], []);
+        setCrosshair(decoratedEditor, [], [], []);
     }
 
     const rows = [];
     const fields = [];
     const columns = [];
-    const labels = [];
     const stickyMarks = [];
     let statusText = null;
 
@@ -336,28 +326,13 @@ function updateCrosshair() {
                     // 状态栏提示列位置（表头/数据行均生效）
                     const label = headerLabel(document, block, fieldIndex);
                     statusText = `CIME 第 ${fieldIndex + 1}/${headerFields.length} 列` + (label ? `：${label}` : '');
-
-                    // 表头滚出视口时（Sticky 吸顶条不显示扩展装饰），
-                    // 在当前字段后内联显示字段名，保证不看表头也知道列含义
-                    if (!onHeader && !isLineVisible(editor, block.headerLine) && label) {
-                        labels.push({
-                            range: new vscode.Range(cursor.line, field.end, cursor.line, field.end),
-                            renderOptions: {
-                                after: {
-                                    contentText: ` ◂ ${label}`,
-                                    color: CROSSHAIR_LABEL_COLOR,
-                                    fontStyle: 'italic',
-                                },
-                            },
-                        });
-                    }
                 }
             }
         }
     }
 
     if (editor) {
-        setCrosshair(editor, rows, fields, columns, labels, stickyMarks);
+        setCrosshair(editor, rows, fields, columns, stickyMarks);
         // 吸顶标记有变化时（含从有到无），触发吸顶条重建以刷新其中的行内装饰
         const key = stickyMarks.map((range) => `${range.start.line}:${range.start.character}`).join(',');
         if (key !== lastStickyMarksKey) {
@@ -387,7 +362,7 @@ function activate(context) {
         ),
     );
 
-    // 十字定位：行 / 列 / 字段三层装饰 + 字段名内联标签
+    // 十字定位：行 / 列 / 字段三层装饰
     rowDecoration = vscode.window.createTextEditorDecorationType({
         isWholeLine: true,
         backgroundColor: CROSSHAIR_ROW_COLOR,
@@ -398,8 +373,6 @@ function activate(context) {
     columnDecoration = vscode.window.createTextEditorDecorationType({
         backgroundColor: CROSSHAIR_COLUMN_COLOR,
     });
-    // 注意：类型上声明空的 after，DecorationOptions 里的 renderOptions.after 才会生效
-    labelDecoration = vscode.window.createTextEditorDecorationType({ after: {} });
     // 吸顶条可见的行内样式（backgroundColor 属块级样式，吸顶条不渲染，故不使用）
     stickyFieldDecoration = vscode.window.createTextEditorDecorationType({
         fontWeight: 'bold',
@@ -415,7 +388,6 @@ function activate(context) {
         rowDecoration,
         fieldDecoration,
         columnDecoration,
-        labelDecoration,
         stickyFieldDecoration,
         crosshairStatus,
         vscode.window.onDidChangeTextEditorSelection(() => updateCrosshair()),
