@@ -2,7 +2,7 @@
     "name": "cime-file-tools",
     "displayName": "CIME 文件工具",
     "description": "为 CIM/E 文件提供语法着色、结构折叠和 Sticky Scroll 表头支持。",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publisher": "syldev",
     "license": "MIT",
     "icon": "images/icon.png",

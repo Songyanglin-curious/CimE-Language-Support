@@ -3,8 +3,10 @@
 .github/**
 .vscode/**
 .vscode-test/**
+.trae/**
 docs/**
 test-data/**
 AGENTS.md
+desensitize.js
 *.vsix
 node_modules/**

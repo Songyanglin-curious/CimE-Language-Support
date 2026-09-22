@@ -5,12 +5,13 @@ const tagName = '[A-Za-z_\\u3400-\\u9fff][A-Za-z0-9_\\u3400-\\u9fff:.-]*';
 const openingTag = new RegExp(`^\\s*<(?!(?:!|/|@|#))(${tagName})(?:\\s[^>]*)?>$`, 'u');
 const closingTag = new RegExp(`^\\s*</(${tagName})\\s*>$`, 'u');
 const selfClosingTag = /\/\s*>$/u;
-const plainHeader = /^\s*@#?(?:\s|$)/u;
+const plainHeader = /^\s*@#?(?=\s|$|\S)/u;
 const wrappedHeader = /^\s*<@#?>/u;
 const fieldComment = /^\s*(?:\/\/|<!--)/u;
 
-// 行首标记：<@#> / <@> / <#> 为 2019 包裹格式，@# / @ / # 为旧格式
-const lineMarker = /^\s*(<@#>|<@>|<#>|@#|[@#])(?=\s|$)/u;
+// 行首标记：<@#> / <@> / <#> 为 2019 包裹格式，@# / @ / # 为旧格式；
+// 标记后允许紧跟空白、行尾或非空字段名（如 @Num、#1），标记本身不并入字段
+const lineMarker = /^\s*(<@#>|<@>|<#>|@#|[@#])(?=\s|$|\S)/u;
 
 /**
  * Pair opening/closing tags and return the matched ranges.
@@ -23,8 +24,10 @@ function pairTags(document) {
         const text = document.lineAt(line).text.trimEnd();
         const close = text.match(closingTag);
         if (close) {
+            // 闭合标签可能写全名（</类名::实体名>），与开始标签一样只按类名配对
+            const closeName = close[1].split('::', 1)[0];
             for (let index = tagStack.length - 1; index >= 0; index -= 1) {
-                if (tagStack[index].name !== close[1]) {
+                if (tagStack[index].name !== closeName) {
                     continue;
                 }
                 const opening = tagStack[index];
